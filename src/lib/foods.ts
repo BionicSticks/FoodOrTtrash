@@ -3,6 +3,8 @@ export interface FoodItem {
   category: string;
   aliases: string[];
   fun_fact: string;
+  score: number;
+  calories: number;
 }
 
 export interface TrashItem {
@@ -10,6 +12,8 @@ export interface TrashItem {
   category: string;
   aliases: string[];
   reason: string;
+  score: number;
+  calories: number;
 }
 
 export interface LookupResult {
@@ -18,6 +22,8 @@ export interface LookupResult {
   trashItem?: TrashItem;
   source: "local" | "ai";
   verdict: "food" | "trash";
+  score: number;
+  calories?: number;
   aiReason?: string;
 }
 

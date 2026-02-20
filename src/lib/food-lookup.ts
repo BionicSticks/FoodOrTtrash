@@ -49,13 +49,15 @@ export function lookupFood(query: string): LookupResult | null {
       trashItem: exactTrash,
       source: "local",
       verdict: "trash",
+      score: exactTrash.score,
+      calories: exactTrash.calories,
     };
   }
 
   // 2. Check food list (exact match)
   const exactFood = findFoodExact(trimmed);
   if (exactFood) {
-    return { found: true, item: exactFood, source: "local", verdict: "food" };
+    return { found: true, item: exactFood, source: "local", verdict: "food", score: exactFood.score, calories: exactFood.calories };
   }
 
   // 3. Fuzzy search both lists
@@ -74,6 +76,8 @@ export function lookupFood(query: string): LookupResult | null {
         item: bestFood.item,
         source: "local",
         verdict: "food",
+        score: bestFood.item.score,
+        calories: bestFood.item.calories,
       };
     }
     return {
@@ -81,6 +85,8 @@ export function lookupFood(query: string): LookupResult | null {
       trashItem: bestTrash.item,
       source: "local",
       verdict: "trash",
+      score: bestTrash.item.score,
+      calories: bestTrash.item.calories,
     };
   }
 
@@ -91,6 +97,8 @@ export function lookupFood(query: string): LookupResult | null {
       item: bestFood.item,
       source: "local",
       verdict: "food",
+      score: bestFood.item.score,
+      calories: bestFood.item.calories,
     };
   }
 

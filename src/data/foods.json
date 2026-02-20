@@ -14,7 +14,9 @@
       "braeburn",
       "mcintosh"
     ],
-    "fun_fact": "Apples float in water because they're 25% air."
+    "fun_fact": "Apples float in water because they're 25% air.",
+    "score": 95,
+    "calories": 52
   },
   {
     "name": "banana",
@@ -24,7 +26,9 @@
       "plantain",
       "plantains"
     ],
-    "fun_fact": "Bananas are berries, but strawberries aren't."
+    "fun_fact": "Bananas are berries, but strawberries aren't.",
+    "score": 95,
+    "calories": 89
   },
   {
     "name": "orange",
@@ -36,7 +40,9 @@
       "valencia orange",
       "cara cara"
     ],
-    "fun_fact": "The color orange was named after the fruit, not the other way around."
+    "fun_fact": "The color orange was named after the fruit, not the other way around.",
+    "score": 95,
+    "calories": 47
   },
   {
     "name": "strawberry",
@@ -45,7 +51,9 @@
       "strawberries",
       "strawberrys"
     ],
-    "fun_fact": "Strawberries have their seeds on the outside — about 200 per berry."
+    "fun_fact": "Strawberries have their seeds on the outside — about 200 per berry.",
+    "score": 95,
+    "calories": 33
   },
   {
     "name": "blueberry",
@@ -54,7 +62,9 @@
       "blueberries",
       "blueberrys"
     ],
-    "fun_fact": "Blueberries are one of the only naturally blue foods."
+    "fun_fact": "Blueberries are one of the only naturally blue foods.",
+    "score": 95,
+    "calories": 57
   },
   {
     "name": "raspberry",
@@ -63,7 +73,9 @@
       "raspberries",
       "raspberrys"
     ],
-    "fun_fact": "A single raspberry is made up of about 100 tiny individual fruits called drupelets."
+    "fun_fact": "A single raspberry is made up of about 100 tiny individual fruits called drupelets.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "blackberry",
@@ -72,7 +84,9 @@
       "blackberries",
       "blackberrys"
     ],
-    "fun_fact": "Blackberries are technically not berries — they're aggregate fruits."
+    "fun_fact": "Blackberries are technically not berries — they're aggregate fruits.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "grape",
@@ -84,7 +98,9 @@
       "concord grape",
       "table grapes"
     ],
-    "fun_fact": "It takes about 2.5 pounds of grapes to make one bottle of wine."
+    "fun_fact": "It takes about 2.5 pounds of grapes to make one bottle of wine.",
+    "score": 95,
+    "calories": 69
   },
   {
     "name": "watermelon",
@@ -93,7 +109,9 @@
       "watermelons",
       "water melon"
     ],
-    "fun_fact": "Watermelon is 92% water and is related to cucumbers and pumpkins."
+    "fun_fact": "Watermelon is 92% water and is related to cucumbers and pumpkins.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "cantaloupe",
@@ -104,7 +122,9 @@
       "rock melon",
       "muskmelon"
     ],
-    "fun_fact": "Cantaloupe is named after the Italian town of Cantalupo."
+    "fun_fact": "Cantaloupe is named after the Italian town of Cantalupo.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "honeydew",
@@ -114,7 +134,9 @@
       "honeydew melon",
       "honey dew"
     ],
-    "fun_fact": "Honeydew melons are in the same family as cucumbers and squash."
+    "fun_fact": "Honeydew melons are in the same family as cucumbers and squash.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "pineapple",
@@ -123,7 +145,9 @@
       "pineapples",
       "ananas"
     ],
-    "fun_fact": "A pineapple takes about two years to grow from planting to harvest."
+    "fun_fact": "A pineapple takes about two years to grow from planting to harvest.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "mango",
@@ -133,7 +157,9 @@
       "mangoes",
       "mangoe"
     ],
-    "fun_fact": "Mangoes are the most consumed fruit in the world."
+    "fun_fact": "Mangoes are the most consumed fruit in the world.",
+    "score": 95,
+    "calories": 60
   },
   {
     "name": "papaya",
@@ -143,7 +169,9 @@
       "pawpaw",
       "paw paw"
     ],
-    "fun_fact": "Papaya contains an enzyme called papain that can tenderize meat."
+    "fun_fact": "Papaya contains an enzyme called papain that can tenderize meat.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "kiwi",
@@ -154,7 +182,9 @@
       "kiwi fruit",
       "chinese gooseberry"
     ],
-    "fun_fact": "Kiwis have more vitamin C per ounce than oranges."
+    "fun_fact": "Kiwis have more vitamin C per ounce than oranges.",
+    "score": 95,
+    "calories": 61
   },
   {
     "name": "peach",
@@ -164,7 +194,9 @@
       "nectarine",
       "nectarines"
     ],
-    "fun_fact": "Peaches and nectarines are genetically almost identical — just one gene controls the fuzz."
+    "fun_fact": "Peaches and nectarines are genetically almost identical — just one gene controls the fuzz.",
+    "score": 95,
+    "calories": 39
   },
   {
     "name": "plum",
@@ -174,7 +206,9 @@
       "prune",
       "prunes"
     ],
-    "fun_fact": "Dried plums (prunes) were rebranded because the name 'prune' had an image problem."
+    "fun_fact": "Dried plums (prunes) were rebranded because the name 'prune' had an image problem.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "cherry",
@@ -187,7 +221,9 @@
       "maraschino cherry",
       "sour cherry"
     ],
-    "fun_fact": "It takes about 250 cherries to make a cherry pie."
+    "fun_fact": "It takes about 250 cherries to make a cherry pie.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "apricot",
@@ -195,7 +231,9 @@
     "aliases": [
       "apricots"
     ],
-    "fun_fact": "Apricots were first cultivated in China over 4,000 years ago."
+    "fun_fact": "Apricots were first cultivated in China over 4,000 years ago.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "pear",
@@ -206,7 +244,9 @@
       "bosc pear",
       "anjou pear"
     ],
-    "fun_fact": "Pears ripen from the inside out, which is why they often feel soft near the core first."
+    "fun_fact": "Pears ripen from the inside out, which is why they often feel soft near the core first.",
+    "score": 95,
+    "calories": 57
   },
   {
     "name": "lemon",
@@ -214,7 +254,9 @@
     "aliases": [
       "lemons"
     ],
-    "fun_fact": "Lemons contain more sugar than strawberries."
+    "fun_fact": "Lemons contain more sugar than strawberries.",
+    "score": 95,
+    "calories": 29
   },
   {
     "name": "lime",
@@ -224,7 +266,9 @@
       "key lime",
       "persian lime"
     ],
-    "fun_fact": "British sailors earned the nickname 'limeys' because they ate limes to prevent scurvy."
+    "fun_fact": "British sailors earned the nickname 'limeys' because they ate limes to prevent scurvy.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "grapefruit",
@@ -233,7 +277,9 @@
       "grapefruits",
       "grape fruit"
     ],
-    "fun_fact": "Grapefruit can interact with over 85 medications."
+    "fun_fact": "Grapefruit can interact with over 85 medications.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "tangerine",
@@ -247,7 +293,9 @@
       "satsuma",
       "satsumas"
     ],
-    "fun_fact": "Tangerines are named after Tangier, Morocco, where they were first shipped to Europe."
+    "fun_fact": "Tangerines are named after Tangier, Morocco, where they were first shipped to Europe.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "pomegranate",
@@ -256,7 +304,9 @@
       "pomegranates",
       "pommegranate"
     ],
-    "fun_fact": "A single pomegranate can contain over 600 seeds."
+    "fun_fact": "A single pomegranate can contain over 600 seeds.",
+    "score": 95,
+    "calories": 83
   },
   {
     "name": "coconut",
@@ -265,7 +315,9 @@
       "coconuts",
       "cocoanut"
     ],
-    "fun_fact": "Coconut water can be used as a substitute for blood plasma in emergencies."
+    "fun_fact": "Coconut water can be used as a substitute for blood plasma in emergencies.",
+    "score": 95,
+    "calories": 354
   },
   {
     "name": "avocado",
@@ -276,7 +328,9 @@
       "avacados",
       "guacamole"
     ],
-    "fun_fact": "Avocados are technically berries, and they don't ripen on the tree."
+    "fun_fact": "Avocados are technically berries, and they don't ripen on the tree.",
+    "score": 95,
+    "calories": 160
   },
   {
     "name": "fig",
@@ -284,7 +338,9 @@
     "aliases": [
       "figs"
     ],
-    "fun_fact": "Figs are technically inverted flowers, not fruits."
+    "fun_fact": "Figs are technically inverted flowers, not fruits.",
+    "score": 95,
+    "calories": 74
   },
   {
     "name": "date",
@@ -295,7 +351,9 @@
       "medjool dates",
       "deglet noor"
     ],
-    "fun_fact": "Date palms can produce fruit for over 100 years."
+    "fun_fact": "Date palms can produce fruit for over 100 years.",
+    "score": 95,
+    "calories": 277
   },
   {
     "name": "guava",
@@ -303,7 +361,9 @@
     "aliases": [
       "guavas"
     ],
-    "fun_fact": "Guava has four times the vitamin C of an orange."
+    "fun_fact": "Guava has four times the vitamin C of an orange.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "passion fruit",
@@ -313,7 +373,9 @@
       "passionfruit",
       "maracuja"
     ],
-    "fun_fact": "Passion fruit is named after the Passion of Christ, not romantic passion."
+    "fun_fact": "Passion fruit is named after the Passion of Christ, not romantic passion.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "lychee",
@@ -323,7 +385,9 @@
       "litchi",
       "lichee"
     ],
-    "fun_fact": "Lychee has been cultivated in China for over 2,000 years."
+    "fun_fact": "Lychee has been cultivated in China for over 2,000 years.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "dragon fruit",
@@ -334,7 +398,9 @@
       "pitaya",
       "pitahaya"
     ],
-    "fun_fact": "Dragon fruit comes from a cactus that only blooms at night."
+    "fun_fact": "Dragon fruit comes from a cactus that only blooms at night.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "starfruit",
@@ -344,7 +410,9 @@
       "star fruit",
       "carambola"
     ],
-    "fun_fact": "Starfruit is one of the few fruits that's star-shaped when sliced."
+    "fun_fact": "Starfruit is one of the few fruits that's star-shaped when sliced.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "persimmon",
@@ -352,7 +420,9 @@
     "aliases": [
       "persimmons"
     ],
-    "fun_fact": "Unripe persimmons contain so much tannin they can make your mouth feel numb."
+    "fun_fact": "Unripe persimmons contain so much tannin they can make your mouth feel numb.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "kumquat",
@@ -360,7 +430,9 @@
     "aliases": [
       "kumquats"
     ],
-    "fun_fact": "Kumquats are the only citrus fruit you eat whole — skin and all."
+    "fun_fact": "Kumquats are the only citrus fruit you eat whole — skin and all.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "jackfruit",
@@ -369,7 +441,9 @@
       "jackfruits",
       "jack fruit"
     ],
-    "fun_fact": "Jackfruit is the largest tree-borne fruit in the world, weighing up to 80 pounds."
+    "fun_fact": "Jackfruit is the largest tree-borne fruit in the world, weighing up to 80 pounds.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "durian",
@@ -377,7 +451,9 @@
     "aliases": [
       "durians"
     ],
-    "fun_fact": "Durian is banned on public transport in several Asian countries due to its smell."
+    "fun_fact": "Durian is banned on public transport in several Asian countries due to its smell.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "mangosteen",
@@ -385,7 +461,9 @@
     "aliases": [
       "mangosteens"
     ],
-    "fun_fact": "Mangosteen was once banned from import to the US because of fruit fly concerns."
+    "fun_fact": "Mangosteen was once banned from import to the US because of fruit fly concerns.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "rambutan",
@@ -393,7 +471,9 @@
     "aliases": [
       "rambutans"
     ],
-    "fun_fact": "Rambutan means 'hairy' in Malay, referring to its spiky exterior."
+    "fun_fact": "Rambutan means 'hairy' in Malay, referring to its spiky exterior.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "cranberry",
@@ -402,7 +482,9 @@
       "cranberries",
       "cranberrys"
     ],
-    "fun_fact": "Cranberries bounce when they're ripe — farmers use this to test quality."
+    "fun_fact": "Cranberries bounce when they're ripe — farmers use this to test quality.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "boysenberry",
@@ -410,7 +492,9 @@
     "aliases": [
       "boysenberries"
     ],
-    "fun_fact": "Boysenberries are a cross between raspberries, blackberries, and loganberries."
+    "fun_fact": "Boysenberries are a cross between raspberries, blackberries, and loganberries.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "gooseberry",
@@ -418,7 +502,9 @@
     "aliases": [
       "gooseberries"
     ],
-    "fun_fact": "Gooseberries were once banned in the US because they spread a disease that killed pine trees."
+    "fun_fact": "Gooseberries were once banned in the US because they spread a disease that killed pine trees.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "elderberry",
@@ -426,7 +512,9 @@
     "aliases": [
       "elderberries"
     ],
-    "fun_fact": "Raw elderberries are actually toxic — they must be cooked before eating."
+    "fun_fact": "Raw elderberries are actually toxic — they must be cooked before eating.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "mulberry",
@@ -434,7 +522,9 @@
     "aliases": [
       "mulberries"
     ],
-    "fun_fact": "Silkworms eat only mulberry leaves."
+    "fun_fact": "Silkworms eat only mulberry leaves.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "currant",
@@ -446,7 +536,9 @@
       "redcurrant",
       "redcurrants"
     ],
-    "fun_fact": "Blackcurrants were banned in the US for nearly 100 years to protect pine trees."
+    "fun_fact": "Blackcurrants were banned in the US for nearly 100 years to protect pine trees.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "quince",
@@ -454,7 +546,9 @@
     "aliases": [
       "quinces"
     ],
-    "fun_fact": "Some historians believe the forbidden fruit in the Garden of Eden was a quince, not an apple."
+    "fun_fact": "Some historians believe the forbidden fruit in the Garden of Eden was a quince, not an apple.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "tamarind",
@@ -462,7 +556,9 @@
     "aliases": [
       "tamarinds"
     ],
-    "fun_fact": "Tamarind is a key ingredient in Worcestershire sauce."
+    "fun_fact": "Tamarind is a key ingredient in Worcestershire sauce.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "breadfruit",
@@ -471,7 +567,9 @@
       "breadfruits",
       "bread fruit"
     ],
-    "fun_fact": "When cooked, breadfruit has a texture and taste similar to freshly baked bread."
+    "fun_fact": "When cooked, breadfruit has a texture and taste similar to freshly baked bread.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "soursop",
@@ -480,7 +578,9 @@
       "soursops",
       "graviola"
     ],
-    "fun_fact": "Soursop can weigh up to 15 pounds and has a flavor like strawberry-pineapple."
+    "fun_fact": "Soursop can weigh up to 15 pounds and has a flavor like strawberry-pineapple.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "loquat",
@@ -488,7 +588,9 @@
     "aliases": [
       "loquats"
     ],
-    "fun_fact": "Loquats are one of the few fruit trees that bloom in autumn and ripen in early spring."
+    "fun_fact": "Loquats are one of the few fruit trees that bloom in autumn and ripen in early spring.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "plantain",
@@ -496,7 +598,9 @@
     "aliases": [
       "plantains"
     ],
-    "fun_fact": "Plantains must be cooked before eating — they're starchier and less sweet than bananas."
+    "fun_fact": "Plantains must be cooked before eating — they're starchier and less sweet than bananas.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "cacao",
@@ -507,7 +611,9 @@
       "cocoa bean",
       "cacao beans"
     ],
-    "fun_fact": "It takes about 400 cacao beans to make one pound of chocolate."
+    "fun_fact": "It takes about 400 cacao beans to make one pound of chocolate.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "acai",
@@ -517,7 +623,9 @@
       "acai berries",
       "açaí"
     ],
-    "fun_fact": "Acai berries lose most of their antioxidant power within 24 hours of being picked."
+    "fun_fact": "Acai berries lose most of their antioxidant power within 24 hours of being picked.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "goji berry",
@@ -527,7 +635,9 @@
       "wolfberry",
       "wolfberries"
     ],
-    "fun_fact": "Goji berries have been used in traditional Chinese medicine for over 2,000 years."
+    "fun_fact": "Goji berries have been used in traditional Chinese medicine for over 2,000 years.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "yuzu",
@@ -535,7 +645,9 @@
     "aliases": [
       "yuzus"
     ],
-    "fun_fact": "Yuzu is so prized in Japan that a single fruit can cost several dollars."
+    "fun_fact": "Yuzu is so prized in Japan that a single fruit can cost several dollars.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "ugli fruit",
@@ -544,7 +656,9 @@
       "ugli fruits",
       "ugly fruit"
     ],
-    "fun_fact": "Ugli fruit is a cross between a grapefruit, an orange, and a tangerine."
+    "fun_fact": "Ugli fruit is a cross between a grapefruit, an orange, and a tangerine.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "crabapple",
@@ -554,7 +668,9 @@
       "crab apple",
       "crab apples"
     ],
-    "fun_fact": "All domestic apples are descended from wild crabapples."
+    "fun_fact": "All domestic apples are descended from wild crabapples.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "damson",
@@ -563,7 +679,9 @@
       "damsons",
       "damson plum"
     ],
-    "fun_fact": "Damsons have been grown in Britain since Roman times."
+    "fun_fact": "Damsons have been grown in Britain since Roman times.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "feijoa",
@@ -572,7 +690,9 @@
       "feijoas",
       "pineapple guava"
     ],
-    "fun_fact": "Feijoa petals are edible and taste like cotton candy."
+    "fun_fact": "Feijoa petals are edible and taste like cotton candy.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "miracle fruit",
@@ -581,7 +701,9 @@
       "miracle fruits",
       "miracle berry"
     ],
-    "fun_fact": "Miracle fruit makes sour foods taste sweet for up to an hour after eating it."
+    "fun_fact": "Miracle fruit makes sour foods taste sweet for up to an hour after eating it.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "noni",
@@ -590,7 +712,9 @@
       "nonis",
       "noni fruit"
     ],
-    "fun_fact": "Noni fruit smells so bad it's sometimes called 'vomit fruit.'"
+    "fun_fact": "Noni fruit smells so bad it's sometimes called 'vomit fruit.'",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "rhubarb",
@@ -598,7 +722,9 @@
     "aliases": [
       "rhubarbs"
     ],
-    "fun_fact": "Rhubarb leaves are poisonous, but the stalks are perfectly safe to eat."
+    "fun_fact": "Rhubarb leaves are poisonous, but the stalks are perfectly safe to eat.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "salak",
@@ -607,7 +733,9 @@
       "salaks",
       "snake fruit"
     ],
-    "fun_fact": "Salak is called 'snake fruit' because its skin looks like snake scales."
+    "fun_fact": "Salak is called 'snake fruit' because its skin looks like snake scales.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "sapodilla",
@@ -617,7 +745,9 @@
       "chikoo",
       "chiku"
     ],
-    "fun_fact": "Sapodilla tree sap was the original base for chewing gum."
+    "fun_fact": "Sapodilla tree sap was the original base for chewing gum.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "ackee",
@@ -625,7 +755,9 @@
     "aliases": [
       "ackees"
     ],
-    "fun_fact": "Ackee is the national fruit of Jamaica but is toxic if eaten before it's fully ripe."
+    "fun_fact": "Ackee is the national fruit of Jamaica but is toxic if eaten before it's fully ripe.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "cherimoya",
@@ -635,7 +767,9 @@
       "custard apple",
       "custard apples"
     ],
-    "fun_fact": "Mark Twain called cherimoya 'the most delicious fruit known to men.'"
+    "fun_fact": "Mark Twain called cherimoya 'the most delicious fruit known to men.'",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "horned melon",
@@ -645,7 +779,9 @@
       "kiwano",
       "kiwanos"
     ],
-    "fun_fact": "Horned melon tastes like a combination of banana, cucumber, and lime."
+    "fun_fact": "Horned melon tastes like a combination of banana, cucumber, and lime.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "jabuticaba",
@@ -653,7 +789,9 @@
     "aliases": [
       "jabuticabas"
     ],
-    "fun_fact": "Jabuticaba fruits grow directly on the trunk of the tree, not on branches."
+    "fun_fact": "Jabuticaba fruits grow directly on the trunk of the tree, not on branches.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "longan",
@@ -662,7 +800,9 @@
       "longans",
       "dragon eye"
     ],
-    "fun_fact": "Longan means 'dragon eye' in Chinese because the fruit resembles an eyeball when peeled."
+    "fun_fact": "Longan means 'dragon eye' in Chinese because the fruit resembles an eyeball when peeled.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "physalis",
@@ -673,7 +813,9 @@
       "cape gooseberry",
       "cape gooseberries"
     ],
-    "fun_fact": "Physalis fruits come wrapped in their own papery lantern-like husk."
+    "fun_fact": "Physalis fruits come wrapped in their own papery lantern-like husk.",
+    "score": 95,
+    "calories": 50
   },
   {
     "name": "carrot",
@@ -682,7 +824,9 @@
       "carrots",
       "carrott"
     ],
-    "fun_fact": "Carrots were originally purple — orange carrots were bred in the Netherlands in the 17th century."
+    "fun_fact": "Carrots were originally purple — orange carrots were bred in the Netherlands in the 17th century.",
+    "score": 95,
+    "calories": 41
   },
   {
     "name": "broccoli",
@@ -692,7 +836,9 @@
       "brocoli",
       "broccolis"
     ],
-    "fun_fact": "Broccoli is a human-engineered plant bred from wild cabbage."
+    "fun_fact": "Broccoli is a human-engineered plant bred from wild cabbage.",
+    "score": 95,
+    "calories": 34
   },
   {
     "name": "cauliflower",
@@ -701,7 +847,9 @@
       "cauliflowers",
       "cauliflour"
     ],
-    "fun_fact": "Cauliflower comes in purple, green, and orange varieties, not just white."
+    "fun_fact": "Cauliflower comes in purple, green, and orange varieties, not just white.",
+    "score": 95,
+    "calories": 25
   },
   {
     "name": "spinach",
@@ -709,7 +857,9 @@
     "aliases": [
       "spinachs"
     ],
-    "fun_fact": "Spinach loses about 90% of its nutrients within 24 hours of being picked."
+    "fun_fact": "Spinach loses about 90% of its nutrients within 24 hours of being picked.",
+    "score": 95,
+    "calories": 23
   },
   {
     "name": "kale",
@@ -718,7 +868,9 @@
       "kales",
       "curly kale"
     ],
-    "fun_fact": "Kale was one of the most common green vegetables in Europe until the Middle Ages."
+    "fun_fact": "Kale was one of the most common green vegetables in Europe until the Middle Ages.",
+    "score": 95,
+    "calories": 49
   },
   {
     "name": "lettuce",
@@ -731,7 +883,9 @@
       "arugula",
       "rocket"
     ],
-    "fun_fact": "Lettuce is a member of the sunflower family."
+    "fun_fact": "Lettuce is a member of the sunflower family.",
+    "score": 95,
+    "calories": 15
   },
   {
     "name": "tomato",
@@ -744,7 +898,9 @@
       "grape tomato",
       "heirloom tomato"
     ],
-    "fun_fact": "Tomatoes were once considered poisonous in Europe and called 'poison apples.'"
+    "fun_fact": "Tomatoes were once considered poisonous in Europe and called 'poison apples.'",
+    "score": 95,
+    "calories": 18
   },
   {
     "name": "potato",
@@ -757,7 +913,9 @@
       "tater",
       "taters"
     ],
-    "fun_fact": "The potato was the first vegetable to be grown in space."
+    "fun_fact": "The potato was the first vegetable to be grown in space.",
+    "score": 95,
+    "calories": 77
   },
   {
     "name": "sweet potato",
@@ -768,7 +926,9 @@
       "yam",
       "yams"
     ],
-    "fun_fact": "Sweet potatoes are not related to regular potatoes — they're in the morning glory family."
+    "fun_fact": "Sweet potatoes are not related to regular potatoes — they're in the morning glory family.",
+    "score": 95,
+    "calories": 86
   },
   {
     "name": "onion",
@@ -781,7 +941,9 @@
       "sweet onion",
       "vidalia"
     ],
-    "fun_fact": "Onions make you cry because they release a sulfur-based gas when cut."
+    "fun_fact": "Onions make you cry because they release a sulfur-based gas when cut.",
+    "score": 95,
+    "calories": 40
   },
   {
     "name": "garlic",
@@ -791,7 +953,9 @@
       "garlic clove",
       "garlic cloves"
     ],
-    "fun_fact": "There's a garlic festival in Gilroy, California that attracts over 100,000 people annually."
+    "fun_fact": "There's a garlic festival in Gilroy, California that attracts over 100,000 people annually.",
+    "score": 95,
+    "calories": 149
   },
   {
     "name": "bell pepper",
@@ -805,7 +969,9 @@
       "green pepper",
       "yellow pepper"
     ],
-    "fun_fact": "Green, yellow, and red bell peppers are actually the same vegetable at different stages of ripeness."
+    "fun_fact": "Green, yellow, and red bell peppers are actually the same vegetable at different stages of ripeness.",
+    "score": 95,
+    "calories": 31
   },
   {
     "name": "cucumber",
@@ -813,7 +979,9 @@
     "aliases": [
       "cucumbers"
     ],
-    "fun_fact": "Cucumbers are 96% water, making them one of the most hydrating foods."
+    "fun_fact": "Cucumbers are 96% water, making them one of the most hydrating foods.",
+    "score": 95,
+    "calories": 15
   },
   {
     "name": "zucchini",
@@ -824,7 +992,9 @@
       "courgettes",
       "zuchini"
     ],
-    "fun_fact": "The world's largest zucchini on record weighed over 65 pounds."
+    "fun_fact": "The world's largest zucchini on record weighed over 65 pounds.",
+    "score": 95,
+    "calories": 17
   },
   {
     "name": "eggplant",
@@ -835,7 +1005,9 @@
       "aubergines",
       "brinjal"
     ],
-    "fun_fact": "Eggplant is technically a berry and is related to tomatoes and tobacco."
+    "fun_fact": "Eggplant is technically a berry and is related to tomatoes and tobacco.",
+    "score": 95,
+    "calories": 25
   },
   {
     "name": "celery",
@@ -846,7 +1018,9 @@
       "celery stalk",
       "celery stalks"
     ],
-    "fun_fact": "Celery has negative calories — it takes more energy to digest than it contains."
+    "fun_fact": "Celery has negative calories — it takes more energy to digest than it contains.",
+    "score": 95,
+    "calories": 16
   },
   {
     "name": "asparagus",
@@ -855,7 +1029,9 @@
       "asparaguses",
       "asparagas"
     ],
-    "fun_fact": "Asparagus can grow up to 10 inches in a single day."
+    "fun_fact": "Asparagus can grow up to 10 inches in a single day.",
+    "score": 95,
+    "calories": 20
   },
   {
     "name": "corn",
@@ -866,7 +1042,9 @@
       "maize",
       "corn on the cob"
     ],
-    "fun_fact": "Each ear of corn has an even number of rows, typically 16."
+    "fun_fact": "Each ear of corn has an even number of rows, typically 16.",
+    "score": 95,
+    "calories": 86
   },
   {
     "name": "pea",
@@ -880,7 +1058,9 @@
       "sugar snap pea",
       "sugar snap peas"
     ],
-    "fun_fact": "Gregor Mendel used pea plants to discover the laws of genetics."
+    "fun_fact": "Gregor Mendel used pea plants to discover the laws of genetics.",
+    "score": 95,
+    "calories": 81
   },
   {
     "name": "green bean",
@@ -893,7 +1073,9 @@
       "french beans",
       "haricot vert"
     ],
-    "fun_fact": "Green beans are picked before their seeds fully develop — that's why they're tender."
+    "fun_fact": "Green beans are picked before their seeds fully develop — that's why they're tender.",
+    "score": 95,
+    "calories": 31
   },
   {
     "name": "brussels sprout",
@@ -903,7 +1085,9 @@
       "brussel sprouts",
       "brussel sprout"
     ],
-    "fun_fact": "Brussels sprouts grow on a tall stalk, clustered like tiny cabbages."
+    "fun_fact": "Brussels sprouts grow on a tall stalk, clustered like tiny cabbages.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "cabbage",
@@ -915,7 +1099,9 @@
       "savoy cabbage",
       "napa cabbage"
     ],
-    "fun_fact": "Ancient Romans believed eating cabbage before drinking would prevent drunkenness."
+    "fun_fact": "Ancient Romans believed eating cabbage before drinking would prevent drunkenness.",
+    "score": 95,
+    "calories": 25
   },
   {
     "name": "artichoke",
@@ -923,7 +1109,9 @@
     "aliases": [
       "artichokes"
     ],
-    "fun_fact": "Artichokes are actually flower buds — if left unharvested, they bloom into purple flowers."
+    "fun_fact": "Artichokes are actually flower buds — if left unharvested, they bloom into purple flowers.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "beet",
@@ -933,7 +1121,9 @@
       "beetroot",
       "beetroots"
     ],
-    "fun_fact": "Beetroot juice was used as a natural dye for lips and cheeks in the Victorian era."
+    "fun_fact": "Beetroot juice was used as a natural dye for lips and cheeks in the Victorian era.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "radish",
@@ -944,7 +1134,9 @@
       "daikon",
       "daikons"
     ],
-    "fun_fact": "Radishes were paid as 'wages' to Egyptian pyramid builders."
+    "fun_fact": "Radishes were paid as 'wages' to Egyptian pyramid builders.",
+    "score": 95,
+    "calories": 16
   },
   {
     "name": "turnip",
@@ -952,7 +1144,9 @@
     "aliases": [
       "turnips"
     ],
-    "fun_fact": "Before pumpkins, people in Ireland carved turnips for Halloween jack-o'-lanterns."
+    "fun_fact": "Before pumpkins, people in Ireland carved turnips for Halloween jack-o'-lanterns.",
+    "score": 95,
+    "calories": 28
   },
   {
     "name": "parsnip",
@@ -960,7 +1154,9 @@
     "aliases": [
       "parsnips"
     ],
-    "fun_fact": "Parsnips get sweeter after a frost because the cold converts their starch to sugar."
+    "fun_fact": "Parsnips get sweeter after a frost because the cold converts their starch to sugar.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "fennel",
@@ -968,7 +1164,9 @@
     "aliases": [
       "fennels"
     ],
-    "fun_fact": "Marathon, the Greek city, was named after fennel — 'marathon' means 'place of fennel.'"
+    "fun_fact": "Marathon, the Greek city, was named after fennel — 'marathon' means 'place of fennel.'",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "leek",
@@ -976,7 +1174,9 @@
     "aliases": [
       "leeks"
     ],
-    "fun_fact": "The leek is the national emblem of Wales."
+    "fun_fact": "The leek is the national emblem of Wales.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "scallion",
@@ -988,7 +1188,9 @@
       "spring onion",
       "spring onions"
     ],
-    "fun_fact": "Scallions, green onions, and spring onions are all essentially the same thing."
+    "fun_fact": "Scallions, green onions, and spring onions are all essentially the same thing.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "shallot",
@@ -996,7 +1198,9 @@
     "aliases": [
       "shallots"
     ],
-    "fun_fact": "Shallots grow in clusters like garlic rather than as single bulbs like onions."
+    "fun_fact": "Shallots grow in clusters like garlic rather than as single bulbs like onions.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "chili pepper",
@@ -1015,7 +1219,9 @@
       "serrano",
       "cayenne"
     ],
-    "fun_fact": "The heat of chili peppers comes from capsaicin, which birds can't taste at all."
+    "fun_fact": "The heat of chili peppers comes from capsaicin, which birds can't taste at all.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "okra",
@@ -1027,7 +1233,9 @@
       "ladyfinger",
       "gumbo"
     ],
-    "fun_fact": "Okra pods can grow from flower to harvest-ready in just two days."
+    "fun_fact": "Okra pods can grow from flower to harvest-ready in just two days.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "chard",
@@ -1037,7 +1245,9 @@
       "swiss chard",
       "rainbow chard"
     ],
-    "fun_fact": "Swiss chard has nothing to do with Switzerland — a Swiss botanist just named it."
+    "fun_fact": "Swiss chard has nothing to do with Switzerland — a Swiss botanist just named it.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "collard greens",
@@ -1047,7 +1257,9 @@
       "collard",
       "collard green"
     ],
-    "fun_fact": "Collard greens have been cultivated for over 2,000 years."
+    "fun_fact": "Collard greens have been cultivated for over 2,000 years.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "bok choy",
@@ -1058,7 +1270,9 @@
       "pak choy",
       "chinese cabbage"
     ],
-    "fun_fact": "Bok choy has more calcium per ounce than milk."
+    "fun_fact": "Bok choy has more calcium per ounce than milk.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "watercress",
@@ -1066,7 +1280,9 @@
     "aliases": [
       "watercresses"
     ],
-    "fun_fact": "Watercress was eaten by Roman soldiers to give them strength and vigor."
+    "fun_fact": "Watercress was eaten by Roman soldiers to give them strength and vigor.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "endive",
@@ -1077,7 +1293,9 @@
       "escarole",
       "frisee"
     ],
-    "fun_fact": "Endive is grown in darkness to keep it pale and reduce bitterness."
+    "fun_fact": "Endive is grown in darkness to keep it pale and reduce bitterness.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "kohlrabi",
@@ -1086,7 +1304,9 @@
       "kohlrabis",
       "kohl rabi"
     ],
-    "fun_fact": "Kohlrabi means 'cabbage turnip' in German, though it tastes like neither."
+    "fun_fact": "Kohlrabi means 'cabbage turnip' in German, though it tastes like neither.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "rutabaga",
@@ -1098,7 +1318,9 @@
       "neep",
       "neeps"
     ],
-    "fun_fact": "Rutabaga is a cross between a cabbage and a turnip that occurred naturally."
+    "fun_fact": "Rutabaga is a cross between a cabbage and a turnip that occurred naturally.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "jicama",
@@ -1106,7 +1328,9 @@
     "aliases": [
       "jicamas"
     ],
-    "fun_fact": "Jicama roots are edible but the rest of the plant, including the seeds, is toxic."
+    "fun_fact": "Jicama roots are edible but the rest of the plant, including the seeds, is toxic.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "taro",
@@ -1115,7 +1339,9 @@
       "taros",
       "taro root"
     ],
-    "fun_fact": "Taro is one of the oldest cultivated crops, grown for over 10,000 years."
+    "fun_fact": "Taro is one of the oldest cultivated crops, grown for over 10,000 years.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "cassava",
@@ -1126,7 +1352,9 @@
       "manioc",
       "tapioca"
     ],
-    "fun_fact": "Cassava is the third-largest source of carbohydrates in the tropics."
+    "fun_fact": "Cassava is the third-largest source of carbohydrates in the tropics.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "bamboo shoot",
@@ -1135,7 +1363,9 @@
       "bamboo shoots",
       "bamboo"
     ],
-    "fun_fact": "Bamboo is the fastest-growing plant on Earth, growing up to 35 inches per day."
+    "fun_fact": "Bamboo is the fastest-growing plant on Earth, growing up to 35 inches per day.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "water chestnut",
@@ -1143,7 +1373,9 @@
     "aliases": [
       "water chestnuts"
     ],
-    "fun_fact": "Water chestnuts aren't nuts — they're aquatic vegetables that grow in marshes."
+    "fun_fact": "Water chestnuts aren't nuts — they're aquatic vegetables that grow in marshes.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "celeriac",
@@ -1151,7 +1383,9 @@
     "aliases": [
       "celery root"
     ],
-    "fun_fact": "Celeriac is the same species as celery but bred for its root instead of its stalks."
+    "fun_fact": "Celeriac is the same species as celery but bred for its root instead of its stalks.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "butternut squash",
@@ -1160,7 +1394,9 @@
       "butternut squashes",
       "butternut"
     ],
-    "fun_fact": "Butternut squash was developed in Massachusetts in the 1940s."
+    "fun_fact": "Butternut squash was developed in Massachusetts in the 1940s.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "acorn squash",
@@ -1168,7 +1404,9 @@
     "aliases": [
       "acorn squashes"
     ],
-    "fun_fact": "Acorn squash was a staple food for Native Americans long before European contact."
+    "fun_fact": "Acorn squash was a staple food for Native Americans long before European contact.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "spaghetti squash",
@@ -1176,7 +1414,9 @@
     "aliases": [
       "spaghetti squashes"
     ],
-    "fun_fact": "When cooked, spaghetti squash flesh separates into noodle-like strands naturally."
+    "fun_fact": "When cooked, spaghetti squash flesh separates into noodle-like strands naturally.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "pumpkin",
@@ -1185,7 +1425,9 @@
       "pumpkins",
       "pumpkin squash"
     ],
-    "fun_fact": "The heaviest pumpkin ever grown weighed over 2,700 pounds."
+    "fun_fact": "The heaviest pumpkin ever grown weighed over 2,700 pounds.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "delicata squash",
@@ -1194,7 +1436,9 @@
       "delicata squashes",
       "delicata"
     ],
-    "fun_fact": "Delicata squash skin is edible, unlike most other winter squashes."
+    "fun_fact": "Delicata squash skin is edible, unlike most other winter squashes.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "chayote",
@@ -1204,7 +1448,9 @@
       "mirliton",
       "christophene"
     ],
-    "fun_fact": "A chayote can sprout and grow a new plant while still sitting on your kitchen counter."
+    "fun_fact": "A chayote can sprout and grow a new plant while still sitting on your kitchen counter.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "mushroom",
@@ -1215,7 +1461,9 @@
       "cremini",
       "baby bella"
     ],
-    "fun_fact": "Mushrooms are more closely related to humans than to plants."
+    "fun_fact": "Mushrooms are more closely related to humans than to plants.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "yam",
@@ -1224,7 +1472,9 @@
       "yams",
       "true yam"
     ],
-    "fun_fact": "True yams can grow up to 5 feet long and weigh over 130 pounds."
+    "fun_fact": "True yams can grow up to 5 feet long and weigh over 130 pounds.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "horseradish",
@@ -1232,7 +1482,9 @@
     "aliases": [
       "horseradishes"
     ],
-    "fun_fact": "Horseradish releases its pungent oil only when the root cells are crushed or grated."
+    "fun_fact": "Horseradish releases its pungent oil only when the root cells are crushed or grated.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "wasabi",
@@ -1240,7 +1492,9 @@
     "aliases": [
       "wasabis"
     ],
-    "fun_fact": "Real wasabi is so hard to grow that most 'wasabi' served is actually dyed horseradish."
+    "fun_fact": "Real wasabi is so hard to grow that most 'wasabi' served is actually dyed horseradish.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "ginger",
@@ -1249,7 +1503,9 @@
       "gingers",
       "ginger root"
     ],
-    "fun_fact": "Ginger has been used medicinally for over 5,000 years."
+    "fun_fact": "Ginger has been used medicinally for over 5,000 years.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "turmeric",
@@ -1258,7 +1514,9 @@
       "turmerics",
       "turmeric root"
     ],
-    "fun_fact": "Turmeric has been used as a dye for Buddhist monks' robes for centuries."
+    "fun_fact": "Turmeric has been used as a dye for Buddhist monks' robes for centuries.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "lotus root",
@@ -1266,7 +1524,9 @@
     "aliases": [
       "lotus roots"
     ],
-    "fun_fact": "Lotus roots have a beautiful hole pattern that allows air to travel to submerged parts of the plant."
+    "fun_fact": "Lotus roots have a beautiful hole pattern that allows air to travel to submerged parts of the plant.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "hearts of palm",
@@ -1277,7 +1537,9 @@
       "palm hearts",
       "palmito"
     ],
-    "fun_fact": "Harvesting hearts of palm from a single-stemmed palm kills the entire tree."
+    "fun_fact": "Harvesting hearts of palm from a single-stemmed palm kills the entire tree.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "romanesco",
@@ -1286,7 +1548,9 @@
       "romanescos",
       "romanesco broccoli"
     ],
-    "fun_fact": "Romanesco grows in a perfect mathematical fractal pattern — each bud is a Fibonacci spiral."
+    "fun_fact": "Romanesco grows in a perfect mathematical fractal pattern — each bud is a Fibonacci spiral.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "broccoli rabe",
@@ -1296,7 +1560,9 @@
       "rapini",
       "broccolini"
     ],
-    "fun_fact": "Broccoli rabe is more closely related to turnips than to broccoli."
+    "fun_fact": "Broccoli rabe is more closely related to turnips than to broccoli.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "daikon",
@@ -1307,7 +1573,9 @@
       "white radish",
       "mooli"
     ],
-    "fun_fact": "Daikon radishes can grow over 3 feet long and weigh up to 50 pounds."
+    "fun_fact": "Daikon radishes can grow over 3 feet long and weigh up to 50 pounds.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "edamame",
@@ -1316,7 +1584,9 @@
       "edamames",
       "edamame beans"
     ],
-    "fun_fact": "Edamame are immature soybeans picked before they harden."
+    "fun_fact": "Edamame are immature soybeans picked before they harden.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "snap pea",
@@ -1326,7 +1596,9 @@
       "sugar snap",
       "sugar snaps"
     ],
-    "fun_fact": "Snap peas were created in the 1970s by crossing garden peas with snow peas."
+    "fun_fact": "Snap peas were created in the 1970s by crossing garden peas with snow peas.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "samphire",
@@ -1336,7 +1608,9 @@
       "sea asparagus",
       "glasswort"
     ],
-    "fun_fact": "Samphire grows wild on coastal rocks and naturally tastes salty."
+    "fun_fact": "Samphire grows wild on coastal rocks and naturally tastes salty.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "fiddlehead",
@@ -1345,7 +1619,9 @@
       "fiddleheads",
       "fiddlehead fern"
     ],
-    "fun_fact": "Fiddleheads are the curled fronds of young ferns, available for just a few weeks each spring."
+    "fun_fact": "Fiddleheads are the curled fronds of young ferns, available for just a few weeks each spring.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "nopales",
@@ -1356,7 +1632,9 @@
       "cactus paddles",
       "prickly pear cactus"
     ],
-    "fun_fact": "Nopales are cactus paddles that have been a staple in Mexican cuisine for thousands of years."
+    "fun_fact": "Nopales are cactus paddles that have been a staple in Mexican cuisine for thousands of years.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "sorrel",
@@ -1364,7 +1642,9 @@
     "aliases": [
       "sorrels"
     ],
-    "fun_fact": "Sorrel's tangy lemony flavor comes from oxalic acid, the same compound found in rhubarb."
+    "fun_fact": "Sorrel's tangy lemony flavor comes from oxalic acid, the same compound found in rhubarb.",
+    "score": 95,
+    "calories": 30
   },
   {
     "name": "rice",
@@ -1379,7 +1659,9 @@
       "arborio",
       "sushi rice"
     ],
-    "fun_fact": "Rice feeds more than half the world's population."
+    "fun_fact": "Rice feeds more than half the world's population.",
+    "score": 65,
+    "calories": 130
   },
   {
     "name": "wheat",
@@ -1390,7 +1672,9 @@
       "wheat berry",
       "wheat berries"
     ],
-    "fun_fact": "Wheat was one of the first crops domesticated by humans, around 10,000 years ago."
+    "fun_fact": "Wheat was one of the first crops domesticated by humans, around 10,000 years ago.",
+    "score": 65,
+    "calories": 340
   },
   {
     "name": "oat",
@@ -1403,7 +1687,9 @@
       "porridge",
       "oat groats"
     ],
-    "fun_fact": "Oats are the only cereal grain that naturally contain a significant amount of fat."
+    "fun_fact": "Oats are the only cereal grain that naturally contain a significant amount of fat.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "barley",
@@ -1413,7 +1699,9 @@
       "pearl barley",
       "hulled barley"
     ],
-    "fun_fact": "Barley was the standard unit of measurement in ancient Mesopotamia."
+    "fun_fact": "Barley was the standard unit of measurement in ancient Mesopotamia.",
+    "score": 65,
+    "calories": 123
   },
   {
     "name": "corn",
@@ -1426,7 +1714,9 @@
       "grits",
       "hominy"
     ],
-    "fun_fact": "An ear of corn always has an even number of rows."
+    "fun_fact": "An ear of corn always has an even number of rows.",
+    "score": 65,
+    "calories": 86
   },
   {
     "name": "quinoa",
@@ -1435,7 +1725,9 @@
       "quinoas",
       "keen-wah"
     ],
-    "fun_fact": "Quinoa is not actually a grain — it's a seed related to spinach and beets."
+    "fun_fact": "Quinoa is not actually a grain — it's a seed related to spinach and beets.",
+    "score": 65,
+    "calories": 120
   },
   {
     "name": "millet",
@@ -1445,7 +1737,9 @@
       "finger millet",
       "pearl millet"
     ],
-    "fun_fact": "Millet was the first domesticated cereal grain, predating rice and wheat."
+    "fun_fact": "Millet was the first domesticated cereal grain, predating rice and wheat.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "sorghum",
@@ -1455,7 +1749,9 @@
       "jowar",
       "milo"
     ],
-    "fun_fact": "Sorghum is the fifth most important cereal crop in the world."
+    "fun_fact": "Sorghum is the fifth most important cereal crop in the world.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "buckwheat",
@@ -1465,7 +1761,9 @@
       "kasha",
       "soba"
     ],
-    "fun_fact": "Buckwheat isn't wheat at all — it's related to rhubarb."
+    "fun_fact": "Buckwheat isn't wheat at all — it's related to rhubarb.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "rye",
@@ -1474,7 +1772,9 @@
       "ryes",
       "rye grain"
     ],
-    "fun_fact": "Rye can grow in poor soil and cold climates where other grains fail."
+    "fun_fact": "Rye can grow in poor soil and cold climates where other grains fail.",
+    "score": 65,
+    "calories": 259
   },
   {
     "name": "spelt",
@@ -1482,7 +1782,9 @@
     "aliases": [
       "spelts"
     ],
-    "fun_fact": "Spelt is an ancient grain that's been cultivated for over 7,000 years."
+    "fun_fact": "Spelt is an ancient grain that's been cultivated for over 7,000 years.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "amaranth",
@@ -1490,7 +1792,9 @@
     "aliases": [
       "amaranths"
     ],
-    "fun_fact": "Amaranth was a staple food of the Aztecs, who mixed it with blood for religious ceremonies."
+    "fun_fact": "Amaranth was a staple food of the Aztecs, who mixed it with blood for religious ceremonies.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "teff",
@@ -1498,7 +1802,9 @@
     "aliases": [
       "teffs"
     ],
-    "fun_fact": "Teff grains are so tiny that one grain is only 1/150th the size of a wheat kernel."
+    "fun_fact": "Teff grains are so tiny that one grain is only 1/150th the size of a wheat kernel.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "farro",
@@ -1508,7 +1814,9 @@
       "emmer",
       "emmer wheat"
     ],
-    "fun_fact": "Farro fed the Roman legions as they conquered the ancient world."
+    "fun_fact": "Farro fed the Roman legions as they conquered the ancient world.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "freekeh",
@@ -1518,7 +1826,9 @@
       "freekah",
       "farik"
     ],
-    "fun_fact": "Freekeh is green wheat that's been roasted while still young, giving it a smoky flavor."
+    "fun_fact": "Freekeh is green wheat that's been roasted while still young, giving it a smoky flavor.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "kamut",
@@ -1527,7 +1837,9 @@
       "kamuts",
       "khorasan wheat"
     ],
-    "fun_fact": "Kamut grains are two to three times the size of modern wheat."
+    "fun_fact": "Kamut grains are two to three times the size of modern wheat.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "triticale",
@@ -1535,7 +1847,9 @@
     "aliases": [
       "triticales"
     ],
-    "fun_fact": "Triticale is a human-made grain — a cross between wheat and rye created in the 1800s."
+    "fun_fact": "Triticale is a human-made grain — a cross between wheat and rye created in the 1800s.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "couscous",
@@ -1543,7 +1857,9 @@
     "aliases": [
       "couscouses"
     ],
-    "fun_fact": "Couscous isn't a grain — it's tiny pasta made from semolina wheat."
+    "fun_fact": "Couscous isn't a grain — it's tiny pasta made from semolina wheat.",
+    "score": 55,
+    "calories": 350
   },
   {
     "name": "bulgur",
@@ -1554,7 +1870,9 @@
       "bulgher",
       "cracked wheat"
     ],
-    "fun_fact": "Bulgur is one of the fastest-cooking whole grains because it's already been parboiled."
+    "fun_fact": "Bulgur is one of the fastest-cooking whole grains because it's already been parboiled.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "semolina",
@@ -1562,7 +1880,37 @@
     "aliases": [
       "semolinas"
     ],
-    "fun_fact": "Semolina is the coarse flour used to make pasta, couscous, and many desserts."
+    "fun_fact": "Semolina is the coarse flour used to make pasta, couscous, and many desserts.",
+    "score": 60,
+    "calories": 350
+  },
+  {
+    "name": "pasta",
+    "category": "grain",
+    "aliases": [
+      "spaghetti",
+      "penne",
+      "fusilli",
+      "linguine",
+      "fettuccine",
+      "rigatoni",
+      "macaroni",
+      "tagliatelle",
+      "farfalle",
+      "orzo",
+      "bucatini",
+      "pappardelle",
+      "lasagna",
+      "lasagne",
+      "ravioli",
+      "tortellini",
+      "gnocchi",
+      "noodles",
+      "egg noodles"
+    ],
+    "fun_fact": "Traditional pasta is just durum wheat and water — humans have been eating it for over 2000 years.",
+    "score": 60,
+    "calories": 131
   },
   {
     "name": "cornmeal",
@@ -1573,7 +1921,9 @@
       "grits",
       "masa"
     ],
-    "fun_fact": "Polenta was once considered peasant food in Italy but is now a gourmet staple."
+    "fun_fact": "Polenta was once considered peasant food in Italy but is now a gourmet staple.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "einkorn",
@@ -1582,7 +1932,9 @@
       "einkorns",
       "einkorn wheat"
     ],
-    "fun_fact": "Einkorn is the oldest known variety of wheat, dating back 10,000 years."
+    "fun_fact": "Einkorn is the oldest known variety of wheat, dating back 10,000 years.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "tapioca",
@@ -1593,7 +1945,9 @@
       "boba",
       "sago"
     ],
-    "fun_fact": "Tapioca comes from cassava root and is the basis for boba tea pearls."
+    "fun_fact": "Tapioca comes from cassava root and is the basis for boba tea pearls.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "wild rice",
@@ -1601,7 +1955,9 @@
     "aliases": [
       "wild rices"
     ],
-    "fun_fact": "Wild rice isn't actually rice — it's the seed of an aquatic grass native to North America."
+    "fun_fact": "Wild rice isn't actually rice — it's the seed of an aquatic grass native to North America.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "arborio rice",
@@ -1609,7 +1965,9 @@
     "aliases": [
       "arborio"
     ],
-    "fun_fact": "Arborio rice can absorb five times its weight in liquid, which is what makes risotto creamy."
+    "fun_fact": "Arborio rice can absorb five times its weight in liquid, which is what makes risotto creamy.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "jasmine rice",
@@ -1617,7 +1975,9 @@
     "aliases": [
       "jasmine"
     ],
-    "fun_fact": "Jasmine rice gets its floral aroma from a compound also found in pandan leaves and popcorn."
+    "fun_fact": "Jasmine rice gets its floral aroma from a compound also found in pandan leaves and popcorn.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "basmati rice",
@@ -1625,7 +1985,9 @@
     "aliases": [
       "basmati"
     ],
-    "fun_fact": "Aged basmati rice is considered superior — some varieties are aged for up to two years."
+    "fun_fact": "Aged basmati rice is considered superior — some varieties are aged for up to two years.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "flaxseed meal",
@@ -1633,7 +1995,9 @@
     "aliases": [
       "flax meal"
     ],
-    "fun_fact": "Flaxseed meal was used by ancient Egyptians both as food and as a linen textile."
+    "fun_fact": "Flaxseed meal was used by ancient Egyptians both as food and as a linen textile.",
+    "score": 65,
+    "calories": 350
   },
   {
     "name": "lentil",
@@ -1646,7 +2010,9 @@
       "black lentil",
       "puy lentil"
     ],
-    "fun_fact": "Lentils are one of the oldest cultivated foods, dating back over 9,000 years."
+    "fun_fact": "Lentils are one of the oldest cultivated foods, dating back over 9,000 years.",
+    "score": 80,
+    "calories": 116
   },
   {
     "name": "chickpea",
@@ -1658,7 +2024,9 @@
       "garbanzo beans",
       "chana"
     ],
-    "fun_fact": "Chickpeas are the most widely consumed legume in the world."
+    "fun_fact": "Chickpeas are the most widely consumed legume in the world.",
+    "score": 80,
+    "calories": 164
   },
   {
     "name": "black bean",
@@ -1668,7 +2036,9 @@
       "turtle bean",
       "turtle beans"
     ],
-    "fun_fact": "Black beans have as many antioxidants as grapes and cranberries."
+    "fun_fact": "Black beans have as many antioxidants as grapes and cranberries.",
+    "score": 80,
+    "calories": 132
   },
   {
     "name": "kidney bean",
@@ -1677,7 +2047,9 @@
       "kidney beans",
       "red kidney bean"
     ],
-    "fun_fact": "Raw kidney beans contain a toxin that can cause severe nausea — always cook them first."
+    "fun_fact": "Raw kidney beans contain a toxin that can cause severe nausea — always cook them first.",
+    "score": 80,
+    "calories": 127
   },
   {
     "name": "pinto bean",
@@ -1685,7 +2057,9 @@
     "aliases": [
       "pinto beans"
     ],
-    "fun_fact": "Pinto means 'painted' in Spanish, referring to the bean's speckled appearance."
+    "fun_fact": "Pinto means 'painted' in Spanish, referring to the bean's speckled appearance.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "navy bean",
@@ -1697,7 +2071,9 @@
       "white bean",
       "white beans"
     ],
-    "fun_fact": "Navy beans got their name because the US Navy served them as a staple food in the 1800s."
+    "fun_fact": "Navy beans got their name because the US Navy served them as a staple food in the 1800s.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "lima bean",
@@ -1707,7 +2083,9 @@
       "butter bean",
       "butter beans"
     ],
-    "fun_fact": "Lima beans are named after Lima, Peru, where they were first discovered by Europeans."
+    "fun_fact": "Lima beans are named after Lima, Peru, where they were first discovered by Europeans.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "soybean",
@@ -1719,7 +2097,9 @@
       "soya",
       "edamame"
     ],
-    "fun_fact": "Soybeans are used to make everything from tofu to biodiesel fuel."
+    "fun_fact": "Soybeans are used to make everything from tofu to biodiesel fuel.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "mung bean",
@@ -1730,7 +2110,9 @@
       "moong",
       "green gram"
     ],
-    "fun_fact": "Mung bean sprouts can grow 2-3 inches in just a few days."
+    "fun_fact": "Mung bean sprouts can grow 2-3 inches in just a few days.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "adzuki bean",
@@ -1742,7 +2124,9 @@
       "red bean",
       "red beans"
     ],
-    "fun_fact": "In Japan, adzuki beans are used to make sweet red bean paste for desserts."
+    "fun_fact": "In Japan, adzuki beans are used to make sweet red bean paste for desserts.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "fava bean",
@@ -1752,7 +2136,9 @@
       "broad bean",
       "broad beans"
     ],
-    "fun_fact": "Pythagoras forbade his followers from eating fava beans for mysterious reasons."
+    "fun_fact": "Pythagoras forbade his followers from eating fava beans for mysterious reasons.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "green pea",
@@ -1764,7 +2150,9 @@
       "english pea",
       "english peas"
     ],
-    "fun_fact": "The first peas were grown for their dried seeds, not eaten fresh like today."
+    "fun_fact": "The first peas were grown for their dried seeds, not eaten fresh like today.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "split pea",
@@ -1774,7 +2162,9 @@
       "yellow split pea",
       "green split pea"
     ],
-    "fun_fact": "Split peas are simply dried peas that have been peeled and split in half."
+    "fun_fact": "Split peas are simply dried peas that have been peeled and split in half.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "black-eyed pea",
@@ -1785,7 +2175,9 @@
       "cowpeas",
       "black eyed pea"
     ],
-    "fun_fact": "Eating black-eyed peas on New Year's Day is a tradition believed to bring good luck."
+    "fun_fact": "Eating black-eyed peas on New Year's Day is a tradition believed to bring good luck.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "pigeon pea",
@@ -1796,7 +2188,9 @@
       "toor",
       "arhar"
     ],
-    "fun_fact": "Pigeon peas can fix nitrogen in the soil, making them great for sustainable farming."
+    "fun_fact": "Pigeon peas can fix nitrogen in the soil, making them great for sustainable farming.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "cannellini bean",
@@ -1806,7 +2200,9 @@
       "white kidney bean",
       "white kidney beans"
     ],
-    "fun_fact": "Cannellini beans are the most popular white bean in Italian cuisine."
+    "fun_fact": "Cannellini beans are the most popular white bean in Italian cuisine.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "cranberry bean",
@@ -1817,7 +2213,9 @@
       "borlotti beans",
       "romano bean"
     ],
-    "fun_fact": "Cranberry beans lose their beautiful speckled pattern when cooked."
+    "fun_fact": "Cranberry beans lose their beautiful speckled pattern when cooked.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "great northern bean",
@@ -1825,7 +2223,9 @@
     "aliases": [
       "great northern beans"
     ],
-    "fun_fact": "Great northern beans are medium-sized white beans popular in French cassoulet."
+    "fun_fact": "Great northern beans are medium-sized white beans popular in French cassoulet.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "lupini bean",
@@ -1835,7 +2235,9 @@
       "lupin bean",
       "lupin beans"
     ],
-    "fun_fact": "Lupini beans must be soaked for days to remove their natural bitter alkaloids."
+    "fun_fact": "Lupini beans must be soaked for days to remove their natural bitter alkaloids.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "peanut",
@@ -1846,7 +2248,9 @@
       "groundnuts",
       "goober"
     ],
-    "fun_fact": "Peanuts aren't nuts — they're legumes that grow underground."
+    "fun_fact": "Peanuts aren't nuts — they're legumes that grow underground.",
+    "score": 80,
+    "calories": 567
   },
   {
     "name": "mesquite",
@@ -1856,7 +2260,9 @@
       "mesquite beans",
       "mesquite flour"
     ],
-    "fun_fact": "Mesquite pods were a primary food source for Native Americans in the Southwest."
+    "fun_fact": "Mesquite pods were a primary food source for Native Americans in the Southwest.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "carob",
@@ -1866,7 +2272,9 @@
       "carob bean",
       "carob powder"
     ],
-    "fun_fact": "Carob seeds are so uniform in size they were used as the original carat weight for gemstones."
+    "fun_fact": "Carob seeds are so uniform in size they were used as the original carat weight for gemstones.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "tamarind",
@@ -1874,7 +2282,9 @@
     "aliases": [
       "tamarinds"
     ],
-    "fun_fact": "Tamarind pod pulp is both sweet and sour and is used in cuisines across 5 continents."
+    "fun_fact": "Tamarind pod pulp is both sweet and sour and is used in cuisines across 5 continents.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "alfalfa",
@@ -1883,7 +2293,9 @@
       "alfalfa sprouts",
       "lucerne"
     ],
-    "fun_fact": "Alfalfa roots can grow over 20 feet deep into the ground."
+    "fun_fact": "Alfalfa roots can grow over 20 feet deep into the ground.",
+    "score": 80,
+    "calories": 130
   },
   {
     "name": "almond",
@@ -1892,7 +2304,9 @@
       "almonds",
       "almand"
     ],
-    "fun_fact": "Almonds are seeds, not true nuts — they're related to peaches and plums."
+    "fun_fact": "Almonds are seeds, not true nuts — they're related to peaches and plums.",
+    "score": 88,
+    "calories": 579
   },
   {
     "name": "walnut",
@@ -1902,7 +2316,9 @@
       "english walnut",
       "black walnut"
     ],
-    "fun_fact": "Walnut shells were used as explosives in World War II."
+    "fun_fact": "Walnut shells were used as explosives in World War II.",
+    "score": 88,
+    "calories": 654
   },
   {
     "name": "cashew",
@@ -1912,7 +2328,9 @@
       "cashew nut",
       "cashew nuts"
     ],
-    "fun_fact": "Cashews grow hanging from the bottom of a cashew apple fruit."
+    "fun_fact": "Cashews grow hanging from the bottom of a cashew apple fruit.",
+    "score": 88,
+    "calories": 553
   },
   {
     "name": "pistachio",
@@ -1921,7 +2339,9 @@
       "pistachios",
       "pistachio nut"
     ],
-    "fun_fact": "Pistachios are sometimes called 'the smiling nut' in Iran and 'the happy nut' in China."
+    "fun_fact": "Pistachios are sometimes called 'the smiling nut' in Iran and 'the happy nut' in China.",
+    "score": 88,
+    "calories": 562
   },
   {
     "name": "pecan",
@@ -1929,7 +2349,9 @@
     "aliases": [
       "pecans"
     ],
-    "fun_fact": "Pecans are the only major tree nut native to North America."
+    "fun_fact": "Pecans are the only major tree nut native to North America.",
+    "score": 88,
+    "calories": 691
   },
   {
     "name": "macadamia",
@@ -1939,7 +2361,9 @@
       "macadamia nut",
       "macadamia nuts"
     ],
-    "fun_fact": "Macadamia nuts have the hardest shell of any commercially sold nut."
+    "fun_fact": "Macadamia nuts have the hardest shell of any commercially sold nut.",
+    "score": 88,
+    "calories": 718
   },
   {
     "name": "hazelnut",
@@ -1950,7 +2374,9 @@
       "filberts",
       "cobnut"
     ],
-    "fun_fact": "About 70% of the world's hazelnuts come from Turkey."
+    "fun_fact": "About 70% of the world's hazelnuts come from Turkey.",
+    "score": 88,
+    "calories": 628
   },
   {
     "name": "brazil nut",
@@ -1958,7 +2384,9 @@
     "aliases": [
       "brazil nuts"
     ],
-    "fun_fact": "Brazil nut trees can live for over 500 years and only grow in undisturbed rainforest."
+    "fun_fact": "Brazil nut trees can live for over 500 years and only grow in undisturbed rainforest.",
+    "score": 88,
+    "calories": 656
   },
   {
     "name": "chestnut",
@@ -1967,7 +2395,9 @@
       "chestnuts",
       "sweet chestnut"
     ],
-    "fun_fact": "Chestnuts are the only nuts that contain vitamin C."
+    "fun_fact": "Chestnuts are the only nuts that contain vitamin C.",
+    "score": 88,
+    "calories": 600
   },
   {
     "name": "pine nut",
@@ -1978,7 +2408,9 @@
       "pinoli",
       "pinon"
     ],
-    "fun_fact": "It can take up to 25 years for a pine tree to start producing pine nut cones."
+    "fun_fact": "It can take up to 25 years for a pine tree to start producing pine nut cones.",
+    "score": 88,
+    "calories": 600
   },
   {
     "name": "coconut",
@@ -1987,7 +2419,9 @@
       "coconuts",
       "cocoanut"
     ],
-    "fun_fact": "Coconuts are technically drupes, not nuts — and they can float across oceans to spread."
+    "fun_fact": "Coconuts are technically drupes, not nuts — and they can float across oceans to spread.",
+    "score": 88,
+    "calories": 354
   },
   {
     "name": "acorn",
@@ -1995,7 +2429,9 @@
     "aliases": [
       "acorns"
     ],
-    "fun_fact": "Acorns were a dietary staple for many Native American tribes for thousands of years."
+    "fun_fact": "Acorns were a dietary staple for many Native American tribes for thousands of years.",
+    "score": 88,
+    "calories": 600
   },
   {
     "name": "kola nut",
@@ -2005,7 +2441,9 @@
       "cola nut",
       "cola nuts"
     ],
-    "fun_fact": "Kola nuts were the original source of caffeine in Coca-Cola."
+    "fun_fact": "Kola nuts were the original source of caffeine in Coca-Cola.",
+    "score": 88,
+    "calories": 600
   },
   {
     "name": "tiger nut",
@@ -2014,7 +2452,9 @@
       "tiger nuts",
       "chufa"
     ],
-    "fun_fact": "Tiger nuts aren't nuts at all — they're small root vegetables (tubers)."
+    "fun_fact": "Tiger nuts aren't nuts at all — they're small root vegetables (tubers).",
+    "score": 88,
+    "calories": 600
   },
   {
     "name": "candlenut",
@@ -2023,7 +2463,9 @@
       "candlenuts",
       "kukui nut"
     ],
-    "fun_fact": "Candlenuts are so oily they were literally burned as candles in ancient Hawaii."
+    "fun_fact": "Candlenuts are so oily they were literally burned as candles in ancient Hawaii.",
+    "score": 88,
+    "calories": 600
   },
   {
     "name": "marcona almond",
@@ -2031,7 +2473,9 @@
     "aliases": [
       "marcona almonds"
     ],
-    "fun_fact": "Marcona almonds are called the 'queen of almonds' and only grow in Spain."
+    "fun_fact": "Marcona almonds are called the 'queen of almonds' and only grow in Spain.",
+    "score": 88,
+    "calories": 600
   },
   {
     "name": "mongongo nut",
@@ -2039,7 +2483,9 @@
     "aliases": [
       "mongongo nuts"
     ],
-    "fun_fact": "Mongongo nuts have been a staple food in southern Africa for over 7,000 years."
+    "fun_fact": "Mongongo nuts have been a staple food in southern Africa for over 7,000 years.",
+    "score": 88,
+    "calories": 600
   },
   {
     "name": "chia seed",
@@ -2048,7 +2494,9 @@
       "chia seeds",
       "chia"
     ],
-    "fun_fact": "Chia seeds can absorb up to 12 times their weight in water."
+    "fun_fact": "Chia seeds can absorb up to 12 times their weight in water.",
+    "score": 85,
+    "calories": 486
   },
   {
     "name": "flaxseed",
@@ -2060,7 +2508,9 @@
       "linseed",
       "linseeds"
     ],
-    "fun_fact": "Flaxseed was cultivated in Babylon as early as 3000 BC."
+    "fun_fact": "Flaxseed was cultivated in Babylon as early as 3000 BC.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "hemp seed",
@@ -2069,7 +2519,9 @@
       "hemp seeds",
       "hemp hearts"
     ],
-    "fun_fact": "Hemp seeds contain all 20 amino acids, including all 9 essential ones."
+    "fun_fact": "Hemp seeds contain all 20 amino acids, including all 9 essential ones.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "sunflower seed",
@@ -2077,7 +2529,9 @@
     "aliases": [
       "sunflower seeds"
     ],
-    "fun_fact": "A single sunflower head can contain up to 2,000 seeds."
+    "fun_fact": "A single sunflower head can contain up to 2,000 seeds.",
+    "score": 85,
+    "calories": 584
   },
   {
     "name": "pumpkin seed",
@@ -2087,7 +2541,9 @@
       "pepita",
       "pepitas"
     ],
-    "fun_fact": "Pumpkin seeds have been found in Mexican caves dating back over 7,000 years."
+    "fun_fact": "Pumpkin seeds have been found in Mexican caves dating back over 7,000 years.",
+    "score": 85,
+    "calories": 559
   },
   {
     "name": "sesame seed",
@@ -2097,7 +2553,9 @@
       "sesame",
       "tahini"
     ],
-    "fun_fact": "Sesame may be the oldest condiment known to man, dating back to 3000 BC."
+    "fun_fact": "Sesame may be the oldest condiment known to man, dating back to 3000 BC.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "poppy seed",
@@ -2105,7 +2563,9 @@
     "aliases": [
       "poppy seeds"
     ],
-    "fun_fact": "Poppy seeds can cause a false positive on drug tests because they come from opium poppies."
+    "fun_fact": "Poppy seeds can cause a false positive on drug tests because they come from opium poppies.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "fennel seed",
@@ -2113,7 +2573,9 @@
     "aliases": [
       "fennel seeds"
     ],
-    "fun_fact": "Roman gladiators ate fennel seeds believing they gave them strength and courage."
+    "fun_fact": "Roman gladiators ate fennel seeds believing they gave them strength and courage.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "cumin seed",
@@ -2121,7 +2583,9 @@
     "aliases": [
       "cumin seeds"
     ],
-    "fun_fact": "Cumin is the second most popular spice in the world after black pepper."
+    "fun_fact": "Cumin is the second most popular spice in the world after black pepper.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "coriander seed",
@@ -2129,7 +2593,9 @@
     "aliases": [
       "coriander seeds"
     ],
-    "fun_fact": "Coriander seeds have been found in ancient Egyptian tombs dating back 3,000 years."
+    "fun_fact": "Coriander seeds have been found in ancient Egyptian tombs dating back 3,000 years.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "caraway seed",
@@ -2138,7 +2604,9 @@
       "caraway seeds",
       "caraway"
     ],
-    "fun_fact": "Caraway seeds are the key flavoring in rye bread."
+    "fun_fact": "Caraway seeds are the key flavoring in rye bread.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "mustard seed",
@@ -2146,7 +2614,9 @@
     "aliases": [
       "mustard seeds"
     ],
-    "fun_fact": "It takes about 1,000 mustard seeds to make one tablespoon of prepared mustard."
+    "fun_fact": "It takes about 1,000 mustard seeds to make one tablespoon of prepared mustard.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "nigella seed",
@@ -2158,7 +2628,9 @@
       "black cumin",
       "kalonji"
     ],
-    "fun_fact": "Nigella seeds have been found in Tutankhamun's tomb and are called 'the seed of blessing.'"
+    "fun_fact": "Nigella seeds have been found in Tutankhamun's tomb and are called 'the seed of blessing.'",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "sacha inchi",
@@ -2168,7 +2640,9 @@
       "inca nut",
       "inca peanut"
     ],
-    "fun_fact": "Sacha inchi seeds contain more omega-3 than salmon."
+    "fun_fact": "Sacha inchi seeds contain more omega-3 than salmon.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "watermelon seed",
@@ -2176,7 +2650,9 @@
     "aliases": [
       "watermelon seeds"
     ],
-    "fun_fact": "Roasted watermelon seeds are a popular snack in the Middle East and Asia."
+    "fun_fact": "Roasted watermelon seeds are a popular snack in the Middle East and Asia.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "lotus seed",
@@ -2184,7 +2660,9 @@
     "aliases": [
       "lotus seeds"
     ],
-    "fun_fact": "Lotus seeds have been germinated after lying dormant for over 1,000 years."
+    "fun_fact": "Lotus seeds have been germinated after lying dormant for over 1,000 years.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "basil seed",
@@ -2194,7 +2672,9 @@
       "sabja",
       "tukmaria"
     ],
-    "fun_fact": "Basil seeds swell up into a gel-like coating when soaked, similar to chia seeds."
+    "fun_fact": "Basil seeds swell up into a gel-like coating when soaked, similar to chia seeds.",
+    "score": 85,
+    "calories": 560
   },
   {
     "name": "beef",
@@ -2214,7 +2694,9 @@
       "flank steak",
       "beef tenderloin"
     ],
-    "fun_fact": "Beef from grass-fed cattle has a different fatty acid profile than grain-fed."
+    "fun_fact": "Beef from grass-fed cattle has a different fatty acid profile than grain-fed.",
+    "score": 92,
+    "calories": 250
   },
   {
     "name": "pork",
@@ -2231,7 +2713,9 @@
       "pork shoulder",
       "pulled pork"
     ],
-    "fun_fact": "Pork is the most widely consumed meat in the world."
+    "fun_fact": "Pork is the most widely consumed meat in the world.",
+    "score": 92,
+    "calories": 242
   },
   {
     "name": "lamb",
@@ -2245,7 +2729,9 @@
       "leg of lamb",
       "mutton"
     ],
-    "fun_fact": "Lamb under one year old is called lamb; over one year is called mutton."
+    "fun_fact": "Lamb under one year old is called lamb; over one year is called mutton.",
+    "score": 92,
+    "calories": 294
   },
   {
     "name": "veal",
@@ -2256,7 +2742,9 @@
       "veal cutlet",
       "scallopini"
     ],
-    "fun_fact": "Veal has been considered a delicacy since ancient Roman times."
+    "fun_fact": "Veal has been considered a delicacy since ancient Roman times.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "venison",
@@ -2266,7 +2754,9 @@
       "deer meat",
       "deer"
     ],
-    "fun_fact": "Venison comes from the Latin 'venari,' meaning 'to hunt.'"
+    "fun_fact": "Venison comes from the Latin 'venari,' meaning 'to hunt.'",
+    "score": 92,
+    "calories": 158
   },
   {
     "name": "bison",
@@ -2276,7 +2766,9 @@
       "buffalo meat",
       "buffalo"
     ],
-    "fun_fact": "Bison meat has less fat and cholesterol than chicken breast."
+    "fun_fact": "Bison meat has less fat and cholesterol than chicken breast.",
+    "score": 92,
+    "calories": 143
   },
   {
     "name": "rabbit",
@@ -2285,7 +2777,9 @@
       "rabbits",
       "rabbit meat"
     ],
-    "fun_fact": "Rabbit was the most commonly consumed meat in medieval Europe."
+    "fun_fact": "Rabbit was the most commonly consumed meat in medieval Europe.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "goat",
@@ -2296,7 +2790,9 @@
       "chevon",
       "cabrito"
     ],
-    "fun_fact": "Goat is the most widely consumed red meat globally."
+    "fun_fact": "Goat is the most widely consumed red meat globally.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "elk",
@@ -2306,7 +2802,9 @@
       "elk meat",
       "wapiti"
     ],
-    "fun_fact": "Elk antlers can grow up to an inch per day, making them one of the fastest-growing bones."
+    "fun_fact": "Elk antlers can grow up to an inch per day, making them one of the fastest-growing bones.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "wild boar",
@@ -2316,7 +2814,9 @@
       "boar",
       "boar meat"
     ],
-    "fun_fact": "Wild boar is the ancestor of all domestic pig breeds."
+    "fun_fact": "Wild boar is the ancestor of all domestic pig breeds.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "horse",
@@ -2326,7 +2826,9 @@
       "horsemeat",
       "equine"
     ],
-    "fun_fact": "Horse meat is a delicacy in many countries including France, Japan, and Kazakhstan."
+    "fun_fact": "Horse meat is a delicacy in many countries including France, Japan, and Kazakhstan.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "kangaroo",
@@ -2335,7 +2837,9 @@
       "kangaroo meat",
       "roo"
     ],
-    "fun_fact": "Kangaroo meat is extremely lean, with less than 2% fat."
+    "fun_fact": "Kangaroo meat is extremely lean, with less than 2% fat.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "ostrich",
@@ -2343,7 +2847,9 @@
     "aliases": [
       "ostrich meat"
     ],
-    "fun_fact": "Ostrich meat looks and tastes more like beef than poultry despite being a bird."
+    "fun_fact": "Ostrich meat looks and tastes more like beef than poultry despite being a bird.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "alligator",
@@ -2353,7 +2859,9 @@
       "gator",
       "gator meat"
     ],
-    "fun_fact": "Alligator meat tastes like a mild cross between chicken and fish."
+    "fun_fact": "Alligator meat tastes like a mild cross between chicken and fish.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "frog legs",
@@ -2363,7 +2871,9 @@
       "frogs legs",
       "frog"
     ],
-    "fun_fact": "France consumes an estimated 80 million frogs per year."
+    "fun_fact": "France consumes an estimated 80 million frogs per year.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "prosciutto",
@@ -2371,7 +2881,9 @@
     "aliases": [
       "prosciuttos"
     ],
-    "fun_fact": "Authentic prosciutto di Parma takes at least 12 months to cure."
+    "fun_fact": "Authentic prosciutto di Parma takes at least 12 months to cure.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "salami",
@@ -2380,7 +2892,9 @@
       "salamis",
       "salame"
     ],
-    "fun_fact": "Salami was invented as a way to preserve meat before refrigeration existed."
+    "fun_fact": "Salami was invented as a way to preserve meat before refrigeration existed.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "bresaola",
@@ -2388,7 +2902,9 @@
     "aliases": [
       "bresaolas"
     ],
-    "fun_fact": "Bresaola is air-dried beef that originated in the Lombardy region of Italy."
+    "fun_fact": "Bresaola is air-dried beef that originated in the Lombardy region of Italy.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "pancetta",
@@ -2396,7 +2912,9 @@
     "aliases": [
       "pancettas"
     ],
-    "fun_fact": "Pancetta is Italian bacon that's cured but not smoked."
+    "fun_fact": "Pancetta is Italian bacon that's cured but not smoked.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "chorizo",
@@ -2404,7 +2922,9 @@
     "aliases": [
       "chorizos"
     ],
-    "fun_fact": "Spanish and Mexican chorizo are completely different — Spanish is cured, Mexican is fresh."
+    "fun_fact": "Spanish and Mexican chorizo are completely different — Spanish is cured, Mexican is fresh.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "corned beef",
@@ -2412,7 +2932,9 @@
     "aliases": [
       "corned beefs"
     ],
-    "fun_fact": "The 'corn' in corned beef refers to the large grains of salt used to cure it."
+    "fun_fact": "The 'corn' in corned beef refers to the large grains of salt used to cure it.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "jerky",
@@ -2423,7 +2945,9 @@
       "jerkys",
       "biltong"
     ],
-    "fun_fact": "Jerky comes from the Quechua word 'ch'arki,' meaning dried meat."
+    "fun_fact": "Jerky comes from the Quechua word 'ch'arki,' meaning dried meat.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "pastrami",
@@ -2431,7 +2955,9 @@
     "aliases": [
       "pastramis"
     ],
-    "fun_fact": "Pastrami was invented by Romanian Jews as a way to preserve goose meat."
+    "fun_fact": "Pastrami was invented by Romanian Jews as a way to preserve goose meat.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "sopressata",
@@ -2440,7 +2966,9 @@
       "sopressatas",
       "soppressata"
     ],
-    "fun_fact": "Sopressata is pressed flat during curing, which gives it its name and distinctive shape."
+    "fun_fact": "Sopressata is pressed flat during curing, which gives it its name and distinctive shape.",
+    "score": 92,
+    "calories": 200
   },
   {
     "name": "chicken",
@@ -2454,7 +2982,9 @@
       "chicken leg",
       "rotisserie chicken"
     ],
-    "fun_fact": "There are more chickens on Earth than any other bird — about 25 billion."
+    "fun_fact": "There are more chickens on Earth than any other bird — about 25 billion.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "turkey",
@@ -2464,7 +2994,9 @@
       "turkey breast",
       "ground turkey"
     ],
-    "fun_fact": "Benjamin Franklin wanted the turkey, not the bald eagle, as America's national bird."
+    "fun_fact": "Benjamin Franklin wanted the turkey, not the bald eagle, as America's national bird.",
+    "score": 90,
+    "calories": 135
   },
   {
     "name": "duck",
@@ -2476,7 +3008,9 @@
       "peking duck",
       "duck confit"
     ],
-    "fun_fact": "Ducks have waterproof feathers — even when they dive underwater, the downy layer stays dry."
+    "fun_fact": "Ducks have waterproof feathers — even when they dive underwater, the downy layer stays dry.",
+    "score": 90,
+    "calories": 337
   },
   {
     "name": "goose",
@@ -2486,7 +3020,9 @@
       "goose breast",
       "goose leg"
     ],
-    "fun_fact": "Geese mate for life and can live over 20 years."
+    "fun_fact": "Geese mate for life and can live over 20 years.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "quail",
@@ -2495,7 +3031,9 @@
       "quails",
       "quail breast"
     ],
-    "fun_fact": "Quail eggs are considered a delicacy and have proportionally larger yolks than chicken eggs."
+    "fun_fact": "Quail eggs are considered a delicacy and have proportionally larger yolks than chicken eggs.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "pheasant",
@@ -2503,7 +3041,9 @@
     "aliases": [
       "pheasants"
     ],
-    "fun_fact": "Male pheasants are so colorful because they need to attract females who are plain brown."
+    "fun_fact": "Male pheasants are so colorful because they need to attract females who are plain brown.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "guinea fowl",
@@ -2513,7 +3053,9 @@
       "guinea hen",
       "guinea hens"
     ],
-    "fun_fact": "Guinea fowl are excellent at controlling tick populations."
+    "fun_fact": "Guinea fowl are excellent at controlling tick populations.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "cornish hen",
@@ -2524,7 +3066,9 @@
       "cornish game hens",
       "poussin"
     ],
-    "fun_fact": "Cornish hens aren't a separate breed — they're just young chickens harvested early."
+    "fun_fact": "Cornish hens aren't a separate breed — they're just young chickens harvested early.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "squab",
@@ -2533,7 +3077,9 @@
       "squabs",
       "pigeon"
     ],
-    "fun_fact": "Squab (young pigeon) was a common luxury food in ancient Egypt and Rome."
+    "fun_fact": "Squab (young pigeon) was a common luxury food in ancient Egypt and Rome.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "partridge",
@@ -2541,7 +3087,9 @@
     "aliases": [
       "partridges"
     ],
-    "fun_fact": "The 'partridge in a pear tree' from the Christmas song is actually a red-legged partridge."
+    "fun_fact": "The 'partridge in a pear tree' from the Christmas song is actually a red-legged partridge.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "grouse",
@@ -2549,7 +3097,9 @@
     "aliases": [
       "grouses"
     ],
-    "fun_fact": "The opening of grouse hunting season on August 12 is called 'The Glorious Twelfth' in Britain."
+    "fun_fact": "The opening of grouse hunting season on August 12 is called 'The Glorious Twelfth' in Britain.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "emu",
@@ -2558,7 +3108,9 @@
       "emus",
       "emu meat"
     ],
-    "fun_fact": "Emu meat is very dark red, lean, and tastes similar to beef."
+    "fun_fact": "Emu meat is very dark red, lean, and tastes similar to beef.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "dove",
@@ -2567,7 +3119,9 @@
       "doves",
       "dove meat"
     ],
-    "fun_fact": "Doves have been eaten as a game bird for thousands of years across the Mediterranean."
+    "fun_fact": "Doves have been eaten as a game bird for thousands of years across the Mediterranean.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "capon",
@@ -2575,7 +3129,9 @@
     "aliases": [
       "capons"
     ],
-    "fun_fact": "A capon is a castrated rooster, which makes the meat more tender and flavorful."
+    "fun_fact": "A capon is a castrated rooster, which makes the meat more tender and flavorful.",
+    "score": 90,
+    "calories": 165
   },
   {
     "name": "salmon",
@@ -2592,7 +3148,9 @@
       "lox",
       "smoked salmon"
     ],
-    "fun_fact": "Salmon can jump up to 12 feet in the air to get past waterfalls."
+    "fun_fact": "Salmon can jump up to 12 feet in the air to get past waterfalls.",
+    "score": 93,
+    "calories": 208
   },
   {
     "name": "tuna",
@@ -2605,7 +3163,9 @@
       "albacore",
       "skipjack"
     ],
-    "fun_fact": "A single bluefin tuna sold for $3.1 million at a Tokyo auction in 2019."
+    "fun_fact": "A single bluefin tuna sold for $3.1 million at a Tokyo auction in 2019.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "cod",
@@ -2617,7 +3177,9 @@
       "salt cod",
       "bacalao"
     ],
-    "fun_fact": "Cod was so important to early American history that a wooden carving of one hangs in the Massachusetts State House."
+    "fun_fact": "Cod was so important to early American history that a wooden carving of one hangs in the Massachusetts State House.",
+    "score": 93,
+    "calories": 82
   },
   {
     "name": "tilapia",
@@ -2625,7 +3187,9 @@
     "aliases": [
       "tilapias"
     ],
-    "fun_fact": "Tilapia is one of the oldest farmed fish — ancient Egyptians raised them over 4,000 years ago."
+    "fun_fact": "Tilapia is one of the oldest farmed fish — ancient Egyptians raised them over 4,000 years ago.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "halibut",
@@ -2633,7 +3197,9 @@
     "aliases": [
       "halibuts"
     ],
-    "fun_fact": "Halibut can weigh over 500 pounds and live for more than 50 years."
+    "fun_fact": "Halibut can weigh over 500 pounds and live for more than 50 years.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "trout",
@@ -2645,7 +3211,9 @@
       "brook trout",
       "steelhead"
     ],
-    "fun_fact": "Rainbow trout and steelhead are actually the same species — the difference is lifestyle."
+    "fun_fact": "Rainbow trout and steelhead are actually the same species — the difference is lifestyle.",
+    "score": 93,
+    "calories": 148
   },
   {
     "name": "bass",
@@ -2658,7 +3226,9 @@
       "smallmouth bass",
       "chilean sea bass"
     ],
-    "fun_fact": "Chilean sea bass was originally called 'Patagonian toothfish' until a fish dealer rebranded it."
+    "fun_fact": "Chilean sea bass was originally called 'Patagonian toothfish' until a fish dealer rebranded it.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "sardine",
@@ -2666,7 +3236,9 @@
     "aliases": [
       "sardines"
     ],
-    "fun_fact": "Sardines are named after the Italian island of Sardinia, where they were once abundant."
+    "fun_fact": "Sardines are named after the Italian island of Sardinia, where they were once abundant.",
+    "score": 93,
+    "calories": 208
   },
   {
     "name": "anchovy",
@@ -2675,7 +3247,9 @@
       "anchovies",
       "anchovys"
     ],
-    "fun_fact": "Anchovies are the secret ingredient in Worcestershire sauce and Caesar dressing."
+    "fun_fact": "Anchovies are the secret ingredient in Worcestershire sauce and Caesar dressing.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "mackerel",
@@ -2685,7 +3259,9 @@
       "king mackerel",
       "spanish mackerel"
     ],
-    "fun_fact": "Mackerel can swim at speeds of up to 33 miles per hour."
+    "fun_fact": "Mackerel can swim at speeds of up to 33 miles per hour.",
+    "score": 93,
+    "calories": 205
   },
   {
     "name": "swordfish",
@@ -2693,7 +3269,9 @@
     "aliases": [
       "swordfishes"
     ],
-    "fun_fact": "A swordfish's bill can reach temperatures of up to 80°F warmer than surrounding water."
+    "fun_fact": "A swordfish's bill can reach temperatures of up to 80°F warmer than surrounding water.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "mahi mahi",
@@ -2703,7 +3281,9 @@
       "dorado",
       "dolphinfish"
     ],
-    "fun_fact": "Mahi mahi means 'strong strong' in Hawaiian."
+    "fun_fact": "Mahi mahi means 'strong strong' in Hawaiian.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "snapper",
@@ -2712,7 +3292,9 @@
       "snappers",
       "red snapper"
     ],
-    "fun_fact": "Red snapper is so commonly mislabeled that studies found 73% of fish sold as snapper was something else."
+    "fun_fact": "Red snapper is so commonly mislabeled that studies found 73% of fish sold as snapper was something else.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "grouper",
@@ -2720,7 +3302,9 @@
     "aliases": [
       "groupers"
     ],
-    "fun_fact": "Some grouper species can change sex from female to male as they age."
+    "fun_fact": "Some grouper species can change sex from female to male as they age.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "catfish",
@@ -2730,7 +3314,9 @@
       "catfishs",
       "channel catfish"
     ],
-    "fun_fact": "Catfish have over 100,000 taste buds — covering their entire body."
+    "fun_fact": "Catfish have over 100,000 taste buds — covering their entire body.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "flounder",
@@ -2738,7 +3324,9 @@
     "aliases": [
       "flounders"
     ],
-    "fun_fact": "Flounder are born with eyes on both sides but one eye migrates as they grow."
+    "fun_fact": "Flounder are born with eyes on both sides but one eye migrates as they grow.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "sole",
@@ -2748,7 +3336,9 @@
       "dover sole",
       "lemon sole"
     ],
-    "fun_fact": "Dover sole was named after the English port of Dover where it was commonly landed."
+    "fun_fact": "Dover sole was named after the English port of Dover where it was commonly landed.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "haddock",
@@ -2756,7 +3346,9 @@
     "aliases": [
       "haddocks"
     ],
-    "fun_fact": "Haddock has a distinctive dark blotch on each side called 'Saint Peter's thumbprint.'"
+    "fun_fact": "Haddock has a distinctive dark blotch on each side called 'Saint Peter's thumbprint.'",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "pollock",
@@ -2766,7 +3358,9 @@
       "pollack",
       "alaska pollock"
     ],
-    "fun_fact": "Most imitation crab meat is actually made from pollock."
+    "fun_fact": "Most imitation crab meat is actually made from pollock.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "perch",
@@ -2776,7 +3370,9 @@
       "yellow perch",
       "ocean perch"
     ],
-    "fun_fact": "Perch are one of the most widely distributed freshwater fish in North America."
+    "fun_fact": "Perch are one of the most widely distributed freshwater fish in North America.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "pike",
@@ -2786,7 +3382,9 @@
       "northern pike",
       "walleye"
     ],
-    "fun_fact": "Northern pike can live over 25 years and have razor-sharp teeth."
+    "fun_fact": "Northern pike can live over 25 years and have razor-sharp teeth.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "monkfish",
@@ -2794,7 +3392,9 @@
     "aliases": [
       "monkfishes"
     ],
-    "fun_fact": "Monkfish is called 'poor man's lobster' because its tail meat has a similar texture."
+    "fun_fact": "Monkfish is called 'poor man's lobster' because its tail meat has a similar texture.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "barramundi",
@@ -2802,7 +3402,9 @@
     "aliases": [
       "barramundis"
     ],
-    "fun_fact": "Barramundi can change sex — they start as males and become females later in life."
+    "fun_fact": "Barramundi can change sex — they start as males and become females later in life.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "branzino",
@@ -2812,7 +3414,9 @@
       "european sea bass",
       "loup de mer"
     ],
-    "fun_fact": "Branzino is one of the most popular fish in Mediterranean cuisine."
+    "fun_fact": "Branzino is one of the most popular fish in Mediterranean cuisine.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "eel",
@@ -2822,7 +3426,9 @@
       "unagi",
       "freshwater eel"
     ],
-    "fun_fact": "No one has ever observed eels mating — their reproduction is one of nature's biggest mysteries."
+    "fun_fact": "No one has ever observed eels mating — their reproduction is one of nature's biggest mysteries.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "herring",
@@ -2833,7 +3439,9 @@
       "kippers",
       "pickled herring"
     ],
-    "fun_fact": "Herring communicate by releasing bubbles from their rear end — scientists call it 'fast repetitive tick' sounds."
+    "fun_fact": "Herring communicate by releasing bubbles from their rear end — scientists call it 'fast repetitive tick' sounds.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "carp",
@@ -2843,7 +3451,9 @@
       "common carp",
       "koi"
     ],
-    "fun_fact": "Koi fish are just selectively bred carp that can live over 200 years."
+    "fun_fact": "Koi fish are just selectively bred carp that can live over 200 years.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "whitefish",
@@ -2852,7 +3462,9 @@
       "whitefishes",
       "lake whitefish"
     ],
-    "fun_fact": "Whitefish is one of the most popular smoked fish in Jewish delicatessen cuisine."
+    "fun_fact": "Whitefish is one of the most popular smoked fish in Jewish delicatessen cuisine.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "wahoo",
@@ -2861,7 +3473,9 @@
       "wahoos",
       "ono"
     ],
-    "fun_fact": "Wahoo can swim at speeds up to 60 mph, making it one of the fastest fish in the ocean."
+    "fun_fact": "Wahoo can swim at speeds up to 60 mph, making it one of the fastest fish in the ocean.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "arctic char",
@@ -2870,7 +3484,9 @@
       "arctic chars",
       "char"
     ],
-    "fun_fact": "Arctic char is the most northerly freshwater fish in the world."
+    "fun_fact": "Arctic char is the most northerly freshwater fish in the world.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "bluefish",
@@ -2879,7 +3495,9 @@
       "bluefishes",
       "bluefish fillets"
     ],
-    "fun_fact": "Bluefish are such aggressive predators they sometimes keep killing even after they're full."
+    "fun_fact": "Bluefish are such aggressive predators they sometimes keep killing even after they're full.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "pompano",
@@ -2888,7 +3506,9 @@
       "pompanos",
       "florida pompano"
     ],
-    "fun_fact": "Pompano is considered one of the finest eating fish in the Gulf of Mexico."
+    "fun_fact": "Pompano is considered one of the finest eating fish in the Gulf of Mexico.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "skate",
@@ -2897,7 +3517,9 @@
       "skates",
       "skate wing"
     ],
-    "fun_fact": "Skate wings develop a better flavor a day or two after being caught."
+    "fun_fact": "Skate wings develop a better flavor a day or two after being caught.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "turbot",
@@ -2905,7 +3527,9 @@
     "aliases": [
       "turbots"
     ],
-    "fun_fact": "Turbot was so prized by the Romans that they had special diamond-shaped platters made for it."
+    "fun_fact": "Turbot was so prized by the Romans that they had special diamond-shaped platters made for it.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "john dory",
@@ -2914,7 +3538,9 @@
       "john dorys",
       "st. peter's fish"
     ],
-    "fun_fact": "John Dory has a distinctive dark spot on each side, said to be Saint Peter's thumbprint."
+    "fun_fact": "John Dory has a distinctive dark spot on each side, said to be Saint Peter's thumbprint.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "lingcod",
@@ -2922,7 +3548,9 @@
     "aliases": [
       "lingcods"
     ],
-    "fun_fact": "Lingcod sometimes have bright blue or green flesh, which turns white when cooked."
+    "fun_fact": "Lingcod sometimes have bright blue or green flesh, which turns white when cooked.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "opah",
@@ -2931,7 +3559,9 @@
       "opahs",
       "moonfish"
     ],
-    "fun_fact": "Opah is the only known fully warm-blooded fish."
+    "fun_fact": "Opah is the only known fully warm-blooded fish.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "sturgeon",
@@ -2940,7 +3570,9 @@
       "sturgeons",
       "beluga sturgeon"
     ],
-    "fun_fact": "Sturgeons have been around for over 200 million years — they're older than dinosaurs."
+    "fun_fact": "Sturgeons have been around for over 200 million years — they're older than dinosaurs.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "cobia",
@@ -2948,7 +3580,9 @@
     "aliases": [
       "cobias"
     ],
-    "fun_fact": "Cobia have no swim bladder and must keep swimming to avoid sinking."
+    "fun_fact": "Cobia have no swim bladder and must keep swimming to avoid sinking.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "yellowtail",
@@ -2958,7 +3592,9 @@
       "hamachi",
       "yellowtail amberjack"
     ],
-    "fun_fact": "Yellowtail hamachi is the most popular sushi fish in Japan."
+    "fun_fact": "Yellowtail hamachi is the most popular sushi fish in Japan.",
+    "score": 93,
+    "calories": 130
   },
   {
     "name": "shrimp",
@@ -2969,7 +3605,9 @@
       "prawns",
       "jumbo shrimp"
     ],
-    "fun_fact": "A shrimp's heart is in its head."
+    "fun_fact": "A shrimp's heart is in its head.",
+    "score": 90,
+    "calories": 99
   },
   {
     "name": "crab",
@@ -2984,7 +3622,9 @@
       "snow crab",
       "stone crab"
     ],
-    "fun_fact": "Crabs' teeth are in their stomachs."
+    "fun_fact": "Crabs' teeth are in their stomachs.",
+    "score": 90,
+    "calories": 97
   },
   {
     "name": "lobster",
@@ -2996,7 +3636,9 @@
       "langoustine",
       "langoustines"
     ],
-    "fun_fact": "Lobsters were once considered poverty food — prisoners and servants complained about eating them."
+    "fun_fact": "Lobsters were once considered poverty food — prisoners and servants complained about eating them.",
+    "score": 90,
+    "calories": 89
   },
   {
     "name": "clam",
@@ -3009,7 +3651,9 @@
       "geoduck",
       "manila clam"
     ],
-    "fun_fact": "The oldest known animal ever was a clam named Ming, which lived to be 507 years old."
+    "fun_fact": "The oldest known animal ever was a clam named Ming, which lived to be 507 years old.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "mussel",
@@ -3019,7 +3663,9 @@
       "green mussel",
       "blue mussel"
     ],
-    "fun_fact": "Mussels attach to surfaces using incredibly strong threads called byssal threads."
+    "fun_fact": "Mussels attach to surfaces using incredibly strong threads called byssal threads.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "oyster",
@@ -3030,7 +3676,9 @@
       "eastern oyster",
       "kumamoto"
     ],
-    "fun_fact": "A single oyster can filter up to 50 gallons of water per day."
+    "fun_fact": "A single oyster can filter up to 50 gallons of water per day.",
+    "score": 90,
+    "calories": 68
   },
   {
     "name": "scallop",
@@ -3041,7 +3689,9 @@
       "sea scallop",
       "diver scallop"
     ],
-    "fun_fact": "Scallops have up to 200 tiny eyes that can detect movement and light."
+    "fun_fact": "Scallops have up to 200 tiny eyes that can detect movement and light.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "squid",
@@ -3050,7 +3700,9 @@
       "squids",
       "calamari"
     ],
-    "fun_fact": "Squid have three hearts and blue blood."
+    "fun_fact": "Squid have three hearts and blue blood.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "octopus",
@@ -3061,7 +3713,9 @@
       "pulpo",
       "tako"
     ],
-    "fun_fact": "Octopuses have three hearts, nine brains, and blue blood."
+    "fun_fact": "Octopuses have three hearts, nine brains, and blue blood.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "crawfish",
@@ -3075,7 +3729,9 @@
       "mudbugs",
       "yabby"
     ],
-    "fun_fact": "Louisiana produces 90% of the crawfish consumed in the United States."
+    "fun_fact": "Louisiana produces 90% of the crawfish consumed in the United States.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "conch",
@@ -3084,7 +3740,9 @@
       "conchs",
       "conch meat"
     ],
-    "fun_fact": "Queen conch can live up to 30 years and grow shells up to 12 inches long."
+    "fun_fact": "Queen conch can live up to 30 years and grow shells up to 12 inches long.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "abalone",
@@ -3092,7 +3750,9 @@
     "aliases": [
       "abalones"
     ],
-    "fun_fact": "Abalone shells are lined with nacre (mother of pearl), one of the strongest natural materials."
+    "fun_fact": "Abalone shells are lined with nacre (mother of pearl), one of the strongest natural materials.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "sea urchin",
@@ -3101,7 +3761,9 @@
       "sea urchins",
       "uni"
     ],
-    "fun_fact": "Sea urchin 'meat' (uni) is actually the animal's reproductive organs."
+    "fun_fact": "Sea urchin 'meat' (uni) is actually the animal's reproductive organs.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "whelk",
@@ -3109,7 +3771,9 @@
     "aliases": [
       "whelks"
     ],
-    "fun_fact": "Whelks are predatory sea snails that drill holes through other shellfish to eat them."
+    "fun_fact": "Whelks are predatory sea snails that drill holes through other shellfish to eat them.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "periwinkle",
@@ -3117,7 +3781,9 @@
     "aliases": [
       "periwinkles"
     ],
-    "fun_fact": "Periwinkles are tiny sea snails commonly eaten as street food in Europe and Africa."
+    "fun_fact": "Periwinkles are tiny sea snails commonly eaten as street food in Europe and Africa.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "cuttlefish",
@@ -3125,7 +3791,9 @@
     "aliases": [
       "cuttlefishes"
     ],
-    "fun_fact": "Cuttlefish can change their skin color and texture in less than a second."
+    "fun_fact": "Cuttlefish can change their skin color and texture in less than a second.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "barnacle",
@@ -3135,7 +3803,9 @@
       "goose barnacle",
       "percebes"
     ],
-    "fun_fact": "Percebes (goose barnacles) are a delicacy in Spain that sell for over $100 per pound."
+    "fun_fact": "Percebes (goose barnacles) are a delicacy in Spain that sell for over $100 per pound.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "cockle",
@@ -3143,7 +3813,9 @@
     "aliases": [
       "cockles"
     ],
-    "fun_fact": "The phrase 'warming the cockles of your heart' refers to these heart-shaped shellfish."
+    "fun_fact": "The phrase 'warming the cockles of your heart' refers to these heart-shaped shellfish.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "razor clam",
@@ -3151,7 +3823,9 @@
     "aliases": [
       "razor clams"
     ],
-    "fun_fact": "Razor clams can burrow into sand at a rate of about one centimeter per second."
+    "fun_fact": "Razor clams can burrow into sand at a rate of about one centimeter per second.",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "langoustine",
@@ -3162,7 +3836,9 @@
       "norway lobster",
       "scampi"
     ],
-    "fun_fact": "Langoustines are what most of Europe calls 'scampi.'"
+    "fun_fact": "Langoustines are what most of Europe calls 'scampi.'",
+    "score": 90,
+    "calories": 90
   },
   {
     "name": "milk",
@@ -3175,7 +3851,9 @@
       "buttermilk",
       "raw milk"
     ],
-    "fun_fact": "Milk is the only food designed specifically to be food."
+    "fun_fact": "Milk is the only food designed specifically to be food.",
+    "score": 78,
+    "calories": 61
   },
   {
     "name": "cheese",
@@ -3183,7 +3861,9 @@
     "aliases": [
       "cheeses"
     ],
-    "fun_fact": "There are over 1,800 named varieties of cheese in the world."
+    "fun_fact": "There are over 1,800 named varieties of cheese in the world.",
+    "score": 78,
+    "calories": 402
   },
   {
     "name": "cheddar",
@@ -3194,7 +3874,9 @@
       "sharp cheddar",
       "mild cheddar"
     ],
-    "fun_fact": "Cheddar cheese originated in the English village of Cheddar in Somerset."
+    "fun_fact": "Cheddar cheese originated in the English village of Cheddar in Somerset.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "mozzarella",
@@ -3205,7 +3887,9 @@
       "fresh mozzarella",
       "burrata"
     ],
-    "fun_fact": "Real mozzarella di bufala is made from water buffalo milk, not cow's milk."
+    "fun_fact": "Real mozzarella di bufala is made from water buffalo milk, not cow's milk.",
+    "score": 78,
+    "calories": 280
   },
   {
     "name": "parmesan",
@@ -3216,7 +3900,9 @@
       "parmigiano reggiano",
       "parmigiano"
     ],
-    "fun_fact": "Authentic Parmigiano-Reggiano must be aged for at least 12 months."
+    "fun_fact": "Authentic Parmigiano-Reggiano must be aged for at least 12 months.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "brie",
@@ -3225,7 +3911,9 @@
       "bries",
       "brie cheese"
     ],
-    "fun_fact": "Brie was called the 'king of cheeses' at a cheese competition in 1815."
+    "fun_fact": "Brie was called the 'king of cheeses' at a cheese competition in 1815.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "gouda",
@@ -3235,7 +3923,9 @@
       "gouda cheese",
       "aged gouda"
     ],
-    "fun_fact": "Gouda accounts for 50-60% of all cheese consumed in the world."
+    "fun_fact": "Gouda accounts for 50-60% of all cheese consumed in the world.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "feta",
@@ -3244,7 +3934,9 @@
       "fetas",
       "feta cheese"
     ],
-    "fun_fact": "Under EU law, only cheese made in Greece from sheep's and goat's milk can be called feta."
+    "fun_fact": "Under EU law, only cheese made in Greece from sheep's and goat's milk can be called feta.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "swiss cheese",
@@ -3256,7 +3948,9 @@
       "gruyere",
       "gruyère"
     ],
-    "fun_fact": "The holes in Swiss cheese are caused by carbon dioxide released by bacteria during aging."
+    "fun_fact": "The holes in Swiss cheese are caused by carbon dioxide released by bacteria during aging.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "blue cheese",
@@ -3268,7 +3962,9 @@
       "gorgonzola",
       "stilton"
     ],
-    "fun_fact": "Blue cheese gets its distinctive veins from Penicillium mold — the same genus as the antibiotic."
+    "fun_fact": "Blue cheese gets its distinctive veins from Penicillium mold — the same genus as the antibiotic.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "cream cheese",
@@ -3277,7 +3973,9 @@
       "cream cheeses",
       "philadelphia"
     ],
-    "fun_fact": "Cream cheese was invented by accident by an American dairyman in 1872."
+    "fun_fact": "Cream cheese was invented by accident by an American dairyman in 1872.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "ricotta",
@@ -3286,7 +3984,9 @@
       "ricottas",
       "ricotta cheese"
     ],
-    "fun_fact": "Ricotta means 'recooked' — it's made from whey left over from other cheese production."
+    "fun_fact": "Ricotta means 'recooked' — it's made from whey left over from other cheese production.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "cottage cheese",
@@ -3294,7 +3994,9 @@
     "aliases": [
       "cottage cheeses"
     ],
-    "fun_fact": "Cottage cheese was likely the first cheese ever made in America."
+    "fun_fact": "Cottage cheese was likely the first cheese ever made in America.",
+    "score": 78,
+    "calories": 98
   },
   {
     "name": "goat cheese",
@@ -3304,7 +4006,9 @@
       "chevre",
       "chèvre"
     ],
-    "fun_fact": "Goat cheese is easier to digest than cow's milk cheese for many people."
+    "fun_fact": "Goat cheese is easier to digest than cow's milk cheese for many people.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "mascarpone",
@@ -3312,7 +4016,9 @@
     "aliases": [
       "mascarpones"
     ],
-    "fun_fact": "Mascarpone is the key ingredient in tiramisu."
+    "fun_fact": "Mascarpone is the key ingredient in tiramisu.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "camembert",
@@ -3321,7 +4027,9 @@
       "camemberts",
       "camembert cheese"
     ],
-    "fun_fact": "During World War I, camembert was issued to French soldiers as part of their rations."
+    "fun_fact": "During World War I, camembert was issued to French soldiers as part of their rations.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "halloumi",
@@ -3330,7 +4038,9 @@
       "halloumis",
       "haloumi"
     ],
-    "fun_fact": "Halloumi has such a high melting point that you can grill or fry it like meat."
+    "fun_fact": "Halloumi has such a high melting point that you can grill or fry it like meat.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "manchego",
@@ -3339,7 +4049,9 @@
       "manchegos",
       "manchego cheese"
     ],
-    "fun_fact": "Authentic Manchego must be made from milk of Manchega sheep in La Mancha, Spain."
+    "fun_fact": "Authentic Manchego must be made from milk of Manchega sheep in La Mancha, Spain.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "pecorino",
@@ -3348,7 +4060,9 @@
       "pecorinos",
       "pecorino romano"
     ],
-    "fun_fact": "Pecorino Romano was part of the diet of Roman legionnaires 2,000 years ago."
+    "fun_fact": "Pecorino Romano was part of the diet of Roman legionnaires 2,000 years ago.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "provolone",
@@ -3356,7 +4070,9 @@
     "aliases": [
       "provolones"
     ],
-    "fun_fact": "Provolone is hung from the ceiling to age, which is why it's often pear-shaped."
+    "fun_fact": "Provolone is hung from the ceiling to age, which is why it's often pear-shaped.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "butter",
@@ -3368,7 +4084,9 @@
       "clarified butter",
       "ghee"
     ],
-    "fun_fact": "It takes about 21 pounds of milk to make one pound of butter."
+    "fun_fact": "It takes about 21 pounds of milk to make one pound of butter.",
+    "score": 85,
+    "calories": 717
   },
   {
     "name": "yogurt",
@@ -3381,7 +4099,9 @@
       "kefir",
       "skyr"
     ],
-    "fun_fact": "Yogurt has been eaten for over 7,000 years."
+    "fun_fact": "Yogurt has been eaten for over 7,000 years.",
+    "score": 78,
+    "calories": 59
   },
   {
     "name": "cream",
@@ -3395,7 +4115,9 @@
       "sour cream",
       "creme fraiche"
     ],
-    "fun_fact": "Clotted cream is made by slowly heating cream until it forms thick golden clots."
+    "fun_fact": "Clotted cream is made by slowly heating cream until it forms thick golden clots.",
+    "score": 78,
+    "calories": 340
   },
   {
     "name": "whey",
@@ -3404,7 +4126,9 @@
       "wheys",
       "whey protein"
     ],
-    "fun_fact": "Whey was once discarded as waste until bodybuilders popularized whey protein supplements."
+    "fun_fact": "Whey was once discarded as waste until bodybuilders popularized whey protein supplements.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "paneer",
@@ -3412,7 +4136,9 @@
     "aliases": [
       "paneers"
     ],
-    "fun_fact": "Paneer doesn't melt because it's made by curdling milk with acid instead of rennet."
+    "fun_fact": "Paneer doesn't melt because it's made by curdling milk with acid instead of rennet.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "queso fresco",
@@ -3421,7 +4147,9 @@
       "queso frescos",
       "queso blanco"
     ],
-    "fun_fact": "Queso fresco crumbles rather than melts, making it perfect as a topping."
+    "fun_fact": "Queso fresco crumbles rather than melts, making it perfect as a topping.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "havarti",
@@ -3429,7 +4157,9 @@
     "aliases": [
       "havartis"
     ],
-    "fun_fact": "Havarti was invented in the 1800s by Hanne Nielsen on her farm in Denmark."
+    "fun_fact": "Havarti was invented in the 1800s by Hanne Nielsen on her farm in Denmark.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "muenster",
@@ -3438,7 +4168,9 @@
       "muensters",
       "munster"
     ],
-    "fun_fact": "The orange rind on Muenster cheese is colored with annatto, a natural plant dye."
+    "fun_fact": "The orange rind on Muenster cheese is colored with annatto, a natural plant dye.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "limburger",
@@ -3446,7 +4178,9 @@
     "aliases": [
       "limburgers"
     ],
-    "fun_fact": "Limburger is famous for its strong smell, which is caused by the same bacteria found on human skin."
+    "fun_fact": "Limburger is famous for its strong smell, which is caused by the same bacteria found on human skin.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "asiago",
@@ -3455,7 +4189,9 @@
       "asiagos",
       "asiago cheese"
     ],
-    "fun_fact": "Asiago has been made on the Asiago Plateau in Italy for over 1,000 years."
+    "fun_fact": "Asiago has been made on the Asiago Plateau in Italy for over 1,000 years.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "fontina",
@@ -3464,7 +4200,9 @@
       "fontinas",
       "fontina cheese"
     ],
-    "fun_fact": "Fontina is one of Italy's great melting cheeses and is essential for fonduta."
+    "fun_fact": "Fontina is one of Italy's great melting cheeses and is essential for fonduta.",
+    "score": 78,
+    "calories": 100
   },
   {
     "name": "chicken egg",
@@ -3476,7 +4214,9 @@
       "hen egg",
       "hen eggs"
     ],
-    "fun_fact": "A hen can lay about 300 eggs per year."
+    "fun_fact": "A hen can lay about 300 eggs per year.",
+    "score": 95,
+    "calories": 155
   },
   {
     "name": "duck egg",
@@ -3484,7 +4224,9 @@
     "aliases": [
       "duck eggs"
     ],
-    "fun_fact": "Duck eggs have nearly twice the nutritional value of chicken eggs."
+    "fun_fact": "Duck eggs have nearly twice the nutritional value of chicken eggs.",
+    "score": 95,
+    "calories": 185
   },
   {
     "name": "quail egg",
@@ -3492,7 +4234,9 @@
     "aliases": [
       "quail eggs"
     ],
-    "fun_fact": "Quail eggs are considered a remedy for allergies in several traditional medicine systems."
+    "fun_fact": "Quail eggs are considered a remedy for allergies in several traditional medicine systems.",
+    "score": 95,
+    "calories": 158
   },
   {
     "name": "goose egg",
@@ -3500,7 +4244,9 @@
     "aliases": [
       "goose eggs"
     ],
-    "fun_fact": "A single goose egg is equivalent to about three chicken eggs."
+    "fun_fact": "A single goose egg is equivalent to about three chicken eggs.",
+    "score": 95,
+    "calories": 155
   },
   {
     "name": "ostrich egg",
@@ -3508,7 +4254,9 @@
     "aliases": [
       "ostrich eggs"
     ],
-    "fun_fact": "One ostrich egg equals about 24 chicken eggs and takes 2 hours to hard-boil."
+    "fun_fact": "One ostrich egg equals about 24 chicken eggs and takes 2 hours to hard-boil.",
+    "score": 95,
+    "calories": 155
   },
   {
     "name": "turkey egg",
@@ -3516,7 +4264,9 @@
     "aliases": [
       "turkey eggs"
     ],
-    "fun_fact": "Turkey eggs are edible and delicious but rarely sold because turkeys lay far fewer than chickens."
+    "fun_fact": "Turkey eggs are edible and delicious but rarely sold because turkeys lay far fewer than chickens.",
+    "score": 95,
+    "calories": 155
   },
   {
     "name": "caviar",
@@ -3530,7 +4280,9 @@
       "ikura",
       "masago"
     ],
-    "fun_fact": "Beluga caviar from the Caspian Sea can cost over $10,000 per kilogram."
+    "fun_fact": "Beluga caviar from the Caspian Sea can cost over $10,000 per kilogram.",
+    "score": 95,
+    "calories": 155
   },
   {
     "name": "basil",
@@ -3541,7 +4293,9 @@
       "thai basil",
       "holy basil"
     ],
-    "fun_fact": "In Italy, basil is a symbol of love — suitors traditionally give basil to their beloved."
+    "fun_fact": "In Italy, basil is a symbol of love — suitors traditionally give basil to their beloved.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "cilantro",
@@ -3552,7 +4306,9 @@
       "coriander leaf",
       "chinese parsley"
     ],
-    "fun_fact": "About 14% of people have a gene that makes cilantro taste like soap."
+    "fun_fact": "About 14% of people have a gene that makes cilantro taste like soap.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "parsley",
@@ -3563,7 +4319,9 @@
       "italian parsley",
       "curly parsley"
     ],
-    "fun_fact": "Ancient Greeks used parsley to crown victors of athletic competitions."
+    "fun_fact": "Ancient Greeks used parsley to crown victors of athletic competitions.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "mint",
@@ -3574,7 +4332,9 @@
       "spearmint",
       "mentha"
     ],
-    "fun_fact": "Mint is so invasive that gardeners are advised to grow it in containers to prevent it from taking over."
+    "fun_fact": "Mint is so invasive that gardeners are advised to grow it in containers to prevent it from taking over.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "dill",
@@ -3582,7 +4342,9 @@
     "aliases": [
       "dills"
     ],
-    "fun_fact": "The word 'dill' comes from Old Norse 'dilla,' meaning 'to soothe.'"
+    "fun_fact": "The word 'dill' comes from Old Norse 'dilla,' meaning 'to soothe.'",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "rosemary",
@@ -3591,7 +4353,9 @@
       "rosemarys",
       "rosemarys"
     ],
-    "fun_fact": "Rosemary has been shown to improve memory — students in ancient Greece wore it during exams."
+    "fun_fact": "Rosemary has been shown to improve memory — students in ancient Greece wore it during exams.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "thyme",
@@ -3599,7 +4363,9 @@
     "aliases": [
       "thymes"
     ],
-    "fun_fact": "Ancient Egyptians used thyme for embalming their dead."
+    "fun_fact": "Ancient Egyptians used thyme for embalming their dead.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "sage",
@@ -3608,7 +4374,9 @@
       "sages",
       "common sage"
     ],
-    "fun_fact": "The name 'sage' comes from the Latin 'salvare,' meaning 'to save' or 'to heal.'"
+    "fun_fact": "The name 'sage' comes from the Latin 'salvare,' meaning 'to save' or 'to heal.'",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "oregano",
@@ -3616,7 +4384,9 @@
     "aliases": [
       "oreganos"
     ],
-    "fun_fact": "Oregano only became popular in America after WWII soldiers brought a taste for it back from Italy."
+    "fun_fact": "Oregano only became popular in America after WWII soldiers brought a taste for it back from Italy.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "chive",
@@ -3624,7 +4394,9 @@
     "aliases": [
       "chives"
     ],
-    "fun_fact": "Chives are the only allium species found growing wild on three continents."
+    "fun_fact": "Chives are the only allium species found growing wild on three continents.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "tarragon",
@@ -3633,7 +4405,9 @@
       "tarragons",
       "french tarragon"
     ],
-    "fun_fact": "Tarragon was used in medieval times as a cure for snake bites."
+    "fun_fact": "Tarragon was used in medieval times as a cure for snake bites.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "bay leaf",
@@ -3643,7 +4417,9 @@
       "laurel leaf",
       "laurel leaves"
     ],
-    "fun_fact": "Ancient Greeks and Romans crowned their heroes with wreaths of bay laurel leaves."
+    "fun_fact": "Ancient Greeks and Romans crowned their heroes with wreaths of bay laurel leaves.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "lemongrass",
@@ -3652,7 +4428,9 @@
       "lemongrasses",
       "lemon grass"
     ],
-    "fun_fact": "Lemongrass contains citral, the same compound that gives lemons their scent."
+    "fun_fact": "Lemongrass contains citral, the same compound that gives lemons their scent.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "marjoram",
@@ -3661,7 +4439,9 @@
       "marjorams",
       "sweet marjoram"
     ],
-    "fun_fact": "Ancient Greeks believed marjoram was created by Aphrodite as a symbol of happiness."
+    "fun_fact": "Ancient Greeks believed marjoram was created by Aphrodite as a symbol of happiness.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "lavender",
@@ -3669,7 +4449,9 @@
     "aliases": [
       "lavenders"
     ],
-    "fun_fact": "Lavender comes from the Latin 'lavare,' meaning 'to wash' — Romans added it to bath water."
+    "fun_fact": "Lavender comes from the Latin 'lavare,' meaning 'to wash' — Romans added it to bath water.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "chamomile",
@@ -3678,7 +4460,9 @@
       "chamomiles",
       "camomile"
     ],
-    "fun_fact": "Chamomile tea is one of the most widely consumed herbal teas in the world."
+    "fun_fact": "Chamomile tea is one of the most widely consumed herbal teas in the world.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "lemon balm",
@@ -3687,7 +4471,9 @@
       "lemon balms",
       "melissa"
     ],
-    "fun_fact": "Lemon balm has been cultivated for over 2,000 years to attract honeybees."
+    "fun_fact": "Lemon balm has been cultivated for over 2,000 years to attract honeybees.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "savory",
@@ -3697,7 +4483,9 @@
       "summer savory",
       "winter savory"
     ],
-    "fun_fact": "Savory was used as a flavoring before pepper was widely available in Europe."
+    "fun_fact": "Savory was used as a flavoring before pepper was widely available in Europe.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "epazote",
@@ -3705,7 +4493,9 @@
     "aliases": [
       "epazotes"
     ],
-    "fun_fact": "Epazote is added to beans in Mexican cooking because it's believed to reduce gas."
+    "fun_fact": "Epazote is added to beans in Mexican cooking because it's believed to reduce gas.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "curry leaf",
@@ -3714,7 +4504,9 @@
       "curry leaves",
       "kadi patta"
     ],
-    "fun_fact": "Curry leaves are not related to curry powder — they're from a completely different plant."
+    "fun_fact": "Curry leaves are not related to curry powder — they're from a completely different plant.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "shiso",
@@ -3724,7 +4516,9 @@
       "perilla",
       "perilla leaf"
     ],
-    "fun_fact": "Shiso comes in green and purple varieties and is a staple garnish in Japanese cuisine."
+    "fun_fact": "Shiso comes in green and purple varieties and is a staple garnish in Japanese cuisine.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "culantro",
@@ -3735,7 +4529,9 @@
       "long coriander",
       "ngo gai"
     ],
-    "fun_fact": "Culantro looks nothing like cilantro but has 10 times stronger flavor."
+    "fun_fact": "Culantro looks nothing like cilantro but has 10 times stronger flavor.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "woodruff",
@@ -3743,7 +4539,9 @@
     "aliases": [
       "sweet woodruff"
     ],
-    "fun_fact": "Woodruff is used to flavor May wine and German Waldmeister ice cream."
+    "fun_fact": "Woodruff is used to flavor May wine and German Waldmeister ice cream.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "borage",
@@ -3751,7 +4549,9 @@
     "aliases": [
       "borages"
     ],
-    "fun_fact": "Borage flowers taste like cucumber and are used to garnish cocktails."
+    "fun_fact": "Borage flowers taste like cucumber and are used to garnish cocktails.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "chervil",
@@ -3759,7 +4559,9 @@
     "aliases": [
       "chervils"
     ],
-    "fun_fact": "Chervil is one of the four herbs in the classic French 'fines herbes' blend."
+    "fun_fact": "Chervil is one of the four herbs in the classic French 'fines herbes' blend.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "lovage",
@@ -3767,7 +4569,9 @@
     "aliases": [
       "lovages"
     ],
-    "fun_fact": "Lovage tastes like a strong cross between celery and parsley."
+    "fun_fact": "Lovage tastes like a strong cross between celery and parsley.",
+    "score": 90,
+    "calories": 30
   },
   {
     "name": "black pepper",
@@ -3778,7 +4582,9 @@
       "peppercorn",
       "peppercorns"
     ],
-    "fun_fact": "In medieval Europe, black pepper was so valuable it was used as currency."
+    "fun_fact": "In medieval Europe, black pepper was so valuable it was used as currency.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "cinnamon",
@@ -3788,7 +4594,9 @@
       "ceylon cinnamon",
       "cassia"
     ],
-    "fun_fact": "Most 'cinnamon' sold in stores is actually cassia, a related but cheaper spice."
+    "fun_fact": "Most 'cinnamon' sold in stores is actually cassia, a related but cheaper spice.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "turmeric",
@@ -3798,7 +4606,9 @@
       "tumeric",
       "haldi"
     ],
-    "fun_fact": "Turmeric's bright yellow color has been used as a fabric dye for centuries."
+    "fun_fact": "Turmeric's bright yellow color has been used as a fabric dye for centuries.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "cumin",
@@ -3807,7 +4617,9 @@
       "cumins",
       "jeera"
     ],
-    "fun_fact": "Cumin seeds have been found in ancient Syrian archaeological sites dating back 4,000 years."
+    "fun_fact": "Cumin seeds have been found in ancient Syrian archaeological sites dating back 4,000 years.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "paprika",
@@ -3818,7 +4630,9 @@
       "sweet paprika",
       "hot paprika"
     ],
-    "fun_fact": "Paprika is the national spice of Hungary and is central to dishes like goulash."
+    "fun_fact": "Paprika is the national spice of Hungary and is central to dishes like goulash.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "ginger",
@@ -3828,7 +4642,9 @@
       "ground ginger",
       "ginger powder"
     ],
-    "fun_fact": "Ginger can help reduce nausea and has been used as a natural remedy for motion sickness."
+    "fun_fact": "Ginger can help reduce nausea and has been used as a natural remedy for motion sickness.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "nutmeg",
@@ -3836,7 +4652,9 @@
     "aliases": [
       "nutmegs"
     ],
-    "fun_fact": "In the 1600s, nutmeg was so valuable that control of nutmeg islands sparked wars."
+    "fun_fact": "In the 1600s, nutmeg was so valuable that control of nutmeg islands sparked wars.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "clove",
@@ -3845,7 +4663,9 @@
       "cloves",
       "clovs"
     ],
-    "fun_fact": "Cloves contain eugenol, a natural anesthetic — chewing one can numb a toothache."
+    "fun_fact": "Cloves contain eugenol, a natural anesthetic — chewing one can numb a toothache.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "cardamom",
@@ -3855,7 +4675,9 @@
       "cardamum",
       "elaichi"
     ],
-    "fun_fact": "Cardamom is the third most expensive spice in the world, after saffron and vanilla."
+    "fun_fact": "Cardamom is the third most expensive spice in the world, after saffron and vanilla.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "saffron",
@@ -3863,7 +4685,9 @@
     "aliases": [
       "saffrons"
     ],
-    "fun_fact": "Saffron is the world's most expensive spice — it takes 75,000 flowers to make one pound."
+    "fun_fact": "Saffron is the world's most expensive spice — it takes 75,000 flowers to make one pound.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "vanilla",
@@ -3874,7 +4698,9 @@
       "vanilla beans",
       "vanilla extract"
     ],
-    "fun_fact": "Vanilla is the only edible fruit of the orchid family."
+    "fun_fact": "Vanilla is the only edible fruit of the orchid family.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "coriander",
@@ -3884,7 +4710,9 @@
       "coriander powder",
       "coriander seed"
     ],
-    "fun_fact": "Coriander seeds and cilantro leaves come from the same plant but taste completely different."
+    "fun_fact": "Coriander seeds and cilantro leaves come from the same plant but taste completely different.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "chili powder",
@@ -3893,7 +4721,9 @@
       "chili powders",
       "chile powder"
     ],
-    "fun_fact": "Chili powder is actually a blend of spices, not just ground chilies."
+    "fun_fact": "Chili powder is actually a blend of spices, not just ground chilies.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "cayenne",
@@ -3902,7 +4732,9 @@
       "cayennes",
       "cayenne pepper"
     ],
-    "fun_fact": "Cayenne pepper can temporarily boost metabolism by up to 20%."
+    "fun_fact": "Cayenne pepper can temporarily boost metabolism by up to 20%.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "allspice",
@@ -3910,7 +4742,9 @@
     "aliases": [
       "allspices"
     ],
-    "fun_fact": "Allspice is a single spice that tastes like a combination of cinnamon, nutmeg, and cloves."
+    "fun_fact": "Allspice is a single spice that tastes like a combination of cinnamon, nutmeg, and cloves.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "star anise",
@@ -3918,7 +4752,9 @@
     "aliases": [
       "star anises"
     ],
-    "fun_fact": "Star anise is the source of shikimic acid, a key ingredient in the flu medication Tamiflu."
+    "fun_fact": "Star anise is the source of shikimic acid, a key ingredient in the flu medication Tamiflu.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "fenugreek",
@@ -3927,7 +4763,9 @@
       "fenugreeks",
       "methi"
     ],
-    "fun_fact": "Eating fenugreek can make your sweat and urine smell like maple syrup."
+    "fun_fact": "Eating fenugreek can make your sweat and urine smell like maple syrup.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "sumac",
@@ -3935,7 +4773,9 @@
     "aliases": [
       "sumacs"
     ],
-    "fun_fact": "Sumac was used as a souring agent in the Middle East long before lemons arrived from Asia."
+    "fun_fact": "Sumac was used as a souring agent in the Middle East long before lemons arrived from Asia.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "za'atar",
@@ -3944,7 +4784,9 @@
       "zaatar",
       "zatar"
     ],
-    "fun_fact": "Za'atar is a blend of herbs and spices that has been eaten in the Middle East since ancient times."
+    "fun_fact": "Za'atar is a blend of herbs and spices that has been eaten in the Middle East since ancient times.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "five spice",
@@ -3953,7 +4795,9 @@
       "five spice powder",
       "chinese five spice"
     ],
-    "fun_fact": "Chinese five spice is designed to balance all five flavors: sweet, sour, bitter, salty, and umami."
+    "fun_fact": "Chinese five spice is designed to balance all five flavors: sweet, sour, bitter, salty, and umami.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "mace",
@@ -3961,7 +4805,9 @@
     "aliases": [
       "maces"
     ],
-    "fun_fact": "Mace is the lacy red covering that surrounds the nutmeg seed — they're from the same fruit."
+    "fun_fact": "Mace is the lacy red covering that surrounds the nutmeg seed — they're from the same fruit.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "juniper berry",
@@ -3969,7 +4815,9 @@
     "aliases": [
       "juniper berries"
     ],
-    "fun_fact": "Juniper berries are the key flavoring ingredient in gin."
+    "fun_fact": "Juniper berries are the key flavoring ingredient in gin.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "annatto",
@@ -3978,7 +4826,9 @@
       "annattos",
       "achiote"
     ],
-    "fun_fact": "Annatto gives Cheddar cheese, Velveeta, and even some butters their orange-yellow color."
+    "fun_fact": "Annatto gives Cheddar cheese, Velveeta, and even some butters their orange-yellow color.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "grains of paradise",
@@ -3987,7 +4837,9 @@
       "grains of paradice",
       "melegueta pepper"
     ],
-    "fun_fact": "Grains of paradise were once used to flavor beer in medieval Europe before hops took over."
+    "fun_fact": "Grains of paradise were once used to flavor beer in medieval Europe before hops took over.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "asafoetida",
@@ -3996,7 +4848,9 @@
       "asafetida",
       "hing"
     ],
-    "fun_fact": "Asafoetida smells terrible raw but becomes savory and onion-like when cooked."
+    "fun_fact": "Asafoetida smells terrible raw but becomes savory and onion-like when cooked.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "szechuan pepper",
@@ -4006,7 +4860,9 @@
       "sichuan pepper",
       "sichuan peppercorn"
     ],
-    "fun_fact": "Szechuan pepper creates a tingling, numbing sensation rather than heat."
+    "fun_fact": "Szechuan pepper creates a tingling, numbing sensation rather than heat.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "white pepper",
@@ -4015,7 +4871,9 @@
       "white peppers",
       "white peppercorn"
     ],
-    "fun_fact": "White pepper is just black pepper with the outer layer removed."
+    "fun_fact": "White pepper is just black pepper with the outer layer removed.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "pink peppercorn",
@@ -4023,7 +4881,9 @@
     "aliases": [
       "pink peppercorns"
     ],
-    "fun_fact": "Pink peppercorns aren't actually pepper — they're berries from a South American tree."
+    "fun_fact": "Pink peppercorns aren't actually pepper — they're berries from a South American tree.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "anise",
@@ -4032,7 +4892,9 @@
       "anises",
       "aniseed"
     ],
-    "fun_fact": "Anise is the flavor behind licorice, absinthe, and ouzo."
+    "fun_fact": "Anise is the flavor behind licorice, absinthe, and ouzo.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "mustard powder",
@@ -4042,7 +4904,9 @@
       "dry mustard",
       "ground mustard"
     ],
-    "fun_fact": "Mustard is one of the oldest known spices, with evidence of use dating back 5,000 years."
+    "fun_fact": "Mustard is one of the oldest known spices, with evidence of use dating back 5,000 years.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "celery seed",
@@ -4051,7 +4915,9 @@
       "celery seeds",
       "celery salt"
     ],
-    "fun_fact": "Celery seed is a key ingredient in Old Bay seasoning."
+    "fun_fact": "Celery seed is a key ingredient in Old Bay seasoning.",
+    "score": 88,
+    "calories": 250
   },
   {
     "name": "olive oil",
@@ -4062,7 +4928,9 @@
       "EVOO",
       "virgin olive oil"
     ],
-    "fun_fact": "It takes about 1,500 olives to make one liter of olive oil."
+    "fun_fact": "It takes about 1,500 olives to make one liter of olive oil.",
+    "score": 95,
+    "calories": 884
   },
   {
     "name": "coconut oil",
@@ -4070,7 +4938,9 @@
     "aliases": [
       "coconut oils"
     ],
-    "fun_fact": "Coconut oil is one of the few plant-based sources of saturated fat."
+    "fun_fact": "Coconut oil is one of the few plant-based sources of saturated fat.",
+    "score": 90,
+    "calories": 862
   },
   {
     "name": "sesame oil",
@@ -4079,7 +4949,9 @@
       "sesame oils",
       "toasted sesame oil"
     ],
-    "fun_fact": "Sesame oil was used as a cooking oil in ancient Babylon over 4,000 years ago."
+    "fun_fact": "Sesame oil was used as a cooking oil in ancient Babylon over 4,000 years ago.",
+    "score": 82,
+    "calories": 884
   },
   {
     "name": "avocado oil",
@@ -4087,7 +4959,9 @@
     "aliases": [
       "avocado oils"
     ],
-    "fun_fact": "Avocado oil has the highest smoke point of any unrefined oil."
+    "fun_fact": "Avocado oil has the highest smoke point of any unrefined oil.",
+    "score": 90,
+    "calories": 884
   },
   {
     "name": "peanut oil",
@@ -4096,7 +4970,9 @@
       "peanut oils",
       "groundnut oil"
     ],
-    "fun_fact": "Peanut oil is popular for deep frying because it doesn't absorb flavors from food."
+    "fun_fact": "Peanut oil is popular for deep frying because it doesn't absorb flavors from food.",
+    "score": 80,
+    "calories": 880
   },
   {
     "name": "walnut oil",
@@ -4104,7 +4980,9 @@
     "aliases": [
       "walnut oils"
     ],
-    "fun_fact": "Walnut oil was used by Renaissance painters like Leonardo da Vinci to thin paint."
+    "fun_fact": "Walnut oil was used by Renaissance painters like Leonardo da Vinci to thin paint.",
+    "score": 80,
+    "calories": 880
   },
   {
     "name": "flaxseed oil",
@@ -4113,7 +4991,9 @@
       "flaxseed oils",
       "linseed oil"
     ],
-    "fun_fact": "Flaxseed oil has the highest omega-3 content of any plant oil."
+    "fun_fact": "Flaxseed oil has the highest omega-3 content of any plant oil.",
+    "score": 80,
+    "calories": 880
   },
   {
     "name": "truffle oil",
@@ -4121,7 +5001,9 @@
     "aliases": [
       "truffle oils"
     ],
-    "fun_fact": "Most truffle oil contains no actual truffles — it's made with a synthetic chemical."
+    "fun_fact": "Most truffle oil contains no actual truffles — it's made with a synthetic chemical.",
+    "score": 80,
+    "calories": 880
   },
   {
     "name": "hemp oil",
@@ -4130,7 +5012,9 @@
       "hemp oils",
       "hemp seed oil"
     ],
-    "fun_fact": "Hemp oil has the ideal 3:1 ratio of omega-6 to omega-3 fatty acids."
+    "fun_fact": "Hemp oil has the ideal 3:1 ratio of omega-6 to omega-3 fatty acids.",
+    "score": 80,
+    "calories": 880
   },
   {
     "name": "macadamia oil",
@@ -4138,7 +5022,9 @@
     "aliases": [
       "macadamia oils"
     ],
-    "fun_fact": "Macadamia oil has the highest monounsaturated fat content of any oil."
+    "fun_fact": "Macadamia oil has the highest monounsaturated fat content of any oil.",
+    "score": 80,
+    "calories": 880
   },
   {
     "name": "honey",
@@ -4149,7 +5035,9 @@
       "manuka honey",
       "wildflower honey"
     ],
-    "fun_fact": "Honey never spoils — 3,000-year-old honey from Egyptian tombs was still edible."
+    "fun_fact": "Honey never spoils — 3,000-year-old honey from Egyptian tombs was still edible.",
+    "score": 65,
+    "calories": 304
   },
   {
     "name": "maple syrup",
@@ -4158,7 +5046,9 @@
       "maple syrups",
       "maple syrop"
     ],
-    "fun_fact": "It takes about 40 gallons of maple sap to make just one gallon of maple syrup."
+    "fun_fact": "It takes about 40 gallons of maple sap to make just one gallon of maple syrup.",
+    "score": 65,
+    "calories": 260
   },
   {
     "name": "agave",
@@ -4168,7 +5058,9 @@
       "agave nectar",
       "agave syrup"
     ],
-    "fun_fact": "Agave is the same plant used to make tequila."
+    "fun_fact": "Agave is the same plant used to make tequila.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "molasses",
@@ -4178,7 +5070,9 @@
       "blackstrap molasses",
       "treacle"
     ],
-    "fun_fact": "The Great Molasses Flood of 1919 killed 21 people when a tank burst in Boston."
+    "fun_fact": "The Great Molasses Flood of 1919 killed 21 people when a tank burst in Boston.",
+    "score": 45,
+    "calories": 290
   },
   {
     "name": "coconut sugar",
@@ -4188,7 +5082,9 @@
       "palm sugar",
       "coconut palm sugar"
     ],
-    "fun_fact": "Coconut sugar comes from the sap of coconut flower buds, not the coconut itself."
+    "fun_fact": "Coconut sugar comes from the sap of coconut flower buds, not the coconut itself.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "date syrup",
@@ -4198,7 +5094,9 @@
       "date molasses",
       "silan"
     ],
-    "fun_fact": "Date syrup has been used as a sweetener in the Middle East for over 5,000 years."
+    "fun_fact": "Date syrup has been used as a sweetener in the Middle East for over 5,000 years.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "stevia",
@@ -4207,7 +5105,9 @@
       "stevias",
       "stevia leaf"
     ],
-    "fun_fact": "Stevia is up to 300 times sweeter than sugar but has zero calories."
+    "fun_fact": "Stevia is up to 300 times sweeter than sugar but has zero calories.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "monk fruit",
@@ -4216,7 +5116,9 @@
       "monk fruits",
       "luo han guo"
     ],
-    "fun_fact": "Monk fruit has been used as a sweetener in China for hundreds of years."
+    "fun_fact": "Monk fruit has been used as a sweetener in China for hundreds of years.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "brown rice syrup",
@@ -4226,7 +5128,9 @@
       "rice syrup",
       "rice malt"
     ],
-    "fun_fact": "Brown rice syrup is made by breaking down the starch in cooked rice with enzymes."
+    "fun_fact": "Brown rice syrup is made by breaking down the starch in cooked rice with enzymes.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "birch syrup",
@@ -4234,7 +5138,9 @@
     "aliases": [
       "birch syrups"
     ],
-    "fun_fact": "Birch syrup requires 100 gallons of sap to make one gallon — 2.5x more than maple."
+    "fun_fact": "Birch syrup requires 100 gallons of sap to make one gallon — 2.5x more than maple.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "muscovado sugar",
@@ -4243,7 +5149,9 @@
       "muscovado sugars",
       "muscovado"
     ],
-    "fun_fact": "Muscovado is the least refined form of cane sugar, retaining all its original molasses."
+    "fun_fact": "Muscovado is the least refined form of cane sugar, retaining all its original molasses.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "jaggery",
@@ -4254,7 +5162,9 @@
       "panela",
       "piloncillo"
     ],
-    "fun_fact": "Jaggery is unrefined cane sugar used across South Asia, Africa, and Latin America."
+    "fun_fact": "Jaggery is unrefined cane sugar used across South Asia, Africa, and Latin America.",
+    "score": 55,
+    "calories": 300
   },
   {
     "name": "kimchi",
@@ -4263,7 +5173,9 @@
       "kimchis",
       "kimchee"
     ],
-    "fun_fact": "There are over 200 varieties of kimchi in Korea."
+    "fun_fact": "There are over 200 varieties of kimchi in Korea.",
+    "score": 82,
+    "calories": 15
   },
   {
     "name": "sauerkraut",
@@ -4271,7 +5183,9 @@
     "aliases": [
       "sauerkrauts"
     ],
-    "fun_fact": "Sauerkraut was brought on long sea voyages to prevent scurvy — it's rich in vitamin C."
+    "fun_fact": "Sauerkraut was brought on long sea voyages to prevent scurvy — it's rich in vitamin C.",
+    "score": 82,
+    "calories": 19
   },
   {
     "name": "miso",
@@ -4280,7 +5194,9 @@
       "misos",
       "miso paste"
     ],
-    "fun_fact": "Some miso pastes are aged for over three years to develop deep, complex flavors."
+    "fun_fact": "Some miso pastes are aged for over three years to develop deep, complex flavors.",
+    "score": 82,
+    "calories": 199
   },
   {
     "name": "tempeh",
@@ -4289,7 +5205,9 @@
       "tempehs",
       "temphe"
     ],
-    "fun_fact": "Tempeh originated in Java, Indonesia, over 300 years ago."
+    "fun_fact": "Tempeh originated in Java, Indonesia, over 300 years ago.",
+    "score": 82,
+    "calories": 192
   },
   {
     "name": "kombucha",
@@ -4297,7 +5215,9 @@
     "aliases": [
       "kombuchas"
     ],
-    "fun_fact": "Kombucha is fermented using a SCOBY — a symbiotic culture of bacteria and yeast."
+    "fun_fact": "Kombucha is fermented using a SCOBY — a symbiotic culture of bacteria and yeast.",
+    "score": 82,
+    "calories": 23
   },
   {
     "name": "tofu",
@@ -4308,7 +5228,9 @@
       "silken tofu",
       "firm tofu"
     ],
-    "fun_fact": "Tofu was invented in China over 2,000 years ago, possibly by accident."
+    "fun_fact": "Tofu was invented in China over 2,000 years ago, possibly by accident.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "soy sauce",
@@ -4318,7 +5240,9 @@
       "shoyu",
       "tamari"
     ],
-    "fun_fact": "Traditional soy sauce takes 6 months to 2 years to ferment."
+    "fun_fact": "Traditional soy sauce takes 6 months to 2 years to ferment.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "fish sauce",
@@ -4328,7 +5252,9 @@
       "nam pla",
       "nuoc mam"
     ],
-    "fun_fact": "Ancient Romans had their own version of fish sauce called 'garum.'"
+    "fun_fact": "Ancient Romans had their own version of fish sauce called 'garum.'",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "natto",
@@ -4336,7 +5262,9 @@
     "aliases": [
       "nattos"
     ],
-    "fun_fact": "Natto is so sticky that it forms long, stringy threads when pulled apart."
+    "fun_fact": "Natto is so sticky that it forms long, stringy threads when pulled apart.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "kefir",
@@ -4345,7 +5273,9 @@
       "kefirs",
       "water kefir"
     ],
-    "fun_fact": "Kefir grains are not actually grains — they're living symbiotic cultures."
+    "fun_fact": "Kefir grains are not actually grains — they're living symbiotic cultures.",
+    "score": 82,
+    "calories": 63
   },
   {
     "name": "sourdough",
@@ -4355,7 +5285,9 @@
       "sourdough bread",
       "sourdough starter"
     ],
-    "fun_fact": "Some sourdough starters have been kept alive and fed for over 100 years."
+    "fun_fact": "Some sourdough starters have been kept alive and fed for over 100 years.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "pickles",
@@ -4367,7 +5299,9 @@
       "dill pickle",
       "dill pickles"
     ],
-    "fun_fact": "Cleopatra attributed her beauty to eating pickles."
+    "fun_fact": "Cleopatra attributed her beauty to eating pickles.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "vinegar",
@@ -4379,7 +5313,9 @@
       "rice vinegar",
       "red wine vinegar"
     ],
-    "fun_fact": "Balsamic vinegar from Modena can be aged for over 25 years."
+    "fun_fact": "Balsamic vinegar from Modena can be aged for over 25 years.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "yogurt",
@@ -4390,7 +5326,9 @@
       "leben",
       "lassi"
     ],
-    "fun_fact": "The word 'yogurt' comes from Turkish and means 'to thicken.'"
+    "fun_fact": "The word 'yogurt' comes from Turkish and means 'to thicken.'",
+    "score": 82,
+    "calories": 59
   },
   {
     "name": "preserved lemon",
@@ -4399,7 +5337,9 @@
       "preserved lemons",
       "lemon confit"
     ],
-    "fun_fact": "Preserved lemons are a staple in Moroccan cuisine, adding intense citrus flavor."
+    "fun_fact": "Preserved lemons are a staple in Moroccan cuisine, adding intense citrus flavor.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "injera",
@@ -4407,7 +5347,9 @@
     "aliases": [
       "injeras"
     ],
-    "fun_fact": "Injera bread is naturally fermented for 2-3 days, giving it a slightly sour taste."
+    "fun_fact": "Injera bread is naturally fermented for 2-3 days, giving it a slightly sour taste.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "kvass",
@@ -4415,7 +5357,9 @@
     "aliases": [
       "kvasses"
     ],
-    "fun_fact": "Kvass is a fermented bread drink that's been popular in Russia for over 1,000 years."
+    "fun_fact": "Kvass is a fermented bread drink that's been popular in Russia for over 1,000 years.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "tepache",
@@ -4423,7 +5367,9 @@
     "aliases": [
       "tepaches"
     ],
-    "fun_fact": "Tepache is a Mexican fermented drink made from pineapple rinds and spices."
+    "fun_fact": "Tepache is a Mexican fermented drink made from pineapple rinds and spices.",
+    "score": 82,
+    "calories": 60
   },
   {
     "name": "button mushroom",
@@ -4437,7 +5383,9 @@
       "baby bella",
       "baby bellas"
     ],
-    "fun_fact": "Button mushrooms, cremini, and portobello are all the same species at different stages of growth."
+    "fun_fact": "Button mushrooms, cremini, and portobello are all the same species at different stages of growth.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "portobello",
@@ -4447,7 +5395,9 @@
       "portobella",
       "portobello mushroom"
     ],
-    "fun_fact": "Portobellos are just mature cremini mushrooms that have been allowed to grow larger."
+    "fun_fact": "Portobellos are just mature cremini mushrooms that have been allowed to grow larger.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "shiitake",
@@ -4457,7 +5407,9 @@
       "shiitake mushroom",
       "shiitake mushrooms"
     ],
-    "fun_fact": "Shiitake mushrooms have been cultivated in Japan for over 1,000 years."
+    "fun_fact": "Shiitake mushrooms have been cultivated in Japan for over 1,000 years.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "oyster mushroom",
@@ -4465,7 +5417,9 @@
     "aliases": [
       "oyster mushrooms"
     ],
-    "fun_fact": "Oyster mushrooms are one of the few carnivorous mushrooms — they trap and digest tiny worms."
+    "fun_fact": "Oyster mushrooms are one of the few carnivorous mushrooms — they trap and digest tiny worms.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "chanterelle",
@@ -4473,7 +5427,9 @@
     "aliases": [
       "chanterelles"
     ],
-    "fun_fact": "Chanterelles cannot be commercially cultivated — they must be wild foraged."
+    "fun_fact": "Chanterelles cannot be commercially cultivated — they must be wild foraged.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "porcini",
@@ -4485,7 +5441,9 @@
       "ceps",
       "penny bun"
     ],
-    "fun_fact": "Porcini means 'little pigs' in Italian."
+    "fun_fact": "Porcini means 'little pigs' in Italian.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "morel",
@@ -4494,7 +5452,9 @@
       "morels",
       "morel mushroom"
     ],
-    "fun_fact": "Morels appear only in spring and can sell for over $30 per pound."
+    "fun_fact": "Morels appear only in spring and can sell for over $30 per pound.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "truffle",
@@ -4505,7 +5465,9 @@
       "white truffle",
       "truffle mushroom"
     ],
-    "fun_fact": "White truffles from Alba, Italy, have sold for over $300,000 at auction."
+    "fun_fact": "White truffles from Alba, Italy, have sold for over $300,000 at auction.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "enoki",
@@ -4515,7 +5477,9 @@
       "enoki mushroom",
       "enoki mushrooms"
     ],
-    "fun_fact": "Wild enoki mushrooms look completely different from the cultivated ones sold in stores."
+    "fun_fact": "Wild enoki mushrooms look completely different from the cultivated ones sold in stores.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "maitake",
@@ -4525,7 +5489,9 @@
       "maitake mushroom",
       "hen of the woods"
     ],
-    "fun_fact": "Maitake means 'dancing mushroom' — foragers supposedly danced with joy upon finding them."
+    "fun_fact": "Maitake means 'dancing mushroom' — foragers supposedly danced with joy upon finding them.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "king trumpet",
@@ -4536,7 +5502,9 @@
       "king oyster",
       "eryngii"
     ],
-    "fun_fact": "King trumpet mushrooms are the largest species in the oyster mushroom family."
+    "fun_fact": "King trumpet mushrooms are the largest species in the oyster mushroom family.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "lions mane",
@@ -4547,7 +5515,9 @@
       "lion's mane mushroom",
       "hericium"
     ],
-    "fun_fact": "Lion's mane mushroom may stimulate nerve growth factor production in the brain."
+    "fun_fact": "Lion's mane mushroom may stimulate nerve growth factor production in the brain.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "wood ear",
@@ -4558,7 +5528,9 @@
       "black fungus",
       "cloud ear"
     ],
-    "fun_fact": "Wood ear mushrooms are used in traditional Chinese medicine to improve blood circulation."
+    "fun_fact": "Wood ear mushrooms are used in traditional Chinese medicine to improve blood circulation.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "matsutake",
@@ -4567,7 +5539,9 @@
       "matsutakes",
       "matsutake mushroom"
     ],
-    "fun_fact": "Matsutake mushrooms are so prized in Japan they're given as luxury gifts."
+    "fun_fact": "Matsutake mushrooms are so prized in Japan they're given as luxury gifts.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "reishi",
@@ -4577,7 +5551,9 @@
       "reishi mushroom",
       "lingzhi"
     ],
-    "fun_fact": "Reishi is called the 'mushroom of immortality' in traditional Chinese medicine."
+    "fun_fact": "Reishi is called the 'mushroom of immortality' in traditional Chinese medicine.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "chaga",
@@ -4586,7 +5562,9 @@
       "chagas",
       "chaga mushroom"
     ],
-    "fun_fact": "Chaga looks like a chunk of burnt charcoal growing on birch trees."
+    "fun_fact": "Chaga looks like a chunk of burnt charcoal growing on birch trees.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "hedgehog mushroom",
@@ -4595,7 +5573,9 @@
       "hedgehog mushrooms",
       "pied de mouton"
     ],
-    "fun_fact": "Hedgehog mushrooms have tiny spines instead of gills underneath their caps."
+    "fun_fact": "Hedgehog mushrooms have tiny spines instead of gills underneath their caps.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "black trumpet",
@@ -4604,7 +5584,9 @@
       "black trumpets",
       "horn of plenty"
     ],
-    "fun_fact": "Black trumpet mushrooms are also called 'trompette de la mort' (trumpet of death) despite being delicious."
+    "fun_fact": "Black trumpet mushrooms are also called 'trompette de la mort' (trumpet of death) despite being delicious.",
+    "score": 88,
+    "calories": 25
   },
   {
     "name": "nori",
@@ -4612,7 +5594,9 @@
     "aliases": [
       "noris"
     ],
-    "fun_fact": "Nori was so valuable in ancient Japan that it was accepted as tax payment."
+    "fun_fact": "Nori was so valuable in ancient Japan that it was accepted as tax payment.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "kelp",
@@ -4622,7 +5606,9 @@
       "giant kelp",
       "bull kelp"
     ],
-    "fun_fact": "Giant kelp can grow up to 2 feet per day, making it one of the fastest-growing organisms."
+    "fun_fact": "Giant kelp can grow up to 2 feet per day, making it one of the fastest-growing organisms.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "wakame",
@@ -4630,7 +5616,9 @@
     "aliases": [
       "wakames"
     ],
-    "fun_fact": "Wakame is considered an invasive species in many countries outside Asia."
+    "fun_fact": "Wakame is considered an invasive species in many countries outside Asia.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "dulse",
@@ -4638,7 +5626,9 @@
     "aliases": [
       "dulses"
     ],
-    "fun_fact": "When fried, dulse tastes remarkably similar to bacon."
+    "fun_fact": "When fried, dulse tastes remarkably similar to bacon.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "spirulina",
@@ -4646,7 +5636,9 @@
     "aliases": [
       "spirulinas"
     ],
-    "fun_fact": "Spirulina was a dietary staple of the Aztecs and is now studied as food for astronauts."
+    "fun_fact": "Spirulina was a dietary staple of the Aztecs and is now studied as food for astronauts.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "chlorella",
@@ -4654,7 +5646,9 @@
     "aliases": [
       "chlorellas"
     ],
-    "fun_fact": "Chlorella reproduces so quickly it can quadruple its cell count in less than a day."
+    "fun_fact": "Chlorella reproduces so quickly it can quadruple its cell count in less than a day.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "kombu",
@@ -4663,7 +5657,9 @@
       "kombus",
       "konbu"
     ],
-    "fun_fact": "Kombu is naturally rich in glutamate, which is why it's used to make dashi broth so savory."
+    "fun_fact": "Kombu is naturally rich in glutamate, which is why it's used to make dashi broth so savory.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "hijiki",
@@ -4671,7 +5667,9 @@
     "aliases": [
       "hijikis"
     ],
-    "fun_fact": "Hijiki has been a part of the Japanese diet for centuries and is traditionally served on holidays."
+    "fun_fact": "Hijiki has been a part of the Japanese diet for centuries and is traditionally served on holidays.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "irish moss",
@@ -4681,7 +5679,9 @@
       "carrageen",
       "sea moss"
     ],
-    "fun_fact": "Irish moss produces carrageenan, a thickener found in everything from ice cream to toothpaste."
+    "fun_fact": "Irish moss produces carrageenan, a thickener found in everything from ice cream to toothpaste.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "agar",
@@ -4691,7 +5691,9 @@
       "agar agar",
       "kanten"
     ],
-    "fun_fact": "Agar is used as a vegetarian substitute for gelatin and was discovered by accident in Japan in the 1650s."
+    "fun_fact": "Agar is used as a vegetarian substitute for gelatin and was discovered by accident in Japan in the 1650s.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "arame",
@@ -4699,7 +5701,9 @@
     "aliases": [
       "arames"
     ],
-    "fun_fact": "Arame has a mild, semi-sweet flavor that makes it one of the most approachable seaweeds."
+    "fun_fact": "Arame has a mild, semi-sweet flavor that makes it one of the most approachable seaweeds.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "sea lettuce",
@@ -4708,7 +5712,9 @@
       "sea lettuces",
       "ulva"
     ],
-    "fun_fact": "Sea lettuce is one of the most widely distributed seaweeds, found on every ocean coast."
+    "fun_fact": "Sea lettuce is one of the most widely distributed seaweeds, found on every ocean coast.",
+    "score": 85,
+    "calories": 45
   },
   {
     "name": "tea",
@@ -4725,7 +5731,9 @@
       "earl grey",
       "english breakfast"
     ],
-    "fun_fact": "All true tea comes from the same plant — Camellia sinensis."
+    "fun_fact": "All true tea comes from the same plant — Camellia sinensis.",
+    "score": 80,
+    "calories": 1
   },
   {
     "name": "coffee",
@@ -4739,7 +5747,9 @@
       "cold brew",
       "drip coffee"
     ],
-    "fun_fact": "Coffee was discovered by an Ethiopian goat herder who noticed his goats dancing after eating coffee berries."
+    "fun_fact": "Coffee was discovered by an Ethiopian goat herder who noticed his goats dancing after eating coffee berries.",
+    "score": 70,
+    "calories": 2
   },
   {
     "name": "cocoa",
@@ -4750,7 +5760,9 @@
       "drinking chocolate",
       "cacao drink"
     ],
-    "fun_fact": "The Aztecs drank chocolate as a bitter, spicy beverage — sugar was added later by Europeans."
+    "fun_fact": "The Aztecs drank chocolate as a bitter, spicy beverage — sugar was added later by Europeans.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "orange juice",
@@ -4759,7 +5771,9 @@
       "oj",
       "fresh squeezed orange juice"
     ],
-    "fun_fact": "Florida produces about 70% of the United States' total orange juice supply."
+    "fun_fact": "Florida produces about 70% of the United States' total orange juice supply.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "apple juice",
@@ -4768,7 +5782,9 @@
       "apple juices",
       "apple cider"
     ],
-    "fun_fact": "Unpasteurized apple cider was one of the most popular beverages in colonial America."
+    "fun_fact": "Unpasteurized apple cider was one of the most popular beverages in colonial America.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "lemonade",
@@ -4776,7 +5792,9 @@
     "aliases": [
       "lemonades"
     ],
-    "fun_fact": "The first recorded lemonade was sold in Paris in 1630 as a mix of sparkling water, lemon juice, and honey."
+    "fun_fact": "The first recorded lemonade was sold in Paris in 1630 as a mix of sparkling water, lemon juice, and honey.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "coconut water",
@@ -4784,7 +5802,9 @@
     "aliases": [
       "coconut waters"
     ],
-    "fun_fact": "Coconut water is sterile inside the coconut and was used as IV fluid in emergencies."
+    "fun_fact": "Coconut water is sterile inside the coconut and was used as IV fluid in emergencies.",
+    "score": 85,
+    "calories": 19
   },
   {
     "name": "pomegranate juice",
@@ -4792,7 +5812,9 @@
     "aliases": [
       "pomegranate juices"
     ],
-    "fun_fact": "Pomegranate juice has more antioxidants than red wine or green tea."
+    "fun_fact": "Pomegranate juice has more antioxidants than red wine or green tea.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "cranberry juice",
@@ -4800,7 +5822,9 @@
     "aliases": [
       "cranberry juices"
     ],
-    "fun_fact": "Native Americans used cranberries to dye fabric and as a poultice for wounds."
+    "fun_fact": "Native Americans used cranberries to dye fabric and as a poultice for wounds.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "ginger beer",
@@ -4809,7 +5833,9 @@
       "ginger beers",
       "ginger ale"
     ],
-    "fun_fact": "Original ginger beer was actually alcoholic — the modern soft drink version came later."
+    "fun_fact": "Original ginger beer was actually alcoholic — the modern soft drink version came later.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "horchata",
@@ -4817,7 +5843,9 @@
     "aliases": [
       "horchatas"
     ],
-    "fun_fact": "Horchata varies by country — in Mexico it's made from rice, in Spain from tiger nuts."
+    "fun_fact": "Horchata varies by country — in Mexico it's made from rice, in Spain from tiger nuts.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "yerba mate",
@@ -4827,7 +5855,9 @@
       "mate",
       "maté"
     ],
-    "fun_fact": "Yerba mate contains caffeine and is traditionally shared from a single gourd with a metal straw."
+    "fun_fact": "Yerba mate contains caffeine and is traditionally shared from a single gourd with a metal straw.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "rooibos",
@@ -4837,7 +5867,9 @@
       "red bush tea",
       "redbush"
     ],
-    "fun_fact": "Rooibos only grows in a small region of South Africa and nowhere else on Earth."
+    "fun_fact": "Rooibos only grows in a small region of South Africa and nowhere else on Earth.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "hibiscus tea",
@@ -4847,7 +5879,9 @@
       "agua de jamaica",
       "roselle"
     ],
-    "fun_fact": "Hibiscus tea is bright red, naturally tart, and drunk across dozens of cultures worldwide."
+    "fun_fact": "Hibiscus tea is bright red, naturally tart, and drunk across dozens of cultures worldwide.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "beet juice",
@@ -4856,7 +5890,9 @@
       "beet juices",
       "beetroot juice"
     ],
-    "fun_fact": "Beet juice can temporarily improve athletic performance by up to 3%."
+    "fun_fact": "Beet juice can temporarily improve athletic performance by up to 3%.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "wheatgrass juice",
@@ -4865,7 +5901,9 @@
       "wheatgrass juices",
       "wheatgrass"
     ],
-    "fun_fact": "One ounce of wheatgrass juice is nutritionally equivalent to about 2.5 pounds of vegetables."
+    "fun_fact": "One ounce of wheatgrass juice is nutritionally equivalent to about 2.5 pounds of vegetables.",
+    "score": 60,
+    "calories": 5
   },
   {
     "name": "bone broth",
@@ -4873,7 +5911,9 @@
     "aliases": [
       "bone broths"
     ],
-    "fun_fact": "Bone broth has been a staple of traditional diets for thousands of years across virtually every culture."
+    "fun_fact": "Bone broth has been a staple of traditional diets for thousands of years across virtually every culture.",
+    "score": 90,
+    "calories": 15
   },
   {
     "name": "tallow",
@@ -4885,7 +5925,9 @@
       "suet",
       "dripping"
     ],
-    "fun_fact": "Tallow was the primary cooking fat for thousands of years before seed oils were invented in the 1900s."
+    "fun_fact": "Tallow was the primary cooking fat for thousands of years before seed oils were invented in the 1900s.",
+    "score": 92,
+    "calories": 900
   },
   {
     "name": "lard",
@@ -4897,7 +5939,9 @@
       "pork lard",
       "leaf lard"
     ],
-    "fun_fact": "Lard has more monounsaturated fat than butter and was the most popular cooking fat in America until Crisco appeared."
+    "fun_fact": "Lard has more monounsaturated fat than butter and was the most popular cooking fat in America until Crisco appeared.",
+    "score": 88,
+    "calories": 900
   },
   {
     "name": "ghee",
@@ -4907,7 +5951,9 @@
       "clarified butter",
       "drawn butter"
     ],
-    "fun_fact": "Ghee has been used in Indian cooking and Ayurvedic medicine for over 5,000 years."
+    "fun_fact": "Ghee has been used in Indian cooking and Ayurvedic medicine for over 5,000 years.",
+    "score": 92,
+    "calories": 900
   },
   {
     "name": "duck fat",
@@ -4916,7 +5962,9 @@
       "duck fats",
       "rendered duck fat"
     ],
-    "fun_fact": "French fries were traditionally cooked in duck fat in Belgium, which is where they actually originate."
+    "fun_fact": "French fries were traditionally cooked in duck fat in Belgium, which is where they actually originate.",
+    "score": 90,
+    "calories": 900
   },
   {
     "name": "schmaltz",
@@ -4926,7 +5974,9 @@
       "rendered chicken fat",
       "chicken fat"
     ],
-    "fun_fact": "Schmaltz was the primary cooking fat in Eastern European Jewish cuisine for centuries."
+    "fun_fact": "Schmaltz was the primary cooking fat in Eastern European Jewish cuisine for centuries.",
+    "score": 88,
+    "calories": 900
   },
   {
     "name": "goose fat",
@@ -4935,6 +5985,8 @@
       "goose fats",
       "rendered goose fat"
     ],
-    "fun_fact": "Goose fat has been prized in French cooking for centuries, especially for confit and roast potatoes."
+    "fun_fact": "Goose fat has been prized in French cooking for centuries, especially for confit and roast potatoes.",
+    "score": 90,
+    "calories": 900
   }
 ]

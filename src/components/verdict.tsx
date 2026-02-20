@@ -2,6 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import type { LookupResult } from "@/lib/foods";
+import { ScoreMeter } from "./score-meter";
 
 interface VerdictProps {
   result: LookupResult | null;
@@ -77,6 +78,18 @@ export function Verdict({ result, query }: VerdictProps) {
             </motion.span>
           )}
 
+          {/* Calories badge */}
+          {result.calories != null && (
+            <motion.span
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.35 }}
+              className="inline-block mt-3 ml-2 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-muted/70 border border-border"
+            >
+              ~{result.calories} kcal / 100g
+            </motion.span>
+          )}
+
           {/* AI badge */}
           {result.source === "ai" && (
             <motion.span
@@ -100,6 +113,7 @@ export function Verdict({ result, query }: VerdictProps) {
               {result.aiReason}
             </motion.p>
           )}
+
         </div>
 
         {/* Fun fact (food) */}
@@ -137,6 +151,9 @@ export function Verdict({ result, query }: VerdictProps) {
             </p>
           </motion.div>
         )}
+
+        {/* Score meter — outside the verdict card */}
+        <ScoreMeter score={result.score} />
       </motion.div>
     </AnimatePresence>
   );

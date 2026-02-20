@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { lookupFood } from "@/lib/food-lookup";
 import type { LookupResult } from "@/lib/foods";
 import { Verdict } from "./verdict";
-import { SearchHistory } from "./search-history";
 import { ShareButton } from "./share-button";
+import { StatsModal } from "./stats-modal";
 
 interface HistoryEntry {
   query: string;
@@ -14,12 +14,49 @@ interface HistoryEntry {
   timestamp: number;
 }
 
+function resizeImage(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const img = new Image();
+      img.onload = () => {
+        const MAX = 512;
+        let w = img.width;
+        let h = img.height;
+        if (w > MAX || h > MAX) {
+          const ratio = Math.min(MAX / w, MAX / h);
+          w = Math.round(w * ratio);
+          h = Math.round(h * ratio);
+        }
+        const canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return reject(new Error("No canvas context"));
+        ctx.drawImage(img, 0, 0, w, h);
+        const dataUrl = canvas.toDataURL("image/jpeg", 0.7);
+        // Strip the data:image/jpeg;base64, prefix
+        const base64 = dataUrl.split(",")[1];
+        resolve(base64);
+      };
+      img.onerror = reject;
+      img.src = reader.result as string;
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
 export function FoodChecker() {
   const [query, setQuery] = useState("");
   const [result, setResult] = useState<LookupResult | null>(null);
   const [currentQuery, setCurrentQuery] = useState("");
   const [loading, setLoading] = useState(false);
+  const [loadingMessage, setLoadingMessage] = useState("Consulting the oracle...");
   const [history, setHistory] = useState<HistoryEntry[]>([]);
+  const [statsOpen, setStatsOpen] = useState(false);
+  const [preview, setPreview] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Load history from localStorage after mount (avoids hydration mismatch)
   useEffect(() => {
@@ -50,6 +87,7 @@ export function FoodChecker() {
 
     setCurrentQuery(trimmed);
     setResult(null);
+    setPreview(null);
 
     // Try local lookup first
     const localResult = lookupFood(trimmed);
@@ -67,6 +105,7 @@ export function FoodChecker() {
 
     // Fall back to AI
     setLoading(true);
+    setLoadingMessage("Consulting the oracle...");
     try {
       const res = await fetch("/api/check", {
         method: "POST",
@@ -78,6 +117,8 @@ export function FoodChecker() {
         found: data.isFood,
         source: "ai",
         verdict: data.isFood ? "food" : "trash",
+        score: data.score ?? (data.isFood ? 75 : 25),
+        calories: data.calories,
         aiReason: data.reason,
       };
       setResult(aiResult);
@@ -92,12 +133,72 @@ export function FoodChecker() {
         found: false,
         source: "ai",
         verdict: "trash",
+        score: 25,
         aiReason: "Couldn't verify this one. When in doubt... trash.",
       };
       setResult(fallback);
     } finally {
       setLoading(false);
       setQuery("");
+    }
+  };
+
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    // Reset file input so the same file can be selected again
+    e.target.value = "";
+
+    // Show preview
+    const previewUrl = URL.createObjectURL(file);
+    setPreview(previewUrl);
+    setResult(null);
+    setCurrentQuery("");
+    setLoading(true);
+    setLoadingMessage("Scanning your food...");
+
+    try {
+      const base64 = await resizeImage(file);
+
+      const res = await fetch("/api/identify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ image: base64, mimeType: file.type }),
+      });
+      const data = await res.json();
+
+      const identifiedName = data.name || "unknown";
+      setCurrentQuery(identifiedName);
+
+      const imageResult: LookupResult = {
+        found: data.isFood,
+        source: "ai",
+        verdict: data.isFood ? "food" : "trash",
+        score: data.score ?? (data.isFood ? 75 : 25),
+        calories: data.calories,
+        aiReason: data.reason,
+      };
+      setResult(imageResult);
+
+      const entry: HistoryEntry = {
+        query: identifiedName,
+        result: imageResult,
+        timestamp: Date.now(),
+      };
+      saveHistory([entry, ...history].slice(0, 50));
+    } catch {
+      const fallback: LookupResult = {
+        found: false,
+        source: "ai",
+        verdict: "trash",
+        score: 25,
+        aiReason: "Couldn't process this image. When in doubt... trash.",
+      };
+      setCurrentQuery("uploaded image");
+      setResult(fallback);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -119,6 +220,41 @@ export function FoodChecker() {
             disabled={loading}
             autoFocus
           />
+
+          {/* Camera/upload button */}
+          <motion.button
+            type="button"
+            onClick={() => fileInputRef.current?.click()}
+            disabled={loading}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            className="px-4 py-4 rounded-none bg-surface border border-border text-muted hover:text-bone hover:border-bone/30 disabled:opacity-20 disabled:cursor-not-allowed transition-all"
+            title="Upload a photo"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+              <circle cx="12" cy="13" r="4" />
+            </svg>
+          </motion.button>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/*"
+            capture="environment"
+            onChange={handleImageUpload}
+            className="hidden"
+          />
+
           <motion.button
             type="submit"
             disabled={loading || !query.trim()}
@@ -140,6 +276,23 @@ export function FoodChecker() {
         </div>
       </form>
 
+      {/* Image preview */}
+      {preview && (
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mt-4 flex justify-center"
+        >
+          <div className="relative w-32 h-32 border border-border overflow-hidden">
+            <img
+              src={preview}
+              alt="Uploaded food"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </motion.div>
+      )}
+
       {/* Loading state */}
       {loading && (
         <motion.p
@@ -147,20 +300,54 @@ export function FoodChecker() {
           animate={{ opacity: 1 }}
           className="text-center text-muted/50 mt-8 text-xs font-body uppercase tracking-[0.2em]"
         >
-          Consulting the oracle...
+          {loadingMessage}
         </motion.p>
       )}
 
       {/* Verdict */}
       <Verdict result={result} query={currentQuery} />
 
-      {/* Share button */}
-      {result && <ShareButton query={currentQuery} result={result} />}
-
-      {/* History */}
-      {history.length > 0 && (
-        <SearchHistory entries={history} onClear={clearHistory} />
+      {/* Share + Stats buttons */}
+      {result && (
+        <div className="flex items-center justify-center gap-4 mt-6">
+          <ShareButton query={currentQuery} result={result} />
+          {history.length > 0 && (
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.7 }}
+              onClick={() => setStatsOpen(true)}
+              className="px-5 py-2 text-[10px] font-body text-muted/40 uppercase tracking-[0.25em] border border-border hover:border-bone/20 hover:text-muted transition-all"
+            >
+              Stats ({history.length})
+            </motion.button>
+          )}
+        </div>
       )}
+
+      {/* Stats button when no result shown but history exists */}
+      {!result && history.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="flex justify-center mt-8"
+        >
+          <button
+            onClick={() => setStatsOpen(true)}
+            className="px-5 py-2 text-[10px] font-body text-muted/40 uppercase tracking-[0.25em] border border-border hover:border-bone/20 hover:text-muted transition-all"
+          >
+            Stats ({history.length})
+          </button>
+        </motion.div>
+      )}
+
+      {/* Stats modal */}
+      <StatsModal
+        entries={history}
+        isOpen={statsOpen}
+        onClose={() => setStatsOpen(false)}
+        onClear={clearHistory}
+      />
     </div>
   );
 }

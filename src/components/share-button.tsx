@@ -42,18 +42,14 @@ export function ShareButton({ query, result }: ShareButtonProps) {
   };
 
   return (
-    <motion.div
+    <motion.button
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.6 }}
-      className="flex justify-center mt-6"
+      onClick={handleShare}
+      className="px-5 py-2 text-[10px] font-body text-muted/40 uppercase tracking-[0.25em] border border-border hover:border-bone/20 hover:text-muted transition-all"
     >
-      <button
-        onClick={handleShare}
-        className="px-5 py-2 text-[10px] font-body text-muted/40 uppercase tracking-[0.25em] border border-border hover:border-bone/20 hover:text-muted transition-all"
-      >
-        {copied ? "Copied" : "Share verdict"}
-      </button>
-    </motion.div>
+      {copied ? "Copied" : "Share verdict"}
+    </motion.button>
   );
 }

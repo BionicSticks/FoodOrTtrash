@@ -31,9 +31,9 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
-          className="mt-8 text-sm sm:text-base text-muted font-body max-w-lg mx-auto leading-relaxed uppercase tracking-[0.15em]"
+          className="mt-8 text-sm sm:text-base text-bone/90 font-body max-w-lg mx-auto leading-relaxed uppercase tracking-[0.15em]"
         >
-          AIs and dieticians are trained on biased information.
+          AI<span className="lowercase">s</span> and dieticians are trained on biased information.
           <br />
           Real food is what we evolved to eat.
         </motion.p>
@@ -42,7 +42,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.6 }}
-          className="mt-4 text-xs text-muted/40 font-body uppercase tracking-[0.2em]"
+          className="mt-4 text-xs text-bone/60 font-body uppercase tracking-[0.2em]"
         >
           Whole foods are food &middot; Seed oils are trash &middot; Processed
           is not food

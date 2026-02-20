@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 const images = [
   "/images/bg1.webp",
@@ -13,24 +13,23 @@ const images = [
   "/images/bg6.webp",
 ];
 
-// Each fragment: position, size, rotation, opacity, drift direction
-const fragments = [
-  { x: "5%", y: "8%", w: 280, h: 200, rot: -4, opacity: 0.22, driftX: 15, driftY: -10, img: 0 },
-  { x: "65%", y: "5%", w: 220, h: 160, rot: 2.5, opacity: 0.14, driftX: -10, driftY: 12, img: 1 },
-  { x: "80%", y: "55%", w: 260, h: 180, rot: -1.5, opacity: 0.18, driftX: -12, driftY: -8, img: 2 },
-  { x: "2%", y: "60%", w: 200, h: 150, rot: 3, opacity: 0.12, driftX: 8, driftY: 15, img: 3 },
-  { x: "35%", y: "75%", w: 240, h: 170, rot: -2, opacity: 0.16, driftX: -15, driftY: -12, img: 4 },
-  { x: "50%", y: "25%", w: 180, h: 130, rot: 1, opacity: 0.1, driftX: 10, driftY: 8, img: 5 },
-  { x: "20%", y: "35%", w: 160, h: 120, rot: -3.5, opacity: 0.08, driftX: -8, driftY: -15, img: 0 },
-  { x: "75%", y: "80%", w: 200, h: 140, rot: 2, opacity: 0.13, driftX: 12, driftY: -10, img: 2 },
-];
+const INTERVAL = 8000; // ms between transitions
 
 export function Background() {
+  const [index, setIndex] = useState(0);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % images.length);
+    }, INTERVAL);
+    return () => clearInterval(timer);
+  }, [mounted]);
 
   if (!mounted) return <div className="fixed inset-0 -z-10 bg-void" />;
 
@@ -38,51 +37,28 @@ export function Background() {
     <div className="fixed inset-0 -z-10 overflow-hidden">
       <div className="absolute inset-0 bg-void" />
 
-      {fragments.map((frag, i) => (
+      <AnimatePresence mode="sync">
         <motion.div
-          key={i}
-          className="absolute"
-          style={{
-            left: frag.x,
-            top: frag.y,
-            width: frag.w,
-            height: frag.h,
-          }}
-          initial={{
-            rotate: frag.rot,
-            opacity: 0,
-          }}
-          animate={{
-            rotate: frag.rot,
-            opacity: frag.opacity,
-            x: [0, frag.driftX, 0],
-            y: [0, frag.driftY, 0],
-          }}
-          transition={{
-            opacity: { duration: 2, delay: i * 0.3 },
-            x: {
-              duration: 20 + i * 3,
-              repeat: Infinity,
-              repeatType: "reverse",
-              ease: "easeInOut",
-            },
-            y: {
-              duration: 25 + i * 2,
-              repeat: Infinity,
-              repeatType: "reverse",
-              ease: "easeInOut",
-            },
-          }}
+          key={index}
+          className="absolute inset-0"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 0.5 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 2, ease: "easeInOut" }}
         >
           <Image
-            src={images[frag.img]}
+            src={images[index]}
             alt=""
             fill
             className="object-cover"
-            sizes={`${frag.w}px`}
+            sizes="100vw"
+            priority={index === 0}
           />
         </motion.div>
-      ))}
+      </AnimatePresence>
+
+      {/* Dark gradient overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-void/60 via-transparent to-void/80 pointer-events-none" />
 
       {/* Grain texture */}
       <div
