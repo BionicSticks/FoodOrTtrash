@@ -17,11 +17,20 @@ export function ShareButton({ query, result }: ShareButtonProps) {
     ? result.compositeVerdict
     : result.verdict;
 
+  const score = isCompositeResult(result)
+    ? result.compositeScore
+    : result.score;
+
   const shareText = `I asked foodortrash.com about "${query}" and the verdict is: ${
     verdict === "food" ? "FOOD" : "TRASH"
-  }`;
+  } (${score}/100)`;
 
-  const shareUrl = "https://foodortrash.com";
+  const ogParams = new URLSearchParams({
+    item: query,
+    verdict,
+    score: String(score),
+  });
+  const shareUrl = `https://foodortrash.com?og=${encodeURIComponent(ogParams.toString())}`;
 
   const handleShare = async () => {
     if (navigator.share) {
