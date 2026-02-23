@@ -1,5 +1,13 @@
 import Fuse from "fuse.js";
-import { foods, trash, type FoodItem, type TrashItem, type LookupResult } from "./foods";
+import {
+  foods,
+  trash,
+  type FoodItem,
+  type TrashItem,
+  type LookupResult,
+  type ComponentResult,
+  type CompositeLookupResult,
+} from "./foods";
 
 const foodFuse = new Fuse(foods, {
   keys: [
@@ -37,11 +45,10 @@ function findFoodExact(query: string): FoodItem | null {
   return match || null;
 }
 
-export function lookupFood(query: string): LookupResult | null {
+export function lookupFoodExact(query: string): LookupResult | null {
   const trimmed = query.trim().toLowerCase();
   if (!trimmed) return null;
 
-  // 1. Check trash list first (exact match)
   const exactTrash = findTrashExact(trimmed);
   if (exactTrash) {
     return {
@@ -54,13 +61,23 @@ export function lookupFood(query: string): LookupResult | null {
     };
   }
 
-  // 2. Check food list (exact match)
   const exactFood = findFoodExact(trimmed);
   if (exactFood) {
     return { found: true, item: exactFood, source: "local", verdict: "food", score: exactFood.score, calories: exactFood.calories };
   }
 
-  // 3. Fuzzy search both lists
+  return null;
+}
+
+export function lookupFood(query: string): LookupResult | null {
+  const trimmed = query.trim().toLowerCase();
+  if (!trimmed) return null;
+
+  // 1. Check exact matches first
+  const exact = lookupFoodExact(trimmed);
+  if (exact) return exact;
+
+  // 2. Fuzzy search both lists
   const trashResults = trashFuse.search(trimmed);
   const foodResults = foodFuse.search(trimmed);
 
@@ -104,4 +121,66 @@ export function lookupFood(query: string): LookupResult | null {
 
   // No match — caller should fall back to AI
   return null;
+}
+
+export function getScoreColor(score: number): string {
+  if (score <= 30) return "#ff1a1a";
+  if (score <= 45) return "#ff6633";
+  if (score <= 55) return "#ddaa00";
+  if (score <= 70) return "#88cc33";
+  return "#00cc66";
+}
+
+export function resolveComponentsLocally(
+  ingredients: Array<{ name: string; weight: number }>
+): {
+  resolved: ComponentResult[];
+  unresolved: Array<{ name: string; weight: number }>;
+} {
+  const resolved: ComponentResult[] = [];
+  const unresolved: Array<{ name: string; weight: number }> = [];
+
+  for (const ingredient of ingredients) {
+    const result = lookupFood(ingredient.name);
+    if (result) {
+      resolved.push({
+        name: ingredient.name,
+        lookupResult: result,
+        weight: ingredient.weight,
+      });
+    } else {
+      unresolved.push(ingredient);
+    }
+  }
+
+  return { resolved, unresolved };
+}
+
+export function computeCompositeResult(
+  query: string,
+  components: ComponentResult[]
+): CompositeLookupResult {
+  const compositeScore = Math.round(
+    components.reduce((sum, c) => sum + c.lookupResult.score * c.weight, 0)
+  );
+
+  const compositeCalories = Math.round(
+    components.reduce(
+      (sum, c) => sum + (c.lookupResult.calories ?? 0) * c.weight,
+      0
+    )
+  );
+
+  const compositeVerdict: "food" | "trash" =
+    compositeScore >= 50 ? "food" : "trash";
+
+  return {
+    query,
+    isComposite: true,
+    components,
+    compositeScore,
+    compositeVerdict,
+    compositeCalories,
+    source: "composite",
+  };
 }

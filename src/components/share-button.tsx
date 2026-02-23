@@ -2,18 +2,23 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import type { LookupResult } from "@/lib/foods";
+import type { AnyResult } from "@/lib/foods";
+import { isCompositeResult } from "@/lib/foods";
 
 interface ShareButtonProps {
   query: string;
-  result: LookupResult;
+  result: AnyResult;
 }
 
 export function ShareButton({ query, result }: ShareButtonProps) {
   const [copied, setCopied] = useState(false);
 
+  const verdict = isCompositeResult(result)
+    ? result.compositeVerdict
+    : result.verdict;
+
   const shareText = `I asked foodortrash.com about "${query}" and the verdict is: ${
-    result.verdict === "food" ? "FOOD" : "TRASH"
+    verdict === "food" ? "FOOD" : "TRASH"
   }`;
 
   const shareUrl = "https://foodortrash.com";

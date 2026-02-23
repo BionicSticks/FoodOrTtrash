@@ -27,6 +27,28 @@ export interface LookupResult {
   aiReason?: string;
 }
 
+export interface ComponentResult {
+  name: string;
+  lookupResult: LookupResult;
+  weight: number;
+}
+
+export interface CompositeLookupResult {
+  query: string;
+  isComposite: true;
+  components: ComponentResult[];
+  compositeScore: number;
+  compositeVerdict: "food" | "trash";
+  compositeCalories: number;
+  source: "composite";
+}
+
+export type AnyResult = LookupResult | CompositeLookupResult;
+
+export function isCompositeResult(r: AnyResult): r is CompositeLookupResult {
+  return "isComposite" in r && r.isComposite === true;
+}
+
 import foodsData from "@/data/foods.json";
 import trashData from "@/data/trash.json";
 

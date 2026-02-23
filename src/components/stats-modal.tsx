@@ -2,11 +2,16 @@
 
 import { useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import type { LookupResult } from "@/lib/foods";
+import type { AnyResult } from "@/lib/foods";
+import { isCompositeResult } from "@/lib/foods";
+
+function getVerdict(r: AnyResult): "food" | "trash" {
+  return isCompositeResult(r) ? r.compositeVerdict : r.verdict;
+}
 
 interface HistoryEntry {
   query: string;
-  result: LookupResult;
+  result: AnyResult;
   timestamp: number;
 }
 
@@ -121,20 +126,22 @@ function CategoryBar({
 
 export function StatsModal({ entries, isOpen, onClose, onClear }: StatsModalProps) {
   const stats = useMemo(() => {
-    const foodEntries = entries.filter((e) => e.result.verdict === "food");
-    const trashEntries = entries.filter((e) => e.result.verdict === "trash");
+    const foodEntries = entries.filter((e) => getVerdict(e.result) === "food");
+    const trashEntries = entries.filter((e) => getVerdict(e.result) === "trash");
 
     // Category breakdown for food
     const foodCategories: Record<string, number> = {};
     foodEntries.forEach((e) => {
-      const cat = e.result.item?.category || "uncategorized";
+      const r = e.result;
+      const cat = isCompositeResult(r) ? "combo" : r.item?.category || "uncategorized";
       foodCategories[cat] = (foodCategories[cat] || 0) + 1;
     });
 
     // Category breakdown for trash
     const trashCategories: Record<string, number> = {};
     trashEntries.forEach((e) => {
-      const cat = e.result.trashItem?.category || "uncategorized";
+      const r = e.result;
+      const cat = isCompositeResult(r) ? "combo" : r.trashItem?.category || "uncategorized";
       trashCategories[cat] = (trashCategories[cat] || 0) + 1;
     });
 
@@ -142,10 +149,11 @@ export function StatsModal({ entries, isOpen, onClose, onClear }: StatsModalProp
     let streak = 0;
     let streakType: "food" | "trash" | null = null;
     for (const entry of entries) {
+      const v = getVerdict(entry.result);
       if (streakType === null) {
-        streakType = entry.result.verdict;
+        streakType = v;
         streak = 1;
-      } else if (entry.result.verdict === streakType) {
+      } else if (v === streakType) {
         streak++;
       } else {
         break;
@@ -311,12 +319,12 @@ export function StatsModal({ entries, isOpen, onClose, onClear }: StatsModalProp
                           </span>
                           <span
                             className={`text-[10px] font-bold uppercase tracking-[0.2em] ${
-                              entry.result.verdict === "food"
+                              getVerdict(entry.result) === "food"
                                 ? "text-food-green"
                                 : "text-trash-red"
                             }`}
                           >
-                            {entry.result.verdict === "food" ? "FOOD" : "TRASH"}
+                            {getVerdict(entry.result) === "food" ? "FOOD" : "TRASH"}
                           </span>
                         </div>
                       ))}

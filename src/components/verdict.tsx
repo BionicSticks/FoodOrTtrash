@@ -1,16 +1,168 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import type { LookupResult } from "@/lib/foods";
+import type { AnyResult, CompositeLookupResult, ComponentResult } from "@/lib/foods";
+import { isCompositeResult } from "@/lib/foods";
+import { getScoreColor } from "@/lib/food-lookup";
 import { ScoreMeter } from "./score-meter";
 
 interface VerdictProps {
-  result: LookupResult | null;
+  result: AnyResult | null;
   query: string;
+}
+
+function ComponentRow({
+  component,
+  index,
+}: {
+  component: ComponentResult;
+  index: number;
+}) {
+  const isFood = component.lookupResult.verdict === "food";
+  const score = component.lookupResult.score;
+  const weightPercent = Math.round(component.weight * 100);
+  const color = getScoreColor(score);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: -10 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ delay: 0.5 + index * 0.08 }}
+      className="flex items-center gap-3 px-5 py-3"
+    >
+      <span
+        className={`w-2 h-2 rounded-full shrink-0 ${
+          isFood ? "bg-food-green" : "bg-trash-red"
+        }`}
+      />
+      <span className="flex-1 text-xs text-bone uppercase tracking-[0.1em] font-body">
+        {component.name}
+      </span>
+      <span className="text-[9px] text-muted/40 uppercase tracking-[0.15em] shrink-0">
+        {weightPercent}%
+      </span>
+      <span
+        className="text-xs font-heading font-bold uppercase tracking-[0.1em] w-10 text-right shrink-0"
+        style={{ color }}
+      >
+        {score}
+      </span>
+      <div className="w-16 h-1.5 bg-surface-light overflow-hidden shrink-0">
+        <motion.div
+          className="h-full"
+          style={{ backgroundColor: color }}
+          initial={{ width: 0 }}
+          animate={{ width: `${score}%` }}
+          transition={{ duration: 0.6, delay: 0.6 + index * 0.08 }}
+        />
+      </div>
+      {component.lookupResult.source === "ai" && (
+        <span className="text-[8px] text-muted/30 uppercase tracking-[0.1em] shrink-0">
+          AI
+        </span>
+      )}
+    </motion.div>
+  );
+}
+
+function CompositeVerdict({ result }: { result: CompositeLookupResult }) {
+  const isFood = result.compositeVerdict === "food";
+
+  return (
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={`${result.query}-composite`}
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+        className="w-full max-w-xl mx-auto mt-12"
+      >
+        {/* Overall verdict card */}
+        <div
+          className={`border p-8 sm:p-10 text-center ${
+            isFood
+              ? "border-food-green/20 bg-food-green-dim"
+              : "border-trash-red/20 bg-trash-red-dim"
+          }`}
+        >
+          <p className="text-xs text-muted uppercase tracking-[0.3em] mb-4">
+            &ldquo;{result.query}&rdquo;
+          </p>
+
+          <motion.h2
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{
+              delay: 0.1,
+              type: "spring",
+              stiffness: isFood ? 200 : 400,
+              damping: isFood ? 20 : 12,
+            }}
+            className={`font-heading font-bold uppercase leading-[0.85] tracking-[-0.05em] ${
+              isFood ? "text-food-green" : "text-trash-red"
+            }`}
+            style={{ fontSize: "clamp(3rem, 8vw, 6rem)" }}
+          >
+            {isFood ? "FOOD" : "TRASH"}
+          </motion.h2>
+
+          <motion.span
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3 }}
+            className="inline-block mt-4 px-4 py-1.5 text-[10px] font-bold uppercase tracking-[0.25em] text-muted/70 border border-border"
+          >
+            Combo &middot; {result.components.length} ingredients
+          </motion.span>
+
+          {result.compositeCalories > 0 && (
+            <motion.span
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.35 }}
+              className="inline-block mt-3 ml-2 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-muted/70 border border-border"
+            >
+              ~{result.compositeCalories} kcal / 100g
+            </motion.span>
+          )}
+        </div>
+
+        {/* Ingredient breakdown */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="mt-4 border border-border"
+        >
+          <div className="px-5 py-3 border-b border-border">
+            <p className="text-[10px] text-muted/50 uppercase tracking-[0.25em]">
+              Ingredient Breakdown
+            </p>
+          </div>
+          <div className="divide-y divide-border">
+            {result.components.map((component, index) => (
+              <ComponentRow
+                key={component.name}
+                component={component}
+                index={index}
+              />
+            ))}
+          </div>
+        </motion.div>
+
+        <ScoreMeter score={result.compositeScore} />
+      </motion.div>
+    </AnimatePresence>
+  );
 }
 
 export function Verdict({ result, query }: VerdictProps) {
   if (!result) return null;
+
+  if (isCompositeResult(result)) {
+    return <CompositeVerdict result={result} />;
+  }
 
   const isFood = result.verdict === "food";
 

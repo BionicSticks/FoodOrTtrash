@@ -2,15 +2,16 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { lookupFood } from "@/lib/food-lookup";
-import type { LookupResult } from "@/lib/foods";
+import { lookupFood, lookupFoodExact, resolveComponentsLocally, computeCompositeResult } from "@/lib/food-lookup";
+import type { LookupResult, AnyResult, ComponentResult } from "@/lib/foods";
+import { isCompositeResult } from "@/lib/foods";
 import { Verdict } from "./verdict";
 import { ShareButton } from "./share-button";
 import { StatsModal } from "./stats-modal";
 
 interface HistoryEntry {
   query: string;
-  result: LookupResult;
+  result: AnyResult;
   timestamp: number;
 }
 
@@ -49,7 +50,7 @@ function resizeImage(file: File): Promise<string> {
 
 export function FoodChecker() {
   const [query, setQuery] = useState("");
-  const [result, setResult] = useState<LookupResult | null>(null);
+  const [result, setResult] = useState<AnyResult | null>(null);
   const [currentQuery, setCurrentQuery] = useState("");
   const [loading, setLoading] = useState(false);
   const [loadingMessage, setLoadingMessage] = useState("Consulting the oracle...");
@@ -80,6 +81,40 @@ export function FoodChecker() {
     []
   );
 
+  const checkSingleItemAI = async (
+    name: string
+  ): Promise<LookupResult> => {
+    try {
+      const res = await fetch("/api/check", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ item: name }),
+      });
+      const data = await res.json();
+      return {
+        found: data.isFood,
+        source: "ai",
+        verdict: data.isFood ? "food" : "trash",
+        score: data.score ?? (data.isFood ? 75 : 25),
+        calories: data.calories,
+        aiReason: data.reason,
+      };
+    } catch {
+      return {
+        found: false,
+        source: "ai",
+        verdict: "trash",
+        score: 25,
+        aiReason: "Could not verify this ingredient.",
+      };
+    }
+  };
+
+  const addToHistory = (q: string, r: AnyResult) => {
+    const entry: HistoryEntry = { query: q, result: r, timestamp: Date.now() };
+    saveHistory([entry, ...history].slice(0, 50));
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const trimmed = query.trim();
@@ -89,54 +124,95 @@ export function FoodChecker() {
     setResult(null);
     setPreview(null);
 
-    // Try local lookup first
-    const localResult = lookupFood(trimmed);
+    // ── Tier 1: Local DB ──
+    // Multi-word → exact match only (avoids fuzzy-matching "chicken roll" to "chicken")
+    // Single-word → full fuzzy match (handles typos like "appel" → "apple")
+    const isMultiWord = trimmed.includes(" ");
+    const localResult = isMultiWord
+      ? lookupFoodExact(trimmed)
+      : lookupFood(trimmed);
+
     if (localResult) {
       setResult(localResult);
-      const entry: HistoryEntry = {
-        query: trimmed,
-        result: localResult,
-        timestamp: Date.now(),
-      };
-      saveHistory([entry, ...history].slice(0, 50));
+      addToHistory(trimmed, localResult);
       setQuery("");
       return;
     }
 
-    // Fall back to AI
+    // ── Tier 2: AI Classification ──
     setLoading(true);
-    setLoadingMessage("Consulting the oracle...");
+    setLoadingMessage("Classifying...");
+
     try {
-      const res = await fetch("/api/check", {
+      const classifyRes = await fetch("/api/classify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ item: trimmed }),
       });
-      const data = await res.json();
-      const aiResult: LookupResult = {
-        found: data.isFood,
-        source: "ai",
-        verdict: data.isFood ? "food" : "trash",
-        score: data.score ?? (data.isFood ? 75 : 25),
-        calories: data.calories,
-        aiReason: data.reason,
-      };
+      const classification = await classifyRes.json();
+
+      // ── Path A: Whole food or Processed → holistic AI verdict ──
+      if (classification.type === "whole" || classification.type === "processed") {
+        setLoadingMessage("Consulting the oracle...");
+        const aiResult = await checkSingleItemAI(trimmed);
+        setResult(aiResult);
+        addToHistory(trimmed, aiResult);
+        setQuery("");
+        return;
+      }
+
+      // ── Path B: Combination → ingredient decomposition + composite score ──
+      if (classification.type === "combination" && Array.isArray(classification.ingredients)) {
+        setLoadingMessage("Scoring ingredients...");
+        const ingredients: Array<{ name: string; weight: number }> = classification.ingredients;
+
+        const { resolved, unresolved } = resolveComponentsLocally(ingredients);
+
+        // Resolve unmatched ingredients via AI in parallel
+        const aiComponents: ComponentResult[] = await Promise.all(
+          unresolved.map(async (ing) => ({
+            name: ing.name,
+            lookupResult: await checkSingleItemAI(ing.name),
+            weight: ing.weight,
+          }))
+        );
+
+        // Merge and preserve original ingredient order
+        const allComponents = [...resolved, ...aiComponents].sort((a, b) => {
+          const aIdx = ingredients.findIndex((i) => i.name === a.name);
+          const bIdx = ingredients.findIndex((i) => i.name === b.name);
+          return aIdx - bIdx;
+        });
+
+        const compositeResult = computeCompositeResult(trimmed, allComponents);
+        setResult(compositeResult);
+        addToHistory(trimmed, compositeResult);
+        setQuery("");
+        return;
+      }
+
+      // Fallback: unknown classification type → AI check
+      setLoadingMessage("Consulting the oracle...");
+      const aiResult = await checkSingleItemAI(trimmed);
       setResult(aiResult);
-      const entry: HistoryEntry = {
-        query: trimmed,
-        result: aiResult,
-        timestamp: Date.now(),
-      };
-      saveHistory([entry, ...history].slice(0, 50));
+      addToHistory(trimmed, aiResult);
+      setQuery("");
     } catch {
-      const fallback: LookupResult = {
-        found: false,
-        source: "ai",
-        verdict: "trash",
-        score: 25,
-        aiReason: "Couldn't verify this one. When in doubt... trash.",
-      };
-      setResult(fallback);
+      // Network/parse error → AI check as last resort
+      setLoadingMessage("Consulting the oracle...");
+      try {
+        const aiResult = await checkSingleItemAI(trimmed);
+        setResult(aiResult);
+        addToHistory(trimmed, aiResult);
+      } catch {
+        setResult({
+          found: false,
+          source: "ai",
+          verdict: "trash",
+          score: 25,
+          aiReason: "Couldn't verify this one. When in doubt... trash.",
+        });
+      }
     } finally {
       setLoading(false);
       setQuery("");

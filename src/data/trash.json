@@ -101,7 +101,7 @@
       "soya oil",
       "vegetable oil"
     ],
-    "reason": "The most consumed oil in America — and also the most heavily processed. Extracted with hexane.",
+    "reason": "The most consumed oil in America \u2014 and also the most heavily processed. Extracted with hexane.",
     "score": 5,
     "calories": 884
   },
@@ -256,7 +256,7 @@
     "aliases": [
       "agave syrup"
     ],
-    "reason": "Marketed as 'natural' but processed like high fructose corn syrup — up to 90% fructose.",
+    "reason": "Marketed as 'natural' but processed like high fructose corn syrup \u2014 up to 90% fructose.",
     "score": 10,
     "calories": 310
   },
@@ -285,7 +285,7 @@
       "bagels",
       "everything bagel"
     ],
-    "reason": "Dense refined wheat — one bagel has the same carbs as 4 slices of bread. And that's before the cream cheese.",
+    "reason": "Dense refined wheat \u2014 one bagel has the same carbs as 4 slices of bread. And that's before the cream cheese.",
     "score": 20,
     "calories": 270
   },
@@ -304,7 +304,7 @@
       "barbecue sauce",
       "sweet baby rays"
     ],
-    "reason": "Check the first ingredient — it's almost always high fructose corn syrup, not tomatoes.",
+    "reason": "Check the first ingredient \u2014 it's almost always high fructose corn syrup, not tomatoes.",
     "score": 15,
     "calories": 172
   },
@@ -354,7 +354,7 @@
       "sausage mcmuffin",
       "mcgriddle"
     ],
-    "reason": "Real eggs on a refined English muffin with processed cheese and factory pork — the whole being worse than its parts.",
+    "reason": "Real eggs on a refined English muffin with processed cheese and factory pork \u2014 the whole being worse than its parts.",
     "score": 15,
     "calories": 300
   },
@@ -365,7 +365,7 @@
       "brownies",
       "chocolate brownies"
     ],
-    "reason": "Sugar, refined flour, and cheap chocolate — the boxed mix kind has ingredients you can't pronounce.",
+    "reason": "Sugar, refined flour, and cheap chocolate \u2014 the boxed mix kind has ingredients you can't pronounce.",
     "score": 15,
     "calories": 466
   },
@@ -376,7 +376,7 @@
       "bk",
       "whopper meal"
     ],
-    "reason": "Flame-grilled sounds healthy until you read the ingredient list — the buns alone contain over 20 ingredients.",
+    "reason": "Flame-grilled sounds healthy until you read the ingredient list \u2014 the buns alone contain over 20 ingredients.",
     "score": 10,
     "calories": 500
   },
@@ -389,7 +389,7 @@
       "layer cake",
       "sheet cake"
     ],
-    "reason": "Refined flour, sugar, seed oils, artificial colors and flavors — assembled into something your grandmother wouldn't recognize.",
+    "reason": "Refined flour, sugar, seed oils, artificial colors and flavors \u2014 assembled into something your grandmother wouldn't recognize.",
     "score": 10,
     "calories": 350
   },
@@ -429,7 +429,7 @@
       "nutri-grain bar",
       "fiber one bar"
     ],
-    "reason": "Marketed as healthy — check the label: it's a cookie with added fiber and a health claim.",
+    "reason": "Marketed as healthy \u2014 check the label: it's a cookie with added fiber and a health claim.",
     "score": 10,
     "calories": 200
   },
@@ -448,7 +448,7 @@
       "cheez whiz",
       "cheese wiz"
     ],
-    "reason": "Canola oil, milk protein, and sodium phosphate — not cheese.",
+    "reason": "Canola oil, milk protein, and sodium phosphate \u2014 not cheese.",
     "score": 3,
     "calories": 276
   },
@@ -522,7 +522,7 @@
       "hersheys",
       "cadbury"
     ],
-    "reason": "Sugar, milk powder, and cocoa butter — modern chocolate bars are mostly sugar with a hint of cacao.",
+    "reason": "Sugar, milk powder, and cocoa butter \u2014 modern chocolate bars are mostly sugar with a hint of cacao.",
     "score": 10,
     "calories": 535
   },
@@ -564,7 +564,7 @@
       "bottled coffee",
       "mocha latte"
     ],
-    "reason": "Coffee buried under sugar, cream substitutes, and seed oil derivatives — a dessert pretending to be a drink.",
+    "reason": "Coffee buried under sugar, cream substitutes, and seed oil derivatives \u2014 a dessert pretending to be a drink.",
     "score": 10,
     "calories": 250
   },
@@ -724,7 +724,7 @@
       "yoplait",
       "dannon"
     ],
-    "reason": "More sugar per cup than a candy bar — the fruit is usually just jam and the yogurt is low-fat.",
+    "reason": "More sugar per cup than a candy bar \u2014 the fruit is usually just jam and the yogurt is low-fat.",
     "score": 15,
     "calories": 100
   },
@@ -737,7 +737,7 @@
       "fried chicken sandwich",
       "crispy chicken"
     ],
-    "reason": "Coated in refined flour and deep-fried in seed oil at industrial scale. The chicken itself is fine — it's everything around it.",
+    "reason": "Coated in refined flour and deep-fried in seed oil at industrial scale. The chicken itself is fine \u2014 it's everything around it.",
     "score": 15,
     "calories": 320
   },
@@ -975,7 +975,7 @@
       "cheese singles",
       "velveeta"
     ],
-    "reason": "Legally cannot be called 'cheese' — it's a 'pasteurized prepared cheese product' made with seed oils.",
+    "reason": "Legally cannot be called 'cheese' \u2014 it's a 'pasteurized prepared cheese product' made with seed oils.",
     "score": 5,
     "calories": 310
   },
@@ -1058,7 +1058,7 @@
       "maccas",
       "mickey d's"
     ],
-    "reason": "A masterclass in food engineering — every item is designed in a lab to be hyper-palatable and override your body's stop signals.",
+    "reason": "A masterclass in food engineering \u2014 every item is designed in a lab to be hyper-palatable and override your body's stop signals.",
     "score": 5,
     "calories": 500
   },
@@ -1071,7 +1071,7 @@
       "slim fast",
       "meal replacement shake"
     ],
-    "reason": "Science fiction food — synthetic nutrients suspended in seed oil and maltodextrin. Humans aren't machines.",
+    "reason": "Science fiction food \u2014 synthetic nutrients suspended in seed oil and maltodextrin. Humans aren't machines.",
     "score": 5,
     "calories": 400
   },
@@ -1085,7 +1085,7 @@
       "hungry man",
       "ready meal"
     ],
-    "reason": "Designed to survive months in a freezer — that shelf stability comes from industrial processing.",
+    "reason": "Designed to survive months in a freezer \u2014 that shelf stability comes from industrial processing.",
     "score": 10,
     "calories": 350
   },
@@ -1129,7 +1129,7 @@
       "blueberry muffin",
       "chocolate muffin"
     ],
-    "reason": "A cupcake pretending to be breakfast — most muffins have more sugar than a candy bar.",
+    "reason": "A cupcake pretending to be breakfast \u2014 most muffins have more sugar than a candy bar.",
     "score": 15,
     "calories": 426
   },
@@ -1173,7 +1173,7 @@
       "pancake mix",
       "aunt jemima"
     ],
-    "reason": "Refined flour, sugar, and seed oil — then drowned in corn syrup marketed as 'maple'. Real pancakes need none of this.",
+    "reason": "Refined flour, sugar, and seed oil \u2014 then drowned in corn syrup marketed as 'maple'. Real pancakes need none of this.",
     "score": 15,
     "calories": 227
   },
@@ -1259,7 +1259,7 @@
       "confectioners sugar",
       "icing sugar"
     ],
-    "reason": "Refined sugar ground even finer with added cornstarch — processing on top of processing.",
+    "reason": "Refined sugar ground even finer with added cornstarch \u2014 processing on top of processing.",
     "score": 5,
     "calories": 389
   },
@@ -1267,7 +1267,7 @@
     "name": "pringles",
     "category": "ultra-processed",
     "aliases": [],
-    "reason": "Not even technically chips — pressed potato flakes with seed oils.",
+    "reason": "Not even technically chips \u2014 pressed potato flakes with seed oils.",
     "score": 5,
     "calories": 536
   },
@@ -1285,7 +1285,7 @@
       "granola bar",
       "granola bars"
     ],
-    "reason": "Most are candy bars with added protein powder. Check the ingredients — seed oils and sweeteners galore.",
+    "reason": "Most are candy bars with added protein powder. Check the ingredients \u2014 seed oils and sweeteners galore.",
     "score": 25,
     "calories": 350
   },
@@ -1378,7 +1378,7 @@
       "italian dressing",
       "caesar dressing"
     ],
-    "reason": "Seed oil, sugar, and emulsifiers in a bottle — just use olive oil and vinegar.",
+    "reason": "Seed oil, sugar, and emulsifiers in a bottle \u2014 just use olive oil and vinegar.",
     "score": 10,
     "calories": 200
   },
@@ -1388,7 +1388,7 @@
     "aliases": [
       "sausage rolls"
     ],
-    "reason": "Mystery meat in refined pastry — the British gas station staple.",
+    "reason": "Mystery meat in refined pastry \u2014 the British gas station staple.",
     "score": 15,
     "calories": 340
   },
@@ -1518,7 +1518,7 @@
       "taco bell burrito",
       "crunchwrap"
     ],
-    "reason": "A taco in name only — the 'beef' is 36% beef, the rest is fillers, flavoring, and seed oils.",
+    "reason": "A taco in name only \u2014 the 'beef' is 36% beef, the rest is fillers, flavoring, and seed oils.",
     "score": 5,
     "calories": 450
   },
@@ -1605,7 +1605,7 @@
       "dairy free cheese",
       "cashew cheese"
     ],
-    "reason": "Starch, seed oils, coconut oil, and 'natural flavors' — trying very hard to be something it's not.",
+    "reason": "Starch, seed oils, coconut oil, and 'natural flavors' \u2014 trying very hard to be something it's not.",
     "score": 10,
     "calories": 250
   },
@@ -1613,7 +1613,7 @@
     "name": "velveeta",
     "category": "ultra-processed",
     "aliases": [],
-    "reason": "A \"pasteurized prepared cheese product\" — legally can't call itself cheese.",
+    "reason": "A \"pasteurized prepared cheese product\" \u2014 legally can't call itself cheese.",
     "score": 5,
     "calories": 303
   },
@@ -1637,7 +1637,7 @@
       "baconator",
       "frosty"
     ],
-    "reason": "Fresh, never frozen beef — cooked in seed oil and served on a refined flour bun.",
+    "reason": "Fresh, never frozen beef \u2014 cooked in seed oil and served on a refined flour bun.",
     "score": 10,
     "calories": 500
   },
@@ -1685,7 +1685,7 @@
       "granulated sugar",
       "sucrose"
     ],
-    "reason": "Sugarcane stripped of every mineral and vitamin until pure sucrose remains — empty calories by design.",
+    "reason": "Sugarcane stripped of every mineral and vitamin until pure sucrose remains \u2014 empty calories by design.",
     "score": 10,
     "calories": 387
   },
@@ -1697,8 +1697,484 @@
       "flour tortilla wrap",
       "spinach wrap"
     ],
-    "reason": "A refined flour tortilla with green food coloring doesn't make it healthy — it's just a flat piece of white bread.",
+    "reason": "A refined flour tortilla with green food coloring doesn't make it healthy \u2014 it's just a flat piece of white bread.",
     "score": 15,
     "calories": 300
+  },
+  {
+    "name": "chicken roll",
+    "category": "fast food",
+    "aliases": [
+      "deli chicken roll",
+      "hot chicken roll",
+      "chicken fillet roll"
+    ],
+    "reason": "White bread roll, processed chicken fillet, mayo, and butter \u2014 a deli-counter insulin bomb.",
+    "score": 15,
+    "calories": 480
+  },
+  {
+    "name": "breakfast roll",
+    "category": "fast food",
+    "aliases": [
+      "irish breakfast roll",
+      "full irish roll"
+    ],
+    "reason": "Sausage, bacon, white pudding, and egg crammed into a white roll with butter. Every bite is a processed medley.",
+    "score": 12,
+    "calories": 550
+  },
+  {
+    "name": "spice bag",
+    "category": "fast food",
+    "aliases": [
+      "chinese spice bag",
+      "spice box"
+    ],
+    "reason": "Deep-fried chicken, chips, peppers, and onions in spiced seed oil. The pride of every Irish chipper.",
+    "score": 10,
+    "calories": 620
+  },
+  {
+    "name": "battered sausage",
+    "category": "deep fried",
+    "aliases": [
+      "battered sausage and chips"
+    ],
+    "reason": "A processed sausage dipped in flour batter and deep fried in seed oil. Double trash.",
+    "score": 8,
+    "calories": 340
+  },
+  {
+    "name": "onion rings",
+    "category": "deep fried",
+    "aliases": [
+      "fried onion rings"
+    ],
+    "reason": "Onions battered in refined flour and deep fried in seed oil.",
+    "score": 15,
+    "calories": 332
+  },
+  {
+    "name": "mozzarella sticks",
+    "category": "deep fried",
+    "aliases": [
+      "fried mozzarella",
+      "cheese sticks"
+    ],
+    "reason": "Cheese breaded in refined flour and deep fried in seed oil.",
+    "score": 15,
+    "calories": 310
+  },
+  {
+    "name": "tater tots",
+    "category": "deep fried",
+    "aliases": [
+      "potato gems",
+      "potato bites"
+    ],
+    "reason": "Processed potato reformed into shapes and deep fried in seed oil.",
+    "score": 12,
+    "calories": 228
+  },
+  {
+    "name": "spring rolls",
+    "category": "deep fried",
+    "aliases": [
+      "egg rolls",
+      "fried spring rolls"
+    ],
+    "reason": "Refined flour wrapper filled with vegetables, deep fried in seed oil.",
+    "score": 18,
+    "calories": 260
+  },
+  {
+    "name": "samosa",
+    "category": "deep fried",
+    "aliases": [
+      "samosas",
+      "fried samosa"
+    ],
+    "reason": "Refined flour pastry filled with potatoes, deep fried in seed oil.",
+    "score": 18,
+    "calories": 262
+  },
+  {
+    "name": "churros",
+    "category": "deep fried",
+    "aliases": [
+      "churro"
+    ],
+    "reason": "Refined flour dough deep fried in seed oil and rolled in sugar.",
+    "score": 8,
+    "calories": 420
+  },
+  {
+    "name": "chicken kiev",
+    "category": "ultra-processed",
+    "aliases": [
+      "chicken kyiv",
+      "garlic chicken kiev"
+    ],
+    "reason": "Processed chicken breast stuffed with garlic butter, breaded, and fried in seed oil.",
+    "score": 18,
+    "calories": 280
+  },
+  {
+    "name": "fish fingers",
+    "category": "ultra-processed",
+    "aliases": [
+      "fish stix",
+      "fish finger"
+    ],
+    "reason": "Processed fish reformed into shapes, breaded in refined flour, fried in seed oil.",
+    "score": 15,
+    "calories": 220
+  },
+  {
+    "name": "ready meal",
+    "category": "ultra-processed",
+    "aliases": [
+      "tv dinner",
+      "frozen dinner",
+      "microwave dinner",
+      "ready made meal"
+    ],
+    "reason": "Industrial ingredients list longer than your arm. Seed oils, preservatives, emulsifiers.",
+    "score": 8,
+    "calories": 350
+  },
+  {
+    "name": "frozen lasagne",
+    "category": "ultra-processed",
+    "aliases": [
+      "ready made lasagne",
+      "store bought lasagne",
+      "microwave lasagne"
+    ],
+    "reason": "Refined pasta, processed cheese sauce, seed oils, preservatives, and mystery meat.",
+    "score": 10,
+    "calories": 360
+  },
+  {
+    "name": "frozen burrito",
+    "category": "ultra-processed",
+    "aliases": [
+      "microwave burrito"
+    ],
+    "reason": "Refined flour tortilla with processed fillings, seed oils, and preservatives.",
+    "score": 12,
+    "calories": 310
+  },
+  {
+    "name": "chicken pie",
+    "category": "ultra-processed",
+    "aliases": [
+      "pot pie",
+      "chicken pot pie"
+    ],
+    "reason": "Refined flour pastry with processed chicken filling, seed oils, and thickeners.",
+    "score": 15,
+    "calories": 280
+  },
+  {
+    "name": "sausage",
+    "category": "processed meat",
+    "aliases": [
+      "sausages",
+      "pork sausage",
+      "breakfast sausage",
+      "bangers"
+    ],
+    "reason": "Processed meat with fillers, preservatives, and often seed oils.",
+    "score": 18,
+    "calories": 301
+  },
+  {
+    "name": "bacon",
+    "category": "processed meat",
+    "aliases": [
+      "streaky bacon",
+      "back bacon",
+      "turkey bacon",
+      "bacon rashers"
+    ],
+    "reason": "Cured processed meat with nitrates, sugar, and preservatives.",
+    "score": 20,
+    "calories": 541
+  },
+  {
+    "name": "deli meat",
+    "category": "processed meat",
+    "aliases": [
+      "lunch meat",
+      "cold cuts",
+      "sliced turkey",
+      "sliced ham",
+      "deli turkey",
+      "deli ham"
+    ],
+    "reason": "Processed meat with nitrates, sugar, phosphates, and seed oils.",
+    "score": 15,
+    "calories": 145
+  },
+  {
+    "name": "pepperoni",
+    "category": "processed meat",
+    "aliases": [
+      "pepperoni slices"
+    ],
+    "reason": "Processed cured meat with nitrates, sugar, and artificial flavoring.",
+    "score": 15,
+    "calories": 494
+  },
+  {
+    "name": "nuggets",
+    "category": "deep fried",
+    "aliases": [
+      "mcnuggets",
+      "chicken mcnuggets",
+      "dino nuggets",
+      "turkey nuggets"
+    ],
+    "reason": "Mechanically processed chicken, breaded in refined flour, fried in seed oil.",
+    "score": 10,
+    "calories": 296
+  },
+  {
+    "name": "fried rice",
+    "category": "ultra-processed",
+    "aliases": [
+      "chinese fried rice",
+      "takeaway fried rice"
+    ],
+    "reason": "White rice fried in seed oil with soy sauce, MSG, and processed additions.",
+    "score": 20,
+    "calories": 238
+  },
+  {
+    "name": "garlic bread",
+    "category": "ultra-processed",
+    "aliases": [
+      "cheesy garlic bread",
+      "frozen garlic bread"
+    ],
+    "reason": "White bread with margarine or seed oil butter substitute and garlic flavoring.",
+    "score": 15,
+    "calories": 350
+  },
+  {
+    "name": "coleslaw",
+    "category": "seed oil product",
+    "aliases": [
+      "cole slaw",
+      "creamy coleslaw"
+    ],
+    "reason": "Cabbage drowned in seed oil mayonnaise and sugar.",
+    "score": 15,
+    "calories": 170
+  },
+  {
+    "name": "curry sauce",
+    "category": "ultra-processed",
+    "aliases": [
+      "chip shop curry",
+      "chinese curry sauce"
+    ],
+    "reason": "Seed oil, modified starch, sugar, artificial flavoring, and food coloring.",
+    "score": 10,
+    "calories": 85
+  },
+  {
+    "name": "sweet and sour",
+    "category": "ultra-processed",
+    "aliases": [
+      "sweet and sour sauce",
+      "sweet and sour chicken"
+    ],
+    "reason": "Seed oil, corn syrup, modified starch, artificial flavoring.",
+    "score": 12,
+    "calories": 230
+  },
+  {
+    "name": "biscuits",
+    "category": "ultra-processed",
+    "aliases": [
+      "digestives",
+      "cookies",
+      "rich tea",
+      "custard creams",
+      "bourbons",
+      "hobnobs"
+    ],
+    "reason": "Refined flour, sugar, seed oils, and artificial flavoring.",
+    "score": 10,
+    "calories": 480
+  },
+  {
+    "name": "crisps",
+    "category": "deep fried",
+    "aliases": [
+      "walkers crisps",
+      "tayto",
+      "pringles"
+    ],
+    "reason": "Thin potato slices deep fried in seed oil with artificial flavoring.",
+    "score": 10,
+    "calories": 536
+  },
+  {
+    "name": "noodles",
+    "category": "ultra-processed",
+    "aliases": [
+      "instant noodles",
+      "pot noodle",
+      "cup noodles",
+      "super noodles"
+    ],
+    "reason": "Refined flour noodles fried in palm oil with MSG and artificial seasoning.",
+    "score": 8,
+    "calories": 457
+  },
+  {
+    "name": "chicken burger",
+    "category": "fast food",
+    "aliases": [
+      "mcchicken",
+      "chicken sandwich",
+      "crispy chicken burger"
+    ],
+    "reason": "Breaded processed chicken fried in seed oil, served in a refined flour bun.",
+    "score": 12,
+    "calories": 430
+  },
+  {
+    "name": "kebab",
+    "category": "fast food",
+    "aliases": [
+      "doner kebab",
+      "doner",
+      "shawarma"
+    ],
+    "reason": "Processed reformed meat on a spit with seed oils, fillers, and preservatives.",
+    "score": 15,
+    "calories": 480
+  },
+  {
+    "name": "lasagne",
+    "category": "ultra-processed",
+    "aliases": [
+      "lasagna",
+      "baked lasagne"
+    ],
+    "reason": "Refined flour pasta sheets with processed cheese sauce, seed oils, and often processed meat.",
+    "score": 18,
+    "calories": 350
+  },
+  {
+    "name": "pasta",
+    "category": "ultra-processed",
+    "aliases": [
+      "spaghetti",
+      "penne",
+      "fusilli",
+      "macaroni",
+      "fettuccine",
+      "linguine",
+      "tagliatelle"
+    ],
+    "reason": "Refined wheat flour stripped of nutrients. The base of a thousand processed meals.",
+    "score": 22,
+    "calories": 371
+  },
+  {
+    "name": "white rice",
+    "category": "ultra-processed",
+    "aliases": [
+      "jasmine rice",
+      "basmati rice",
+      "sticky rice"
+    ],
+    "reason": "Stripped of bran and germ \u2014 just starch. Spikes blood sugar like candy.",
+    "score": 25,
+    "calories": 360
+  },
+  {
+    "name": "bread",
+    "category": "ultra-processed",
+    "aliases": [
+      "sliced bread",
+      "sandwich bread",
+      "toast",
+      "white bread loaf"
+    ],
+    "reason": "Refined flour, seed oils, sugar, and preservatives. Modern bread is barely food.",
+    "score": 15,
+    "calories": 265
+  },
+  {
+    "name": "tortilla",
+    "category": "ultra-processed",
+    "aliases": [
+      "flour tortilla",
+      "wrap",
+      "burrito wrap"
+    ],
+    "reason": "Refined flour, seed oil, and preservatives pressed into a disc.",
+    "score": 15,
+    "calories": 312
+  },
+  {
+    "name": "crackers",
+    "category": "ultra-processed",
+    "aliases": [
+      "water crackers",
+      "cream crackers",
+      "saltines",
+      "jacob's crackers"
+    ],
+    "reason": "Refined flour, seed oil, and salt baked into a crisp. Empty calories.",
+    "score": 12,
+    "calories": 440
+  },
+  {
+    "name": "cereal",
+    "category": "ultra-processed",
+    "aliases": [
+      "breakfast cereal",
+      "corn flakes",
+      "bran flakes"
+    ],
+    "reason": "Extruded refined grains with sugar, seed oils, and synthetic vitamins.",
+    "score": 12,
+    "calories": 380
+  },
+  {
+    "name": "chocolate",
+    "category": "ultra-processed",
+    "aliases": [
+      "milk chocolate",
+      "chocolate candy",
+      "cadbury",
+      "dairy milk"
+    ],
+    "reason": "Mostly sugar, milk powder, and soy lecithin. The cocoa is an afterthought.",
+    "score": 15,
+    "calories": 535
+  },
+  {
+    "name": "sweets",
+    "category": "ultra-processed",
+    "aliases": [
+      "candy",
+      "gummy bears",
+      "jelly beans",
+      "haribo",
+      "wine gums",
+      "fruit pastilles"
+    ],
+    "reason": "Pure sugar, corn syrup, artificial colors, and gelatin.",
+    "score": 5,
+    "calories": 340
   }
 ]
