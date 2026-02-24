@@ -304,6 +304,24 @@ export function Verdict({ result, query }: VerdictProps) {
           </motion.div>
         )}
 
+        {/* Clean swap suggestion */}
+        {!isFood && result.trashItem?.swap && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+            className="mt-4 p-5 border border-food-green/20 bg-food-green-dim"
+          >
+            <p className="text-xs text-bone leading-relaxed">
+              <span className="text-food-green font-semibold uppercase tracking-[0.1em] text-[10px]">
+                Try instead
+              </span>
+              <br />
+              <span className="mt-1 block text-bone/80">{result.trashItem.swap}</span>
+            </p>
+          </motion.div>
+        )}
+
         {/* Score meter — outside the verdict card */}
         <ScoreMeter score={result.score} />
       </motion.div>

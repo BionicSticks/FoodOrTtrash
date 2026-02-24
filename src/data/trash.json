@@ -7,7 +7,9 @@
     ],
     "reason": "Mystery meat with corn syrup and sodium phosphate.",
     "score": 10,
-    "calories": 247
+    "calories": 247,
+    "explanation": "Bologna is a factory-made abomination of processed meat, stuffed with nitrates, preservatives, and artificial flavorings. You're not eating meat, you're eating a chemical cocktail designed to keep you hooked. Your taste buds deserve better than this factory floor garbage.",
+    "swap": "Grass-fed beef, salami, or prosciutto"
   },
   {
     "name": "spam",
@@ -15,7 +17,9 @@
     "aliases": [],
     "reason": "Pork shoulder, salt, sugar, and sodium nitrite. Wartime survival food.",
     "score": 15,
-    "calories": 315
+    "calories": 315,
+    "explanation": "Spam is a factory-made abomination of what was once a decent ham. You're consuming a lab-created mixture of salt, sugar, and preservatives, not real meat. It's time to face theiqn that Spam is not food, it's a science experiment.",
+    "swap": "Grass-fed beef, pork sausage, or bacon"
   },
   {
     "name": "vienna sausage",
@@ -25,7 +29,9 @@
     ],
     "reason": "Mechanically separated meat in a can. Enough said.",
     "score": 8,
-    "calories": 230
+    "calories": 230,
+    "explanation": "Vienna sausage is a sad, cylindrical abomination made from a mixture of mechanically recovered meat, preservatives, and sodium nitrite. You'd be hard-pressed to find a single recognizable ingredient in this processed monstrosity. Just eat a real sausage made from actual meat.",
+    "swap": "Grass-fed beef sausage without fillers"
   },
   {
     "name": "canola oil",
@@ -37,7 +43,9 @@
     ],
     "reason": "Industrially processed seed oil extracted with chemical solvents. Didn't exist before the 1970s.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Canola oil is a highly processed seed oil made from genetically modified rapeseed. You're not getting a natural oil from a real seed, but rather a synthetic product engineered for mass production. It's a far cry from the food your ancestors knew.",
+    "swap": "Butter, ghee, tallow, or extra virgin olive oil"
   },
   {
     "name": "corn oil",
@@ -48,7 +56,9 @@
     ],
     "reason": "Requires heavy industrial processing to extract oil from corn kernels. Your ancestors never ate this.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Corn oil is industrially extracted from genetically modified corn, then highly processed to remove impurities. You're not getting the nutrients from the corn, just a bottle of oxidized, inflammatory seed oil. Use the real corn instead.",
+    "swap": "Butter, ghee, tallow, or extra virgin olive oil"
   },
   {
     "name": "cottonseed oil",
@@ -59,7 +69,9 @@
     ],
     "reason": "Oil from a plant grown for textiles, not nutrition. Originally classified as industrial waste.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Cottonseed oil is a toxic byproduct of cotton production, often extracted using hexane, a known carcinogen. You're not getting a healthy oil, you're getting a chemical cocktail. Just use real, cold-pressed olive oil.",
+    "swap": "Butter, ghee, tallow, or extra virgin olive oil"
   },
   {
     "name": "grapeseed oil",
@@ -70,7 +82,9 @@
     ],
     "reason": "A byproduct of winemaking, marketed as healthy but extracted with chemical solvents.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Grapeseed oil is a highly processed product extracted from seeds, stripped of its natural nutrients and flavor. You're essentially consuming a bland, neutral-tasting liquid that's been created in a lab. It's a far cry from the real thing – just use olive oil or avocado oil instead.",
+    "swap": "Butter, ghee, tallow, or extra virgin olive oil"
   },
   {
     "name": "rice bran oil",
@@ -80,7 +94,9 @@
     ],
     "reason": "Heavily processed oil extracted from the bran layer of rice. Not a traditional fat source.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Rice bran oil is a seed oil masquerading as a healthy choice. You're essentially consuming liquid gold in a bottle, a product of industrial processing that strips away nutrients and leaves behind a highly processed, inflammatory oil. Use real, unprocessed fats instead.",
+    "swap": "Butter, ghee, tallow, or extra virgin olive oil"
   },
   {
     "name": "safflower oil",
@@ -90,7 +106,9 @@
     ],
     "reason": "Another industrial seed oil. Safflower was traditionally used as a dye, not a food.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Safflower oil is a highly processed seed oil that's been stripped of its natural nutrients and flavor. You're not getting the real deal when you swap out healthy fats for this manufactured substitute. Just use olive oil or avocado oil instead.",
+    "swap": "Butter, ghee, tallow, or extra virgin olive oil"
   },
   {
     "name": "soybean oil",
@@ -101,9 +119,11 @@
       "soya oil",
       "vegetable oil"
     ],
-    "reason": "The most consumed oil in America \u2014 and also the most heavily processed. Extracted with hexane.",
+    "reason": "The most consumed oil in America — and also the most heavily processed. Extracted with hexane.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Soybean oil is an industrially processed seed oil that's stripped of its nutrients and vitamins. You're essentially consuming a highly refined, possibly genetically modified liquid that's been stripped of its natural goodness. It's a far cry from the whole soybeans it comes from.",
+    "swap": "Butter, ghee, tallow, or extra virgin olive oil"
   },
   {
     "name": "sunflower oil",
@@ -115,7 +135,9 @@
     ],
     "reason": "Industrially extracted seed oil high in omega-6 linoleic acid.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Sunflower oil is a highly processed liquid made from seeds that have been stripped of their nutrients and then extracted with chemicals. You're not getting the real nutritional value of sunflower seeds, just a cheap, inflammatory oil that's been altered beyond recognition. Just use whole sunflower seeds instead.",
+    "swap": "Butter, ghee, tallow, or extra virgin olive oil"
   },
   {
     "name": "soy lecithin",
@@ -126,7 +148,9 @@
     ],
     "reason": "Industrial byproduct of soybean oil processing. Found in almost every processed food.",
     "score": 10,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Soy lecithin is a highly processed byproduct of soybean oil, extracted through harsh chemical methods. You're not getting a natural food, but rather a lab-created additive designed to emulsify and stabilize fake foods. Just eat real foods, not industrial goop.",
+    "swap": "Sunflower seeds, egg yolks, or coconut oil"
   },
   {
     "name": "coffee creamer",
@@ -139,7 +163,9 @@
     ],
     "reason": "Contains no cream. It's water, sugar, and partially hydrogenated soybean oil.",
     "score": 10,
-    "calories": 550
+    "calories": 550,
+    "explanation": "Coffee creamer is a concoction of hydrogenated seed oils, artificial flavorings, and thickeners. You're not adding cream to your coffee, you're adding a chemical cocktail that's more at home in a lab than a kitchen. Ditch the creamer and use real milk or cream instead.",
+    "swap": "Coconut oil, ghee, or grass-fed heavy cream"
   },
   {
     "name": "crisco",
@@ -147,7 +173,9 @@
     "aliases": [],
     "reason": "Hydrogenated soybean oil. The original seed oil trash.",
     "score": 2,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Crisco is a concoction of genetically modified soybeans and other seeds, processed into a toxic oil that's far from natural. You shouldn't be consuming this artificial substitute for real fats. Just use coconut oil or lard instead.",
+    "swap": "Butter, ghee, tallow, or coconut oil"
   },
   {
     "name": "french fries",
@@ -160,7 +188,9 @@
     ],
     "reason": "Potatoes are food. Potatoes deep-fried in seed oil with added 'natural beef flavor'? That's trash.",
     "score": 10,
-    "calories": 700
+    "calories": 700,
+    "explanation": "French fries are a prime example of seed oil abuse. You soak them in a vat of industrial canola oil, then deep-fry them to a crispy, artery-clogging delight. This is not a food, it's a heart attack waiting to happen.",
+    "swap": "Baked sweet potato, turnip fries, or parsnip fries."
   },
   {
     "name": "i cant believe its not butter",
@@ -170,7 +200,9 @@
     ],
     "reason": "Soybean oil pretending to be butter. We can believe it's not butter.",
     "score": 3,
-    "calories": 600
+    "calories": 600,
+    "explanation": "I Cant Believe Its Not Butter is a slickly packaged lie, masquerading as butter but actually a blend of seed oils and chemicals. You're not getting real dairy fat, just a cheap imitation that's more likely to clog your arteries than satisfy your taste buds.",
+    "swap": "Butter, ghee, tallow, or coconut oil"
   },
   {
     "name": "margarine",
@@ -185,7 +217,9 @@
     ],
     "reason": "Solidified seed oils. Originally invented as a cheap substitute for butter using industrial chemistry.",
     "score": 8,
-    "calories": 717
+    "calories": 717,
+    "explanation": "Margarine is solidified seed oil dressed up to look like butter. Your great-grandmother wouldn't recognize it as food. Just use real butter.",
+    "swap": "Butter, ghee, tallow, or coconut oil"
   },
   {
     "name": "mayonnaise",
@@ -198,7 +232,9 @@
     ],
     "reason": "Modern mayo is almost entirely soybean oil. Traditional mayo was made with olive oil or egg yolks and lemon.",
     "score": 10,
-    "calories": 680
+    "calories": 680,
+    "explanation": "Mayonnaise is a mixture of seed oils, water, and a slew of additives. You're essentially consuming a vehicle for flavor, with little to no actual nutrition. It's a highly processed condiment that's a far cry from real food.",
+    "swap": "Avocado, olive oil, or egg yolks"
   },
   {
     "name": "miracle whip",
@@ -210,7 +246,9 @@
     ],
     "reason": "Soybean oil, corn syrup, and modified food starch. Can't legally be called mayonnaise.",
     "score": 10,
-    "calories": 700
+    "calories": 700,
+    "explanation": "Miracle Whip is a sugary, acidic dressing made from a toxic blend of seed oils. You're essentially consuming a mixture of soybean and canola oil, disguised as a condiment. Don't be fooled, it's just a processed poison.",
+    "swap": "Mayonnaise made with egg yolks and olive oil"
   },
   {
     "name": "ranch dressing",
@@ -222,7 +260,9 @@
     ],
     "reason": "Primarily soybean oil with buttermilk powder, MSG, and artificial flavors. America's favorite seed oil delivery system.",
     "score": 10,
-    "calories": 450
+    "calories": 450,
+    "explanation": "Ranch dressing is a toxic cocktail of seed oils, artificial flavorings, and preservatives. You're essentially injecting plastic and pesticides into your body with every drizzle. Just use fresh herbs and real dairy to make a salad dressing that's actually edible.",
+    "swap": "Avocado oil, olive oil, or homemade ranch with yogurt and herbs."
   },
   {
     "name": "shortening",
@@ -234,7 +274,9 @@
     ],
     "reason": "Hydrogenated seed oils. Crisco was originally made from cottonseed oil for candle-making.",
     "score": 5,
-    "calories": 884
+    "calories": 884,
+    "explanation": "Shortening is a blend of seed oils like soybean and canola, liquified and then hydrogenated to create a fake fat. You're not getting real nutrition from this processed concoction. Use lard or tallow instead.",
+    "swap": "Butter, ghee, tallow, or coconut oil"
   },
   {
     "name": "trans fat",
@@ -248,7 +290,9 @@
     ],
     "reason": "Artificially created by pumping hydrogen gas into seed oils. So dangerous even the FDA banned them.",
     "score": 10,
-    "calories": 700
+    "calories": 700,
+    "explanation": "Trans fat is a toxic byproduct of seed oil processing, created to extend shelf life. You're consuming a known health risk with every bite. It's a cheap trick to make fake foods last longer, not a natural part of any real food.",
+    "swap": "Coconut oil, olive oil, or avocado oil"
   },
   {
     "name": "agave nectar",
@@ -256,9 +300,11 @@
     "aliases": [
       "agave syrup"
     ],
-    "reason": "Marketed as 'natural' but processed like high fructose corn syrup \u2014 up to 90% fructose.",
+    "reason": "Marketed as 'natural' but processed like high fructose corn syrup — up to 90% fructose.",
     "score": 10,
-    "calories": 310
+    "calories": 310,
+    "explanation": "Agave nectar is a highly processed liquid sweetener made from the agave plant's starch, but it's not a natural product. You're getting a concentrated dose of fructose, which can wreak havoc on your health. This isn't a sweetener, it's a sugar substitute designed to hook you.",
+    "swap": "Honey, maple syrup, or coconut sugar"
   },
   {
     "name": "artificial sweetener",
@@ -276,7 +322,9 @@
     ],
     "reason": "Synthetic chemicals that trick your brain into thinking you're eating sugar. Your body isn't fooled.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Artificial sweetener is a lab-created concoction, devoid of any nutritional value or real food properties. You're essentially consuming a chemical that tricks your taste buds, but does nothing for your body. This is not a food, it's a synthetic substitute designed to line the pockets of its manufacturers.",
+    "swap": "Honey, maple syrup, or stevia"
   },
   {
     "name": "bagel",
@@ -285,9 +333,11 @@
       "bagels",
       "everything bagel"
     ],
-    "reason": "Dense refined wheat \u2014 one bagel has the same carbs as 4 slices of bread. And that's before the cream cheese.",
+    "reason": "Dense refined wheat — one bagel has the same carbs as 4 slices of bread. And that's before the cream cheese.",
     "score": 20,
-    "calories": 270
+    "calories": 270,
+    "explanation": "A bagel is a factory-made, yeast-leavened disk of refined flour, water, and a cocktail of additives. You're not getting a real food, just a processed product designed to be addictive and easy to consume. What's left of the wheat has been stripped of its nutrients and replaced with preservatives and artificial flavor enhancers.",
+    "swap": "Almond flour flatbread or sourdough bread"
   },
   {
     "name": "bagel bites",
@@ -295,7 +345,9 @@
     "aliases": [],
     "reason": "Mini bagels with soybean oil and processed cheese.",
     "score": 8,
-    "calories": 230
+    "calories": 230,
+    "explanation": "Bagel Bites are a manufactured abomination of dough, seeds, and preservatives, hastily assembled into a frozen brick. You're not eating a real food, you're consuming a chemical amalgamation designed to be reheated and devoured in under 3 minutes. Don't settle for this sorry excuse for a snack.",
+    "swap": "Grass-fed beef or pork mini meatballs, mozzarella cheese, or fresh pizza with whole-wheat crust."
   },
   {
     "name": "bbq sauce",
@@ -304,9 +356,11 @@
       "barbecue sauce",
       "sweet baby rays"
     ],
-    "reason": "Check the first ingredient \u2014 it's almost always high fructose corn syrup, not tomatoes.",
+    "reason": "Check the first ingredient — it's almost always high fructose corn syrup, not tomatoes.",
     "score": 15,
-    "calories": 172
+    "calories": 172,
+    "explanation": "BBQ sauce is a sugary concoction of artificial flavor enhancers, seed oils, and refined thickeners, masquerading as a condiment. You wouldn't catch a Pitmaster lathering this on a rack of ribs. Just use real seasonings and a bit of patience.",
+    "swap": "Coconut aminos, apple cider vinegar, or citrus juice."
   },
   {
     "name": "beyond meat",
@@ -318,7 +372,9 @@
     ],
     "reason": "Pea protein isolate, canola oil, methylcellulose, and 20+ ingredients. Plants don't naturally form burgers.",
     "score": 10,
-    "calories": 230
+    "calories": 230,
+    "explanation": "Beyond Meat is a lab-created imitation of meat, made from a cocktail of pea protein, potato starch, and genetically modified yeast. You're not eating a real food, you're consuming a highly processed concoction designed to mimic the taste and texture of meat. It's a product of industrial manipulation, not nature.",
+    "swap": "Grass-fed beef, pasture-raised chicken, or wild-caught fish"
   },
   {
     "name": "breadsticks",
@@ -330,7 +386,9 @@
     ],
     "reason": "Refined flour sticks brushed with seed oil and garlic powder. Real garlic bread uses butter.",
     "score": 15,
-    "calories": 300
+    "calories": 300,
+    "explanation": "Breadsticks are factory-made sticks of reconstituted flour, water, and chemicals, coated in a layer of fake butter and salt. You're not eating bread, you're eating a processed imitation. It's time to ditch the sticks and make real bread.",
+    "swap": "Crispy roasted vegetables or celery sticks."
   },
   {
     "name": "breakfast cereal",
@@ -344,7 +402,9 @@
     ],
     "reason": "Grains stripped of nutrients, extruded at high heat, then 'fortified' with synthetic vitamins.",
     "score": 8,
-    "calories": 375
+    "calories": 375,
+    "explanation": "Breakfast cereal is a corn flake product made from refined grains, often infused with seed oils and artificial flavorings. You're not eating real food, you're consuming a mass-produced, highly processed imitation. Your body doesn't need this stuff, just eat whole grains instead.",
+    "swap": "Oatmeal with nuts and seeds, or Greek yogurt with berries."
   },
   {
     "name": "breakfast sandwich",
@@ -354,9 +414,11 @@
       "sausage mcmuffin",
       "mcgriddle"
     ],
-    "reason": "Real eggs on a refined English muffin with processed cheese and factory pork \u2014 the whole being worse than its parts.",
+    "reason": "Real eggs on a refined English muffin with processed cheese and factory pork — the whole being worse than its parts.",
     "score": 15,
-    "calories": 300
+    "calories": 300,
+    "explanation": "This breakfast sandwich is a factory-produced abomination, cobbled together from questionable meats, processed cheeses, and factory-baked buns. You're essentially consuming a science experiment with a label. Just eat a real egg and some actual bacon.",
+    "swap": "Eggs, avocado, spinach, bacon, or ham on a whole-grain English muffin."
   },
   {
     "name": "brownie",
@@ -365,9 +427,11 @@
       "brownies",
       "chocolate brownies"
     ],
-    "reason": "Sugar, refined flour, and cheap chocolate \u2014 the boxed mix kind has ingredients you can't pronounce.",
+    "reason": "Sugar, refined flour, and cheap chocolate — the boxed mix kind has ingredients you can't pronounce.",
     "score": 15,
-    "calories": 466
+    "calories": 466,
+    "explanation": "Brownies are a swirling mess of refined sugar, artificial flavorings, and seed oils. You're not eating a real food, you're consuming a manufactured treat designed to hook you from the first bite. Don't settle for this factory-made fake – bake a real dessert with wholesome ingredients.",
+    "swap": "Dark chocolate, walnuts, or dates."
   },
   {
     "name": "burger king",
@@ -376,9 +440,11 @@
       "bk",
       "whopper meal"
     ],
-    "reason": "Flame-grilled sounds healthy until you read the ingredient list \u2014 the buns alone contain over 20 ingredients.",
+    "reason": "Flame-grilled sounds healthy until you read the ingredient list — the buns alone contain over 20 ingredients.",
     "score": 10,
-    "calories": 500
+    "calories": 500,
+    "explanation": "Burger King is a meal replacement, not a meal. You're consuming a toxic cocktail of seed oils, artificial preservatives, and genetically modified ingredients, all wrapped in a processed bun. This isn't food, it's a science experiment.",
+    "swap": "Grass-fed beef patty, lettuce, tomato, avocado, or bacon."
   },
   {
     "name": "cake",
@@ -389,9 +455,11 @@
       "layer cake",
       "sheet cake"
     ],
-    "reason": "Refined flour, sugar, seed oils, artificial colors and flavors \u2014 assembled into something your grandmother wouldn't recognize.",
+    "reason": "Refined flour, sugar, seed oils, artificial colors and flavors — assembled into something your grandmother wouldn't recognize.",
     "score": 10,
-    "calories": 350
+    "calories": 350,
+    "explanation": "Cake is a Frankenstein's monster of refined sugar, seed oils, and artificial additives. You're not eating cake, you're consuming a mixture of chemicals designed to activate your taste buds and line the pockets of industrial food manufacturers. No real food goes into making this stuff.",
+    "swap": "Berries with whipped cream or Lemon bars with almond flour crust."
   },
   {
     "name": "candy",
@@ -411,7 +479,9 @@
     ],
     "reason": "Pure sugar, artificial colors, and flavors. Your great-grandmother wouldn't recognize this as food.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Candy is a toxic cocktail of sugar, artificial flavorings, and refined corn syrup. You're essentially injecting a spoonful of empty calories into your body, with no nutritional value to show for it. It's a manipulative concoction designed to hook you, not nourish you.",
+    "swap": "Dried apricots, dates, or fresh berries"
   },
   {
     "name": "capri sun",
@@ -419,7 +489,9 @@
     "aliases": [],
     "reason": "Sugar water in a pouch for kids. Brilliant marketing, terrible nutrition.",
     "score": 5,
-    "calories": 44
+    "calories": 44,
+    "explanation": "Capri Sun is a sugary, preservative-laden drink that's more like a chemistry experiment than a natural beverage. You're essentially paying for water with added flavorings and artificial colors. Just drink real water or make your own juice from whole fruits.",
+    "swap": "Water with fresh fruit or sparkling water with lemon."
   },
   {
     "name": "cereal bar",
@@ -429,9 +501,11 @@
       "nutri-grain bar",
       "fiber one bar"
     ],
-    "reason": "Marketed as healthy \u2014 check the label: it's a cookie with added fiber and a health claim.",
+    "reason": "Marketed as healthy — check the label: it's a cookie with added fiber and a health claim.",
     "score": 10,
-    "calories": 200
+    "calories": 200,
+    "explanation": "This cereal bar is a concoction of sugar, corn syrup, and seed oils, all bound together with artificial preservatives. You can't even pronounce half the ingredients, let alone know what they do to your body. It's a snack that's more chemistry experiment than real food.",
+    "swap": "Almonds, cashews, or dried fruit"
   },
   {
     "name": "cheerios",
@@ -439,7 +513,9 @@
     "aliases": [],
     "reason": "Whole grain oats plus sugar, tripotassium phosphate, and added vitamins to seem healthy.",
     "score": 15,
-    "calories": 375
+    "calories": 375,
+    "explanation": "Cheerios is a hollow, sugary shell made from refined flour and drenched in seed oil. You wouldn't eat cardboard, so why settle for a breakfast cereal that's essentially the same thing? Opt for whole grains instead.",
+    "swap": "Oatmeal with fresh fruit and nuts"
   },
   {
     "name": "cheese whiz",
@@ -448,9 +524,11 @@
       "cheez whiz",
       "cheese wiz"
     ],
-    "reason": "Canola oil, milk protein, and sodium phosphate \u2014 not cheese.",
+    "reason": "Canola oil, milk protein, and sodium phosphate — not cheese.",
     "score": 3,
-    "calories": 276
+    "calories": 276,
+    "explanation": "Cheese Whiz is a synthetic cheese substitute made from a cocktail of artificial preservatives, emulsifiers, and seed oils. You're not getting actual cheese, just a processed paste designed to mimic its taste and texture. Don't settle for this fake stuff when real cheese is just a block away.",
+    "swap": "Grass-fed cheddar, mozzarella, or feta cheese."
   },
   {
     "name": "cheez whiz",
@@ -463,7 +541,9 @@
     ],
     "reason": "Contains very little actual cheese. Mostly seed oils, modified food starch, and artificial colors.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Cheez Whiz is a synthetic cheese substitute made from a cocktail of artificial preservatives, emulsifiers, and seed oils. You're not eating cheese, you're eating a chemical imitation that's been cooked up in a factory. This is not food, it's a product designed to sell you a fake dairy experience.",
+    "swap": "Butter, ghee, or grated cheddar cheese."
   },
   {
     "name": "cheez-it",
@@ -474,7 +554,9 @@
     ],
     "reason": "Soybean oil, refined flour, and \"cheese\" product.",
     "score": 8,
-    "calories": 474
+    "calories": 474,
+    "explanation": "Cheez-It is a flavorless, artificially colored brick of industrially processed powder and seed oil. You won't find any real cheese in this product, just a list of unrecognizable ingredients. This is not cheese, it's a chemical imitation.",
+    "swap": "Grass-fed cheddar cheese, crackers made from almond flour"
   },
   {
     "name": "chicken nuggets",
@@ -487,7 +569,9 @@
     ],
     "reason": "Mechanically separated chicken, bread crumbs, seed oils, and over 30 other ingredients. Not chicken.",
     "score": 8,
-    "calories": 296
+    "calories": 296,
+    "explanation": "Chicken nuggets are a processed abomination made from mechanically recovered meat, breadcrumbs, and a cocktail of seed oils. You're not eating chicken, you're eating a laboratory creation designed to be addictive and profitable. Your taste buds deserve better.",
+    "swap": "Grass-fed chicken breast strips or thighs, or beef or pork tenders."
   },
   {
     "name": "chicken sandwich",
@@ -499,7 +583,9 @@
     ],
     "reason": "Processed bun, breaded chicken fried in seed oil, mayo made from soybean oil. A whole-food ingredient buried under processing.",
     "score": 15,
-    "calories": 400
+    "calories": 400,
+    "explanation": "You're eating a factory-made imitation of a meal, not real food. The chicken is likely processed and injected with preservatives, then sandwiched between layers of refined white bread and processed cheese. This is a far cry from a genuine meal, and your body knows it.",
+    "swap": "Grass-fed beef patty or pasture-raised chicken breast with lettuce, tomato, and avocado."
   },
   {
     "name": "chicken tenders",
@@ -511,7 +597,9 @@
     ],
     "reason": "Mechanically separated chicken, breaded with refined flour, fried in seed oil. Not the same as actual chicken.",
     "score": 15,
-    "calories": 271
+    "calories": 271,
+    "explanation": "Chicken tenders are shredded, reformed, and coated with a mixture of industrial seasonings and preservatives. You're eating a highly processed version of chicken, stripped of its natural texture and flavor. This isn't chicken, it's a factory-made imitation.",
+    "swap": "Grass-fed chicken breast strips or pork cutlets."
   },
   {
     "name": "chocolate bar",
@@ -522,9 +610,11 @@
       "hersheys",
       "cadbury"
     ],
-    "reason": "Sugar, milk powder, and cocoa butter \u2014 modern chocolate bars are mostly sugar with a hint of cacao.",
+    "reason": "Sugar, milk powder, and cocoa butter — modern chocolate bars are mostly sugar with a hint of cacao.",
     "score": 10,
-    "calories": 535
+    "calories": 535,
+    "explanation": "Your chocolate bar is a concoction of sugar, seed oils, and artificial flavorings, masquerading as a treat. It's a far cry from the rich, dark chocolate made from cacao beans that your ancestors savored. Eat real chocolate, not this industrial abomination.",
+    "swap": "Dark chocolate with cocoa nibs, or cacao nibs, or dark chocolate made with coconut sugar"
   },
   {
     "name": "coca cola",
@@ -543,7 +633,9 @@
     ],
     "reason": "Liquid sugar (or artificial sweeteners). 39 grams of high-fructose corn syrup per can.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Coca cola is a sugary concoction made from high-fructose corn syrup, artificial flavorings, and a cocktail of preservatives. You shouldn't be surprised it's a leading cause of obesity and dental decay. Just drink water.",
+    "swap": "Sparkling water with lemon, or seltzer water with a squeeze of real lime or orange."
   },
   {
     "name": "coco pops",
@@ -554,7 +646,9 @@
     ],
     "reason": "Chocolate-flavored sugar bombs for breakfast.",
     "score": 5,
-    "calories": 387
+    "calories": 387,
+    "explanation": "Coco Pops are a sugary mess of corn flour, sugar, and seed oil, masquerading as a breakfast food. You're essentially feeding your kids a bag of chemical-laden dust. Eat real cocoa and whole grains instead.",
+    "swap": "Banana, coconut flakes, or chopped nuts"
   },
   {
     "name": "coffee drink",
@@ -564,9 +658,11 @@
       "bottled coffee",
       "mocha latte"
     ],
-    "reason": "Coffee buried under sugar, cream substitutes, and seed oil derivatives \u2014 a dessert pretending to be a drink.",
+    "reason": "Coffee buried under sugar, cream substitutes, and seed oil derivatives — a dessert pretending to be a drink.",
     "score": 10,
-    "calories": 250
+    "calories": 250,
+    "explanation": "This coffee drink is a sugary concoction of milk, creamers, and syrups that would make your grandmother's coffee pale in comparison. You're not drinking coffee, you're drinking a sweet, creamy liquid with a hint of coffee flavor. Real coffee is a simple, whole food - ditch the additives.",
+    "swap": "Coffee, tea, or chicory root coffee."
   },
   {
     "name": "cookies",
@@ -579,7 +675,9 @@
     ],
     "reason": "Refined flour + sugar + seed oils = the unholy trinity of ultra-processed baking.",
     "score": 10,
-    "calories": 488
+    "calories": 488,
+    "explanation": "Cookies are a Frankenstein's monster of processed ingredients, cobbled together from refined sugars, seed oils, and artificial preservatives. You're getting a gut bomb of empty caloriesRename with words like \"treat\" that distract from their true nature.",
+    "swap": "Almonds, walnuts, or dates"
   },
   {
     "name": "cool ranch doritos",
@@ -587,7 +685,9 @@
     "aliases": [],
     "reason": "Contains maltodextrin, seed oils, artificial flavors, and MSG.",
     "score": 5,
-    "calories": 490
+    "calories": 490,
+    "explanation": "Cool Ranch Doritos are a toxic cocktail of artificial flavors, seed oils, and refined starches. You're essentially consuming a chemical-laden dust masquerading as a snack. This is not food, it's a lab experiment in a bag.",
+    "swap": "Grass-fed beef jerky, pork rinds, or beef sticks."
   },
   {
     "name": "cool whip",
@@ -598,7 +698,9 @@
     ],
     "reason": "Contains no cream. It's hydrogenated seed oils, corn syrup, and chemicals shaped like whipped cream.",
     "score": 3,
-    "calories": 250
+    "calories": 250,
+    "explanation": "Cool Whip is a can of hydrogenated seed oil masquerading as whipped cream. You're not getting dairy, you're getting a chemical imitation. It's a processed abomination that's as far from real food as you can get.",
+    "swap": "Heavy cream, whipped coconut cream, or ghee"
   },
   {
     "name": "corn dog",
@@ -608,7 +710,9 @@
     ],
     "reason": "A hot dog battered in cornmeal and deep-fried in seed oil.",
     "score": 5,
-    "calories": 262
+    "calories": 262,
+    "explanation": "A corn dog is a processed abomination, a hot dog smothered in a thick layer of cornmeal-battered, deep-fried garbage. You're essentially eating a stick of mystery meat wrapped in a toxic, artery-clogging shell. Your body doesn't need this kind of chemical-laden, nutritionally empty 'food'.",
+    "swap": "Grass-fed beef sausage or chicken skewers with vegetables."
   },
   {
     "name": "corn syrup",
@@ -620,7 +724,9 @@
     ],
     "reason": "Invented in 1957. Obesity epidemic started in the 1970s when it replaced sugar in everything. Coincidence?",
     "score": 5,
-    "calories": 281
+    "calories": 281,
+    "explanation": "Corn syrup is a highly processed liquid made from cornstarch, stripped of its natural nutrients and fiber. You're essentially consuming empty calories with a dash of chemicals. It's a far cry from the whole corn kernels your grandparents grew in their garden.",
+    "swap": "Honey, maple syrup, or dates"
   },
   {
     "name": "croissant",
@@ -630,7 +736,9 @@
     ],
     "reason": "A real French croissant uses only butter. Commercial ones replace it with margarine and seed oils to cut costs.",
     "score": 20,
-    "calories": 406
+    "calories": 406,
+    "explanation": "Croissant is a flaky, buttery disaster made from a cocktail of refined flour, factory-produced yeast, and hydrogenated oils. You wouldn't dare serve this to your worst enemy, let alone consider it a legitimate breakfast option. It's a product of industrial wizardry, not real food.",
+    "swap": "Butter, eggs, whole wheat flour, or almond flour"
   },
   {
     "name": "diet soda",
@@ -643,7 +751,9 @@
     ],
     "reason": "No calories, but artificial sweeteners trick your brain and may disrupt gut bacteria.",
     "score": 10,
-    "calories": 0
+    "calories": 0,
+    "explanation": "Diet soda is a toxic cocktail of artificial sweeteners, preservatives, and flavor enhancers. You're not quenching thirst, you're poisoning your body. Real hydration comes from water, not a lab-made concoction.",
+    "swap": "Sparkling water with lemon, or seltzer water with a squeeze of fresh lime."
   },
   {
     "name": "donuts",
@@ -656,7 +766,9 @@
     ],
     "reason": "Refined flour deep-fried in seed oil and coated in sugar. A triple threat of processed ingredients.",
     "score": 5,
-    "calories": 452
+    "calories": 452,
+    "explanation": "Donuts are a sugary nightmare of refined flour, seed oils, and artificial preservatives. You're essentially consuming a vessel for added sugars and unhealthy fats, with a fleeting taste of artificial flavor. Don't kid yourself, these \"treats\" are a recipe for disaster.",
+    "swap": "Fresh fruit or pastries made with whole wheat flour, eggs, and butter."
   },
   {
     "name": "doritos",
@@ -668,7 +780,9 @@
     ],
     "reason": "Corn, seed oils, and dozens of engineered flavor chemicals designed to override your satiety signals.",
     "score": 8,
-    "calories": 490
+    "calories": 490,
+    "explanation": "Doritos are a toxic cocktail of cornmeal, sugar, and seed oils, all bound together with a laundry list of unrecognizable additives. You're not snacking on a corn chip, you're consuming a chemical-laden abomination. Let's call it what it is: trash.",
+    "swap": "\"Grass-fed beef jerky, raw veggies, or roasted nuts\""
   },
   {
     "name": "energy drink",
@@ -681,7 +795,9 @@
     ],
     "reason": "Caffeine, taurine, artificial sweeteners, and synthetic B-vitamins. Just drink coffee.",
     "score": 10,
-    "calories": 120
+    "calories": 120,
+    "explanation": "Energy drinks are concoctions of artificial stimulants, sugar, and other industrial additives masquerading as a health fix. You're not getting a natural energy boost, you're getting a chemical cocktail that'll leave you crashing and reaching for another can. Your body doesn't need this stuff.",
+    "swap": "Coconut water, water with electrolyte-rich sea salt."
   },
   {
     "name": "fanta",
@@ -689,7 +805,9 @@
     "aliases": [],
     "reason": "Orange-flavored sugar water with zero actual orange.",
     "score": 3,
-    "calories": 44
+    "calories": 44,
+    "explanation": "Fanta is a sugary concoction made from high-fructose corn syrup, artificial flavors, and a cocktail of synthetic preservatives. You're not drinking a fruit juice, you're drinking a chemical cocktail. It's a prime example of why ultra-processed foods have no place in a healthy diet.",
+    "swap": "Coconut water, fresh lime juice, or sparkling water with lemon."
   },
   {
     "name": "fish and chips",
@@ -701,7 +819,9 @@
     ],
     "reason": "The batter is refined flour, deep-fried in industrial seed oil. The chips too. All the omega-3 benefits of the fish are cancelled out.",
     "score": 20,
-    "calories": 450
+    "calories": 450,
+    "explanation": "Fish and chips is a factory-made monstrosity: breaded, deep-fried, and drenched in artificial seasonings. You're not eating fish and potatoes, you're consuming a processed, oil-soaked abomination. Just grill your fish and boil your potatoes.",
+    "swap": "Grilled or baked fish with roasted vegetables."
   },
   {
     "name": "fish sticks",
@@ -713,7 +833,9 @@
     ],
     "reason": "Mystery fish coated in refined breadcrumbs and pre-fried in seed oil. The fish is the least of the ingredients.",
     "score": 15,
-    "calories": 220
+    "calories": 220,
+    "explanation": "Fish sticks are a processed abomination, a frozen stick of mushy fish coated in a toxic cocktail of seed oils and refined starches. You're not eating fish, you're eating a factory-made imitation. Just cook a real piece of fish and enjoy it.",
+    "swap": "Wild-caught cod fillets, or salmon fillets, or tilapia fillets."
   },
   {
     "name": "flavored yogurt",
@@ -724,9 +846,11 @@
       "yoplait",
       "dannon"
     ],
-    "reason": "More sugar per cup than a candy bar \u2014 the fruit is usually just jam and the yogurt is low-fat.",
+    "reason": "More sugar per cup than a candy bar — the fruit is usually just jam and the yogurt is low-fat.",
     "score": 15,
-    "calories": 100
+    "calories": 100,
+    "explanation": "Flavored yogurt is a bowl of sugar and artificial flavor added to a product that's already been stripped of its natural goodness. You're not eating yogurt, you're eatingAjunk food masquerading as a healthy snack. Real yogurt is plain, unflavored, and unsweetened.",
+    "swap": "Plain Greek yogurt with added fresh berries or honey."
   },
   {
     "name": "fried chicken",
@@ -737,9 +861,11 @@
       "fried chicken sandwich",
       "crispy chicken"
     ],
-    "reason": "Coated in refined flour and deep-fried in seed oil at industrial scale. The chicken itself is fine \u2014 it's everything around it.",
+    "reason": "Coated in refined flour and deep-fried in seed oil at industrial scale. The chicken itself is fine — it's everything around it.",
     "score": 15,
-    "calories": 320
+    "calories": 320,
+    "explanation": "Fried chicken is a factory-farmed, breading-coated abomination. You're not eating chicken, you're eating a processed meal of reconstituted meat, seed oil, and preservatives. Ditch the bucket and cook real chicken.",
+    "swap": "Grass-fed chicken thighs, coconut oil, or lard."
   },
   {
     "name": "frosted flakes",
@@ -749,7 +875,9 @@
     ],
     "reason": "Sugar-coated corn flakes. Tony the Tiger lied to you.",
     "score": 8,
-    "calories": 378
+    "calories": 378,
+    "explanation": "Frosted Flakes is a sugary, puffed cereal made from refined corn and artificial flavorings. You're not eating corn, you're eating a chemical construct designed to hook you on sugar. It's a far cry from the real, unprocessed foods your grandparents knew.",
+    "swap": "Fresh berries with coconut flakes or chopped nuts."
   },
   {
     "name": "frozen pizza",
@@ -763,7 +891,9 @@
     ],
     "reason": "Refined flour crust made with seed oils, topped with processed cheese and preservatives.",
     "score": 8,
-    "calories": 260
+    "calories": 260,
+    "explanation": "Frozen pizza is a sad, flavorless imitation of real pizza, loaded with artificial preservatives and seed oils. You're not getting a slice of Italy, you're getting a chemical cocktail. Just make a real pizza from scratch with fresh ingredients.",
+    "swap": "Grass-fed beef or pork topped with vegetables, cheese, and herbs."
   },
   {
     "name": "fruit juice",
@@ -776,7 +906,9 @@
     ],
     "reason": "Fiber removed, pasteurized dead, often from concentrate with added sugar. Eat the whole fruit instead.",
     "score": 15,
-    "calories": 112
+    "calories": 112,
+    "explanation": "Fruit juice is stripped of fiber and nutrients, then reconstituted with water and added sugars. You're not getting the benefits of whole fruit, just a sugary drink. Nature's candy is better than a factory's imitation.",
+    "swap": "Fresh fruit, coconut water, or water with a squeeze of fresh fruit"
   },
   {
     "name": "fruit loops",
@@ -786,7 +918,9 @@
     ],
     "reason": "Zero actual fruit. 100% refined grains and sugar.",
     "score": 5,
-    "calories": 382
+    "calories": 382,
+    "explanation": "Fruit Loops are a sugary, processed nightmare. You're not eating real fruit, but rather a cocktail of artificial flavors, colors, and preservatives wrapped in a corn-based shell. Your body doesn't need this kind of chemical cocktail, so you can trash the box.",
+    "swap": "Strawberries, blueberries, or raspberries"
   },
   {
     "name": "gatorade",
@@ -799,7 +933,9 @@
     ],
     "reason": "Sugar water with artificial dyes marketed as athletic fuel. You're not a professional athlete.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Gatorade is a sugary concoction of artificial colors, flavors, and preservatives masquerading as a sports drink. You're not replenishing electrolytes, you're mainlining high-fructose corn syrup and seed oils. Leave the real hydration to water.",
+    "swap": "Water with coconut water, lemon, or lime."
   },
   {
     "name": "goldfish crackers",
@@ -809,7 +945,9 @@
     ],
     "reason": "Enriched wheat flour and seed oils shaped like fish.",
     "score": 10,
-    "calories": 460
+    "calories": 460,
+    "explanation": "Goldfish crackers are a hyper-processed nightmare, made from a cocktail of refined flour, artificial flavors, and seed oils. You're essentially feeding your kids a chemical-laden snack that's more akin to a science experiment than real food. Just offer them a piece of fruit instead.",
+    "swap": "Almonds, cashews, or pumpkin seeds."
   },
   {
     "name": "granola bar",
@@ -822,7 +960,9 @@
     ],
     "reason": "Sugar, seed oils, and 'natural flavors' held together with corn syrup. A candy bar in a hiking wrapper.",
     "score": 15,
-    "calories": 200
+    "calories": 200,
+    "explanation": "You're consuming a brick of sugar, seed oils, and artificial preservatives masquerading as a healthy snack. The minute you bite into it, you're committing a culinary sin against nature. This isn't food, it's a factory-made imitation.",
+    "swap": "Nuts, seeds, dried fruits, or energy balls made with whole foods."
   },
   {
     "name": "hamburger",
@@ -837,7 +977,9 @@
     ],
     "reason": "The bun is refined flour, the patty is factory-farmed, the sauce is seed oil. The whole package is engineered to override your satiety signals.",
     "score": 15,
-    "calories": 354
+    "calories": 354,
+    "explanation": "Hamburger is a Frankenstein's monster of factory-produced meat, preservatives, and artificial flavor enhancers. You're not eating a real burger, you're consuming a science experiment. Leave the factory floor and choose grass-fed beef instead.",
+    "swap": "Grass-fed beef patty, pastured ground beef, or bison patty"
   },
   {
     "name": "hawaiian punch",
@@ -845,7 +987,9 @@
     "aliases": [],
     "reason": "High fructose corn syrup, artificial flavors, and Red 40.",
     "score": 3,
-    "calories": 46
+    "calories": 46,
+    "explanation": "Hawaiian Punch is a sugary cocktail of artificial flavors and colors that's been stripped of any real nutritional value. You're not even getting a decent dose of fruit juice, just a mix of high-fructose corn syrup and mysterious chemicals. Don't settle for this toxic 'drink' when you can have a real glass of juice or water.",
+    "swap": "Coconut water, fresh pineapple juice, or sparkling water with lime."
   },
   {
     "name": "high fructose corn syrup",
@@ -858,7 +1002,9 @@
     ],
     "reason": "Industrially produced sweetener that didn't exist before the 1960s. Found in 75% of packaged foods.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "You're consuming a highly processed liquid made from cornstarch, stripped of its natural nutrients and turned into a sweetener that's linked to numerous health problems. This manufactured substance has no place in your diet, and its presence in food is a telltale sign of industrial manipulation. Just eat real food.",
+    "swap": "Honey, maple syrup, or coconut sugar"
   },
   {
     "name": "hot dog",
@@ -874,7 +1020,9 @@
     ],
     "reason": "Mechanically separated meat, corn syrup, sodium nitrite, and artificial flavors in a tube shape.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "You're eating a mass-produced hot dog made from a mix of mechanically recovered meat, preservatives, and artificial flavorings. This isn't food, it's a factory product designed to be cheap and convenient. Your body doesn't need this stuff.",
+    "swap": "Grass-fed beef sausage without fillers"
   },
   {
     "name": "hot pockets",
@@ -886,7 +1034,9 @@
     ],
     "reason": "Over 40 ingredients including multiple seed oils and preservatives. Not food your body recognizes.",
     "score": 8,
-    "calories": 240
+    "calories": 240,
+    "explanation": "Hot Pockets are a mess of reconstituted dough, preservative-laden meats, and rancid seed oils wrapped in a plastic package. You're not eating a meal, you're consuming a science experiment. Don't pretend it's a snack, it's a chemical delivery system.",
+    "swap": "Grass-fed beef or chicken with sautéed vegetables inside a whole-grain or cauliflower tortilla."
   },
   {
     "name": "ice cream",
@@ -899,7 +1049,9 @@
     ],
     "reason": "Commercial ice cream: sugar, cream, corn syrup, guar gum, carrageenan, 'natural flavors'. Real ice cream needs 3 ingredients.",
     "score": 20,
-    "calories": 207
+    "calories": 207,
+    "explanation": "Ice cream is a concoction of ultra-processed ingredients, including high-fructose corn syrup, artificial flavorings, and seed oils. You're not getting real cream from a cow, but rather a mixture of water, sugar, and additives. Enjoy a bowl of frozen cream instead.",
+    "swap": "Cream from grass-fed cows, or coconut cream, or full-fat yogurt."
   },
   {
     "name": "impossible burger",
@@ -914,7 +1066,9 @@
     ],
     "reason": "Soy protein, seed oils, and methylcellulose engineered to bleed like meat. 21 ingredients to imitate one.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "The Impossible Burger is a synthetic patty made from genetically engineered soy and pea protein, bound together with a cocktail of seed oils and additives. You're not eating a burger, you're consuming a lab-created imitation. It's industrial food at its most absurd.",
+    "swap": "Grass-fed beef burger patty or Pasture-raised beef patty"
   },
   {
     "name": "instant ramen",
@@ -930,7 +1084,9 @@
     ],
     "reason": "Noodles deep-fried in palm or seed oil, with a flavor packet full of MSG and artificial flavors.",
     "score": 12,
-    "calories": 436
+    "calories": 436,
+    "explanation": "Instant ramen is a synthetic mess of reconstituted noodles, chemical seasonings, and seed oils. You're not eating noodles anymore, you're consuming a factory-made imitation. This stuff isn't food, it's a convenience product designed to hook you.",
+    "swap": "Bone broth with rice noodles or Grilled chicken with sautéed vegetables."
   },
   {
     "name": "ketchup",
@@ -942,7 +1098,9 @@
     ],
     "reason": "More sugar per tablespoon than ice cream. Tomato-flavored candy sauce.",
     "score": 15,
-    "calories": 112
+    "calories": 112,
+    "explanation": "Ketchup is a factory-made condiment made from refined sugar, high-fructose corn syrup, and vegetable seed oils. You're essentially consuming a sweet, oily syrup with a hint of tomato flavor. Real tomatoes are a nutritious choice, but ketchup is a far cry from that.",
+    "swap": "Tomato sauce made with fresh tomatoes, olive oil, and salt."
   },
   {
     "name": "kit kat",
@@ -952,7 +1110,9 @@
     ],
     "reason": "Wafer, sugar, palm oil, and soy lecithin. Not food.",
     "score": 8,
-    "calories": 518
+    "calories": 518,
+    "explanation": "Kit Kat is a processed candy bar made from a mixture of sugar, corn syrup, and vegetable oils. You're not eating a real food, you're consuming a concoction engineered to be addictive and profitable. Just eat a piece of fruit.",
+    "swap": "Dark chocolate bars, nuts, or dried fruit"
   },
   {
     "name": "kool aid",
@@ -962,7 +1122,9 @@
     ],
     "reason": "Sugar, citric acid, and artificial colors. Not even close to food.",
     "score": 2,
-    "calories": 40
+    "calories": 40,
+    "explanation": "Kool Aid is a sugary cocktail of artificial flavors and colors, made from a powder that's been stripped of any real nutritional value. You're essentially drinking a chemical cocktail. Real fruit is way more refreshing.",
+    "swap": "Water with fresh fruit or Vegetable juice"
   },
   {
     "name": "kraft singles",
@@ -975,9 +1137,11 @@
       "cheese singles",
       "velveeta"
     ],
-    "reason": "Legally cannot be called 'cheese' \u2014 it's a 'pasteurized prepared cheese product' made with seed oils.",
+    "reason": "Legally cannot be called 'cheese' — it's a 'pasteurized prepared cheese product' made with seed oils.",
     "score": 5,
-    "calories": 310
+    "calories": 310,
+    "explanation": "Kraft Singles are a factory-made abomination of melted cheese powder and seed oil, masquerading as a convenient snack. You're not eating cheese, you're eating a chemical cocktail designed to be addictive. Just use real cheese.",
+    "swap": "Grass-fed cheddar, brie, or gouda cheese."
   },
   {
     "name": "lays chips",
@@ -989,7 +1153,9 @@
     ],
     "reason": "Potatoes deep-fried in seed oils. The potato deserved better.",
     "score": 10,
-    "calories": 536
+    "calories": 536,
+    "explanation": "Lays chips are a factory-made abomination, crafted from a cocktail of refined starches, seed oils, and artificial flavor enhancers. You're not eating a real food, you're consuming a toxic cocktail designed to hook you. Ditch the bag and grab some real veggies instead.",
+    "swap": "\"Veggie sticks with homemade ranch or guacamole\""
   },
   {
     "name": "lucky charms",
@@ -1004,7 +1170,9 @@
     ],
     "reason": "Refined grains, sugar, seed oils, and artificial dyes shaped into fun shapes. Candy in a cereal box.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Lucky Charms is a sugary, artificially colored mess of corn flakes bound together with refined flour and seed oils. You're not getting a healthy dose of whole grains, just a bunch of empty calories and chemical additives. Eat real oats, not this factory-made abomination.",
+    "swap": "Frozen berries, sliced almonds, or shredded coconut"
   },
   {
     "name": "lunchable",
@@ -1014,7 +1182,9 @@
     ],
     "reason": "Processed meat, processed cheese, and crackers with seed oils.",
     "score": 5,
-    "calories": 290
+    "calories": 290,
+    "explanation": "Lunchables are a plastic-wrapped abomination of processed meats, cheese, and crackers. You're not eating food, you're consuming a factory-made convenience product designed to be devoured on-the-go. What's left of real ingredients is buried under a mountain of preservatives and artificial flavor enhancers.",
+    "swap": "Grass-fed beef, sliced cheese, carrot sticks, apple slices"
   },
   {
     "name": "m&ms",
@@ -1025,7 +1195,9 @@
     ],
     "reason": "Milk chocolate surrounded by sugar shells and artificial colors.",
     "score": 8,
-    "calories": 479
+    "calories": 479,
+    "explanation": "M&M's are a colorful blend of sugar, corn syrup, and artificial flavorings, all bound together with seed oils and a dash of toxic red dye. You're not eating candy, you're consuming a chemical cocktail designed to hook you from the start. Just eat real fruit.",
+    "swap": "Dried cranberries, raisins, or dates."
   },
   {
     "name": "mac and cheese",
@@ -1038,7 +1210,8 @@
     ],
     "reason": "Refined pasta + processed cheese powder + seed oils. The orange color comes from annatto and chemicals, not real cheese.",
     "score": 10,
-    "calories": 310
+    "calories": 310,
+    "explanation": "Mac and cheese is a factory-made abomination of a dish, loaded with artificial preservatives and flavor enhancers. You're not eating pasta and cheese, you're consuming a gloopy paste of refined carbohydrates and seed oils. Just cook real pasta and grate some real cheese."
   },
   {
     "name": "mars bar",
@@ -1048,7 +1221,9 @@
     ],
     "reason": "Sugar, glucose syrup, and palm fat. Your ancestors wouldn't recognize this.",
     "score": 5,
-    "calories": 449
+    "calories": 449,
+    "explanation": "Mars bars are a toxic cocktail of sugar, corn syrup, and seed oils, held together with artificial preservatives and flavor enhancers. You're not eating a real food, you're consuming a chemical concoction designed to hook you. Just eat a piece of fruit.",
+    "swap": "Dark chocolate or dried dates with nuts."
   },
   {
     "name": "mcdonalds",
@@ -1058,9 +1233,11 @@
       "maccas",
       "mickey d's"
     ],
-    "reason": "A masterclass in food engineering \u2014 every item is designed in a lab to be hyper-palatable and override your body's stop signals.",
+    "reason": "A masterclass in food engineering — every item is designed in a lab to be hyper-palatable and override your body's stop signals.",
     "score": 5,
-    "calories": 500
+    "calories": 500,
+    "explanation": "McDonald's is a box of chemically altered, nutritionally void reconstitutions masquerading as food. You're consuming a cocktail of seed oils, artificial preservatives, and mystery meat byproducts. It's industrial waste, not a meal.",
+    "swap": "Grass-fed beef burgers with lettuce, tomato, and avocado."
   },
   {
     "name": "meal replacement",
@@ -1071,9 +1248,11 @@
       "slim fast",
       "meal replacement shake"
     ],
-    "reason": "Science fiction food \u2014 synthetic nutrients suspended in seed oil and maltodextrin. Humans aren't machines.",
+    "reason": "Science fiction food — synthetic nutrients suspended in seed oil and maltodextrin. Humans aren't machines.",
     "score": 5,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Meal replacement is a concoction of synthetic vitamins, sugars, and starches masquerading as a meal. You're not nourishing your body, you're just filling it with artificial substitutes. This is not food, it's a chemical imitation.",
+    "swap": "Eggs, bone broth, or full-fat coconut milk"
   },
   {
     "name": "microwave meal",
@@ -1085,9 +1264,11 @@
       "hungry man",
       "ready meal"
     ],
-    "reason": "Designed to survive months in a freezer \u2014 that shelf stability comes from industrial processing.",
+    "reason": "Designed to survive months in a freezer — that shelf stability comes from industrial processing.",
     "score": 10,
-    "calories": 350
+    "calories": 350,
+    "explanation": "You're eating a culinary abomination - a microwave meal made from a cocktail of preservatives, artificial flavor enhancers, and reconstituted leftovers. This Frankenstein's monster of a meal is the epitome of industrial food production, devoid of any genuine nutritional value or culinary integrity. Just cook real food.",
+    "swap": "Grass-fed beef or chicken with roasted vegetables."
   },
   {
     "name": "monster energy",
@@ -1097,7 +1278,9 @@
     ],
     "reason": "A chemistry experiment disguised as a beverage.",
     "score": 3,
-    "calories": 47
+    "calories": 47,
+    "explanation": "Monster Energy is a toxic cocktail of sugar, artificial flavors, and preservatives. You're not fueling your body, you're poisoning it. It's a synthetic concoction that has no place in a healthy diet.",
+    "swap": "Coconut water, water with electrolyte-rich sea salt, or unsweetened tea."
   },
   {
     "name": "mountain dew",
@@ -1108,7 +1291,9 @@
     ],
     "reason": "46 grams of high-fructose corn syrup, brominated vegetable oil, and Yellow 5. Not food.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Mountain Dew is a toxic mix of sugar, artificial flavors, and high-fructose corn syrup, all bound together with a cocktail of preservatives and artificial colors. You'd be hard-pressed to find a single recognizable ingredient in this chemical concoction. Don't confuse it with a drink, call it what it is: trash.",
+    "swap": "Carbonated water with lemon, lime, or grapefruit."
   },
   {
     "name": "msg",
@@ -1119,7 +1304,9 @@
     ],
     "reason": "Industrially produced glutamate used to make ultra-processed food taste more appealing than it is.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Monosodium glutamate is a synthetic flavor enhancer made from fermented starch or sugar beets. You're not getting real food, just a lab-created imitation. Your taste buds don't need a chemical shortcut – try real, whole foods instead.",
+    "swap": "Coconut aminos, sea salt, or homemade broth"
   },
   {
     "name": "muffin",
@@ -1129,9 +1316,11 @@
       "blueberry muffin",
       "chocolate muffin"
     ],
-    "reason": "A cupcake pretending to be breakfast \u2014 most muffins have more sugar than a candy bar.",
+    "reason": "A cupcake pretending to be breakfast — most muffins have more sugar than a candy bar.",
     "score": 15,
-    "calories": 426
+    "calories": 426,
+    "explanation": "A muffin is a processed abomination, a mixture of refined flour, added sugars, and seed oils, all mashed together with artificial preservatives. You're not eating a real food, you're consuming a factory-made product designed to be addictive. It's time to ditch the muffin and eat something that's actually good for you.",
+    "swap": "Eggs, cheese, or fruit"
   },
   {
     "name": "nesquik",
@@ -1141,7 +1330,9 @@
     ],
     "reason": "Sugar, cocoa processed with alkali, soybean lecithin.",
     "score": 8,
-    "calories": 388
+    "calories": 388,
+    "explanation": "Nesquik is a sugary, artificially flavored powder made from who-knows-what. You're essentially feeding your kids a mix of highly processed ingredients and additives, masquerading as a harmless chocolate treat. Just give them real cocoa and milk.",
+    "swap": "Cocoa powder, heavy cream, or full-fat milk"
   },
   {
     "name": "nutella",
@@ -1151,7 +1342,9 @@
     ],
     "reason": "First ingredient: sugar. Second: palm oil. It's 58% sugar and only 13% hazelnut.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Nutella is a sugary spread made from hydrogenated seed oils, refined sugar, and artificial flavorings. You're not getting any real hazelnuts or chocolate in this fake food. Just a bunch of lab-created ingredients glued together to hook you on a taste that's not even real.",
+    "swap": "Almond butter, cashew butter, or hazelnut butter."
   },
   {
     "name": "oreos",
@@ -1162,7 +1355,9 @@
     ],
     "reason": "Sugar, unbleached enriched flour, and palm/canola oil. The 'creme' contains no cream.",
     "score": 8,
-    "calories": 480
+    "calories": 480,
+    "explanation": "Oreos are a cookie sandwich filled with fake cream made from sugar, corn syrup, and seed oils. You're not getting anything resembling real food here - just a manufactured blend of empty calories and industrial additives. Eat a real cookie made from whole ingredients, not this processed monstrosity.",
+    "swap": "Almond butter cookies or coconut macaroons"
   },
   {
     "name": "pancakes",
@@ -1173,9 +1368,11 @@
       "pancake mix",
       "aunt jemima"
     ],
-    "reason": "Refined flour, sugar, and seed oil \u2014 then drowned in corn syrup marketed as 'maple'. Real pancakes need none of this.",
+    "reason": "Refined flour, sugar, and seed oil — then drowned in corn syrup marketed as 'maple'. Real pancakes need none of this.",
     "score": 15,
-    "calories": 227
+    "calories": 227,
+    "explanation": "Pancakes are a factory-made abomination, made from a mix of refined flour, sugar, and artificial additives. You're not eating a real food, you're consuming a processed paste. Ditch the box and make real pancakes with whole eggs, butter, and fresh flour.",
+    "swap": "Banana pancakes made with eggs, coconut flour, and butter."
   },
   {
     "name": "pepsi",
@@ -1185,7 +1382,9 @@
     ],
     "reason": "High fructose corn syrup in a can.",
     "score": 3,
-    "calories": 41
+    "calories": 41,
+    "explanation": "Pepsi is a sugary concoction made from high-fructose corn syrup, artificial flavorings, and preservatives. You're not drinking a natural beverage, you're consuming a manufactured product designed to hook you. Just drink water.",
+    "swap": "Sparkling water with lemon, or seltzer water with a squeeze of fresh lime."
   },
   {
     "name": "pizza",
@@ -1199,7 +1398,8 @@
     ],
     "reason": "Commercial pizza dough is refined flour, the cheese is processed, and the sauce often contains added sugar and seed oils.",
     "score": 15,
-    "calories": 266
+    "calories": 266,
+    "explanation": "Pizza is a factory-made abomination of a meal. You're not eating a pie topped with fresh tomatoes and mozzarella, but rather a processed disk of refined flour, sugar, and seed oils, topped with a blend of artificial seasonings and preservatives. Your taste buds deserve better."
   },
   {
     "name": "pizza rolls",
@@ -1210,7 +1410,9 @@
     ],
     "reason": "Enriched flour, soybean oil, imitation cheese, and processed meat.",
     "score": 5,
-    "calories": 220
+    "calories": 220,
+    "explanation": "Pizza rolls are fabricated, frozen abominations, containing a cocktail of seed oils, artificial preservatives, and refined flour. You're not eating pizza, you're consuming a chemical-laden, industrially-processed package of empty calories. Just make a real pizza with whole ingredients.",
+    "swap": "Grass-fed beef or pork empanadas with fresh cheese and herbs."
   },
   {
     "name": "plant milk",
@@ -1224,7 +1426,9 @@
     ],
     "reason": "Mostly water, seed oils, gums, and emulsifiers with a small amount of the named plant. Not milk.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Plant milk is a concoction of thinned-out legumes, grains, or nuts, mixed with industrial emulsifiers and flavor enhancers. You're not getting the real deal – just a watered-down imitation of the genuine article. Your taste buds deserve better than this over-processed substitute.",
+    "swap": "Whole cow's milk, goat's milk, or raw goat's milk"
   },
   {
     "name": "pop tarts",
@@ -1238,7 +1442,9 @@
     ],
     "reason": "Refined flour, seed oils, and high-fructose corn syrup baked into a candy bar disguised as breakfast.",
     "score": 8,
-    "calories": 380
+    "calories": 380,
+    "explanation": "Pop Tarts are a sugary, factory-made abomination wrapped in a processed pastry shell. You're not getting a wholesome breakfast, but a cocktail of artificial flavors, preservatives, and refined carbohydrates. Just eat real fruit and whole grain toast.",
+    "swap": "Strawberries with almond butter or fresh berries with coconut cream."
   },
   {
     "name": "potato chips",
@@ -1250,7 +1456,9 @@
     ],
     "reason": "Sliced, fried in seed oil, and engineered for 'bet you can't eat just one'. That's not a challenge, it's a design spec.",
     "score": 10,
-    "calories": 536
+    "calories": 536,
+    "explanation": "Potato chips are a thinly sliced, fried, and salted abomination of a potato. You're essentially eating a vessel for seed oil and sodium, with a few scraps of potato added for texture. They're a snack that's been engineered to be addictive, not a food that's been grown or harvested.",
+    "swap": "Baked sweet potato slices, plantain chips, or roasted vegetable sticks."
   },
   {
     "name": "powdered sugar",
@@ -1259,17 +1467,21 @@
       "confectioners sugar",
       "icing sugar"
     ],
-    "reason": "Refined sugar ground even finer with added cornstarch \u2014 processing on top of processing.",
+    "reason": "Refined sugar ground even finer with added cornstarch — processing on top of processing.",
     "score": 5,
-    "calories": 389
+    "calories": 389,
+    "explanation": "Powdered sugar is highly processed sugar that's been stripped of its natural nutrients and fiber. You're essentially consuming empty calories with a fine texture. This processed powder is a far cry from the whole, unrefined sugar cane it came from.",
+    "swap": "Honey, maple syrup, or coconut sugar"
   },
   {
     "name": "pringles",
     "category": "ultra-processed",
     "aliases": [],
-    "reason": "Not even technically chips \u2014 pressed potato flakes with seed oils.",
+    "reason": "Not even technically chips — pressed potato flakes with seed oils.",
     "score": 5,
-    "calories": 536
+    "calories": 536,
+    "explanation": "Pringles are a textbook example of industrial over-engineering, containing a laundry list of unrecognizable ingredients like corn, potato starch, and canola oil. You're not eating a potato chip, you're eating a science experiment. Your taste buds will thank you for sticking to real, whole foods.",
+    "swap": "Homemade tortilla chips with fresh salsa"
   },
   {
     "name": "protein bar",
@@ -1285,9 +1497,11 @@
       "granola bar",
       "granola bars"
     ],
-    "reason": "Most are candy bars with added protein powder. Check the ingredients \u2014 seed oils and sweeteners galore.",
+    "reason": "Most are candy bars with added protein powder. Check the ingredients — seed oils and sweeteners galore.",
     "score": 25,
-    "calories": 350
+    "calories": 350,
+    "explanation": "Protein bar is a synthetic concoction of sugar, seed oils, and artificial flavorings masquerading as a health food. You're not getting protein from real food, but rather from isolated, industrially-processed powders. It's a ticking time bomb of inflammation and digestive issues in a convenient wrapper.",
+    "swap": "Beef jerky, nuts, seeds, or hard-boiled eggs."
   },
   {
     "name": "protein shake",
@@ -1300,7 +1514,9 @@
     ],
     "reason": "Isolated protein powder + artificial sweeteners + seed oil emulsifiers. Eat real food.",
     "score": 15,
-    "calories": 230
+    "calories": 230,
+    "explanation": "This protein shake is a lab-cooked concoction of isolated proteins, sugar, and artificial flavorings. You're not getting real food, just a reconstituted imitation of it. Nature doesn't package protein in a powder – eat a chicken or beef instead.",
+    "swap": "Eggs, Greek yogurt, or cottage cheese"
   },
   {
     "name": "ramen noodles",
@@ -1313,7 +1529,9 @@
     ],
     "reason": "Pre-fried in palm oil, the seasoning packet is mostly salt and MSG. Real ramen takes 12+ hours.",
     "score": 10,
-    "calories": 380
+    "calories": 380,
+    "explanation": "Ramen noodles are a tangled mess of over-processed carbohydrates, loaded with artificial flavor enhancers and saturated with seed oils. You're not eating noodles, you're consuming a chemical cocktail designed to hook you. They're an insult to real food.",
+    "swap": "Rice noodles, zucchini noodles, or shirataki noodles"
   },
   {
     "name": "red bull",
@@ -1321,7 +1539,9 @@
     "aliases": [],
     "reason": "Synthetic caffeine, sugar, and taurine in a tiny overpriced can.",
     "score": 5,
-    "calories": 45
+    "calories": 45,
+    "explanation": "Red Bull is a sugary drink made from a mix of water, sugar, and industrial flavorings. You're not getting any real nutrition from this stuff, just a crash from the caffeine and a stomachache from the sugar. It's a chemical cocktail, not a food.",
+    "swap": "Coconut water, water with lemon, or unsweetened almond milk."
   },
   {
     "name": "reeses",
@@ -1333,7 +1553,9 @@
     ],
     "reason": "Sugar, soybean oil, and PGPR. Not real peanut butter or chocolate.",
     "score": 8,
-    "calories": 502
+    "calories": 502,
+    "explanation": "Reese's is a sugary, peanut butter-flavored abomination made from a mix of ultra-refined ingredients and soybean oil. You're not eating peanuts or real chocolate when you devour these, just a processed imitation. Your taste buds deserve better than this chemical-laden monstrosity.",
+    "swap": "Cocoa-dipped dates, dark chocolate-covered almonds."
   },
   {
     "name": "rice krispies",
@@ -1344,7 +1566,9 @@
     ],
     "reason": "Refined rice, sugar, salt, and BHT preservative.",
     "score": 10,
-    "calories": 381
+    "calories": 381,
+    "explanation": "Rice Krispies are sugary, puffed rice bits held together by corn syrup and artificial flavorings. You're not getting real rice, just an engineered snack designed to be addictive. This is not breakfast, this is a factory-made treat.",
+    "swap": "Almonds, walnuts, or homemade granola with coconut sugar"
   },
   {
     "name": "ritz crackers",
@@ -1359,7 +1583,9 @@
     ],
     "reason": "Refined flour, soybean oil, and high fructose corn syrup. Crackers didn't used to need 15 ingredients.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Ritz crackers are a blend of refined flour, artificial preservatives, and seed oils, all designed to be addictive and shelf-stable. You're not getting any real nutrition from these crackers, just empty calories and a host of potential health problems. They're a far cry from the wholesome bread your grandmother used to make.",
+    "swap": "Butter crackers made from almond flour or Crackers made from whole wheat flour."
   },
   {
     "name": "ruffles",
@@ -1367,7 +1593,9 @@
     "aliases": [],
     "reason": "Ridged for extra seed oil absorption.",
     "score": 8,
-    "calories": 540
+    "calories": 540,
+    "explanation": "Ruffles are a mass-produced, potato-flavored abomination that gets its addictive taste from a cocktail of seed oils and artificial flavor enhancers. You're not eating a real potato or even a real chip, just a processed imitation. Ditch the Ruffles and reach for a real, whole potato instead.",
+    "swap": "\"Raw or roasted root vegetables\""
   },
   {
     "name": "salad dressing",
@@ -1378,9 +1606,11 @@
       "italian dressing",
       "caesar dressing"
     ],
-    "reason": "Seed oil, sugar, and emulsifiers in a bottle \u2014 just use olive oil and vinegar.",
+    "reason": "Seed oil, sugar, and emulsifiers in a bottle — just use olive oil and vinegar.",
     "score": 10,
-    "calories": 200
+    "calories": 200,
+    "explanation": "You're paying extra for a bottle of sugar, seed oil, and chemicals masquerading as a salad topping. Real food doesn't come in a factory-sealed bottle. Make your own with actual ingredients.",
+    "swap": "Olive oil, lemon juice, or apple cider vinegar."
   },
   {
     "name": "sausage roll",
@@ -1388,9 +1618,11 @@
     "aliases": [
       "sausage rolls"
     ],
-    "reason": "Mystery meat in refined pastry \u2014 the British gas station staple.",
+    "reason": "Mystery meat in refined pastry — the British gas station staple.",
     "score": 15,
-    "calories": 340
+    "calories": 340,
+    "explanation": "Sausage roll is a factory-made abomination - a soggy, processed pastry filled with questionable meat by-products and preservatives. You wouldn't feed this to your worst enemy, let alone your family. Just make a real sausage and bake it with some veggies.",
+    "swap": "Grass-fed beef sausage with eggs and vegetables."
   },
   {
     "name": "skittles",
@@ -1398,7 +1630,9 @@
     "aliases": [],
     "reason": "Pure sugar with artificial dyes. Taste the rainbow of chemicals.",
     "score": 3,
-    "calories": 405
+    "calories": 405,
+    "explanation": "Skittles are a sugar-coated catastrophe of artificial colors, flavors, and preservatives. You're not eating fruit, you're consuming a lab-created concoction designed to hook you from the first bite. Real food doesn't come in a brightly colored, bite-sized package.",
+    "swap": "Dried apricots, dates, or dried pineapple"
   },
   {
     "name": "slim jim",
@@ -1411,7 +1645,9 @@
     ],
     "reason": "Mechanically separated chicken, corn syrup, soy protein, and sodium nitrite shaped like a stick.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "A Slim Jim is a dense, preservative-laden stick of what passes for meat. You're not eating a cut of beef, but rather a factory-made imitation, loaded with sodium nitrite and other chemicals to keep it 'fresh' for months. It's a science experiment, not a meal.",
+    "swap": "Grass-fed beef jerky"
   },
   {
     "name": "snickers",
@@ -1419,7 +1655,9 @@
     "aliases": [],
     "reason": "Sugar, soybean oil, corn syrup, and artificial flavors.",
     "score": 8,
-    "calories": 488
+    "calories": 488,
+    "explanation": "Snickers is a toxic cocktail of high-fructose corn syrup, artificial flavors, and seed oils, all wrapped in a layer of processed chocolate. You're not getting a snack, you're getting a chemistry experiment. Don't fuel your body with trash.",
+    "swap": "Dark chocolate, almonds, cashews, or macadamia nuts, dried apricots, and fresh berries."
   },
   {
     "name": "soy milk",
@@ -1430,7 +1668,9 @@
     ],
     "reason": "Processed soybeans, added sugar, seed oil emulsifiers, and synthetic vitamins. A far cry from traditional tofu.",
     "score": 15,
-    "calories": 54
+    "calories": 54,
+    "explanation": "Soy milk is a highly processed imitation of real milk, made from dehydrated soybeans, water, and a cocktail of additives. You're not getting the nutrients and benefits of whole soybeans, just a watered-down, chemically-enhanced substitute. This is not food, it's a lab creation.",
+    "swap": "Almond milk, coconut milk, or whole cow's milk"
   },
   {
     "name": "spaghetti bolognese",
@@ -1443,7 +1683,9 @@
     ],
     "reason": "Store-bought pasta is refined wheat stripped of nutrients. The jarred sauce is loaded with sugar, seed oils, and preservatives.",
     "score": 20,
-    "calories": 220
+    "calories": 220,
+    "explanation": "Spaghetti bolognese is a factory-made concoction of overcooked noodles, sugary tomato sauce, and mysterious meat by-products. You're not eating real pasta or meat, but rather a chemical-laden imitation. This processed monstrosity is a far cry from Italy's authentic culinary traditions.",
+    "swap": "Grass-fed beef with zucchini noodles, wild mushrooms, and tomato sauce."
   },
   {
     "name": "special k",
@@ -1451,7 +1693,9 @@
     "aliases": [],
     "reason": "Rice, wheat gluten, sugar, and a pile of synthetic vitamins.",
     "score": 10,
-    "calories": 378
+    "calories": 378,
+    "explanation": "Special K is a box of sugary, processed flakes made from refined grains and seed oils. You're not getting whole grain goodness, just a heavily manipulated product designed to be addictive. Eat real oats, not this factory-made imitation.",
+    "swap": "Almonds, walnuts, or cashews"
   },
   {
     "name": "sports drink",
@@ -1463,7 +1707,9 @@
     ],
     "reason": "Water, sugar, artificial colors, and electrolytes you could get from a banana and a pinch of salt.",
     "score": 10,
-    "calories": 80
+    "calories": 80,
+    "explanation": "Sports drink is a sugary concoction of artificial flavors, colors, and preservatives designed to make you feel like you're getting a health boost. You're not replenishing electrolytes, you're just consuming a cocktail of chemicals. This isn't hydration, it's a marketing gimmick.",
+    "swap": "Water with coconut water, or electrolyte-rich vegetable juice."
   },
   {
     "name": "sprite",
@@ -1471,7 +1717,9 @@
     "aliases": [],
     "reason": "Sugar water with a marketing budget.",
     "score": 5,
-    "calories": 40
+    "calories": 40,
+    "explanation": "Sprite is a sugary, artificially flavored drink made from citric acid and preservatives. You're not getting any real nutrients from this stuff, just a bunch of chemicals that'll rot your teeth and ruin your gut. It's not even real lemonade.",
+    "swap": "Sparkling water with lemon, or seltzer water with a squeeze of fresh lime."
   },
   {
     "name": "starburst",
@@ -1479,7 +1727,9 @@
     "aliases": [],
     "reason": "Palm fat, corn syrup, and artificial flavors shaped like candy.",
     "score": 3,
-    "calories": 408
+    "calories": 408,
+    "explanation": "Starburst is a sugary concoction of artificial flavors, colors, and preservatives. You're essentially consuming a packet of chemicals that's been masquerading as fruit. It's a far cry from the real thing.",
+    "swap": "Strawberries, oranges, or grapefruit"
   },
   {
     "name": "subway",
@@ -1490,7 +1740,9 @@
     ],
     "reason": "Their 'fresh bread' contains over 40 ingredients. A real loaf needs 4.",
     "score": 10,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Subway's 'meat' is a processed paste made from factory-farmed chicken, beef, or turkey, mixed with preservatives and seed oils. You're eating a manufactured product, not real meat. This is not food, it's a factory-made imitation.",
+    "swap": "Grass-fed beef or turkey breast, avocado, lettuce, tomato, cucumber, red onion, mustard."
   },
   {
     "name": "sunny d",
@@ -1501,7 +1753,9 @@
     ],
     "reason": "Contains 2% juice and 98% water, corn syrup, and canola oil.",
     "score": 3,
-    "calories": 50
+    "calories": 50,
+    "explanation": "Sunny D is a sugar-laden, citrus-flavored concoction made from a cocktail of preservatives, artificial flavorings, and seed oils. You're not drinking juice, you're drinking a chemical cocktail. Just squeeze your own oranges.",
+    "swap": "Coconut water, fresh fruit juice, or raw milk"
   },
   {
     "name": "swedish fish",
@@ -1509,7 +1763,9 @@
     "aliases": [],
     "reason": "Sugar, inverted sugar, and corn syrup. Three types of sugar.",
     "score": 3,
-    "calories": 340
+    "calories": 340,
+    "explanation": "Swedish Fish are an onslaught of artificial colors, flavors, and preservatives masquerading as candy. You're not getting a taste of real fruit or nature, just a chemical cocktail designed to hook kids and line the pockets of manufacturers. Eat real fruit, not fake fish.",
+    "swap": "Dried apricots, dates, or prunes."
   },
   {
     "name": "taco bell",
@@ -1518,9 +1774,11 @@
       "taco bell burrito",
       "crunchwrap"
     ],
-    "reason": "A taco in name only \u2014 the 'beef' is 36% beef, the rest is fillers, flavoring, and seed oils.",
+    "reason": "A taco in name only — the 'beef' is 36% beef, the rest is fillers, flavoring, and seed oils.",
     "score": 5,
-    "calories": 450
+    "calories": 450,
+    "explanation": "Taco Bell is a toxic cocktail of seed oils, artificial preservatives, and highly processed fillers. You're not eating food, you're consuming a chemical concoction designed to activate your taste buds and empty your wallet. Stop pretending it's a meal.",
+    "swap": "Grass-fed beef, lettuce, tomatoes, avocados, salsa, or guacamole."
   },
   {
     "name": "teriyaki sauce",
@@ -1531,7 +1789,9 @@
     ],
     "reason": "Real teriyaki is soy, mirin, and sake. Bottled versions add corn syrup, seed oils, and caramel color.",
     "score": 15,
-    "calories": 89
+    "calories": 89,
+    "explanation": "Teriyaki sauce is a sugary, factory-made concoction made from refined corn syrup, artificial flavorings, and vegetable oils. You're not getting any real nutrition from this stuff, just a hit of empty calories and a potential dose of toxic chemicals. Ditch the sauce and try a simple mixture of soy sauce, ginger, and vinegar instead.",
+    "swap": "Soy sauce, coconut aminos, or homemade mixture of fish sauce, lime juice, and ginger."
   },
   {
     "name": "toaster strudel",
@@ -1541,7 +1801,9 @@
     ],
     "reason": "Soybean oil, high fructose corn syrup, and artificial flavors.",
     "score": 5,
-    "calories": 340
+    "calories": 340,
+    "explanation": "Toaster strudel is a processed pastry abomination, loaded with fake fruit fillings and a slew of artificial preservatives. You're not getting a taste of real fruit, just a sugary imitation. It's a regrettable substitute for a homemade breakfast.",
+    "swap": "Strawberries with almond butter or homemade pastry with fruit."
   },
   {
     "name": "tortilla chips",
@@ -1553,7 +1815,9 @@
     ],
     "reason": "Corn ground, fried in seed oil, and salted. Real nachos don't come from a bag.",
     "score": 15,
-    "calories": 489
+    "calories": 489,
+    "explanation": "Tortilla chips are a processed abomination, born from factory-ripped corn tortillas, fried in a sea of seed oils and seasoned with a cocktail of artificial flavor enhancers. You're not snacking on real corn, you're consuming a chemical-laden shell of its former self.",
+    "swap": "Veggie sticks with guacamole or fresh salsa."
   },
   {
     "name": "tostitos",
@@ -1563,7 +1827,9 @@
     ],
     "reason": "Corn, seed oils, and salt. That's not a chip, that's a vehicle for trash.",
     "score": 10,
-    "calories": 489
+    "calories": 489,
+    "explanation": "Tostitos are a hollow shell of what could be a real corn chip. You're eating a factory-made mixture of cornmeal, vegetable oils, and mysterious seasonings, not a hand-harvested corn kernel. This is a product designed to be addictive, not nourishing.",
+    "swap": "Homemade tortilla chips made from whole corn tortillas, or plantain chips."
   },
   {
     "name": "triscuit",
@@ -1573,7 +1839,9 @@
     ],
     "reason": "Whole grain wheat and soybean oil. Almost food but the oil ruins it.",
     "score": 15,
-    "calories": 424
+    "calories": 424,
+    "explanation": "Triscuit is a cardboard-tasting cracker made from a blend of refined flours and seed oils. You're not getting whole grain goodness, just a processed mess. Your body deserves better than this factory-made abomination.",
+    "swap": "Almonds, walnuts, or pumpkin seeds"
   },
   {
     "name": "twinkies",
@@ -1587,7 +1855,9 @@
     ],
     "reason": "37 ingredients including multiple seed oils. The cream filling contains no cream.",
     "score": 8,
-    "calories": 380
+    "calories": 380,
+    "explanation": "Twinkies are a synthetic, preservative-laden monstrosity of a snack, devoid of any actual food value. You're essentially consuming a sponge of sugar, seed oils, and chemicals. Just eat a real apple.",
+    "swap": "Almond butter and banana sandwich or Apple slices with almond butter."
   },
   {
     "name": "twizzlers",
@@ -1595,7 +1865,9 @@
     "aliases": [],
     "reason": "Corn syrup, wheat flour, and artificial flavoring pretending to be licorice.",
     "score": 5,
-    "calories": 339
+    "calories": 339,
+    "explanation": "Twizzlers are aμένα of sugar, artificial flavor, and synthetic color, wrapped in a processed wheat flour casing. You're not eating real food, you're consuming a lab-created candy. The ingredients in Twizzlers are so far removed from nature that they barely qualify as edible.",
+    "swap": "Berries, apricots, or dates."
   },
   {
     "name": "vegan cheese",
@@ -1605,17 +1877,21 @@
       "dairy free cheese",
       "cashew cheese"
     ],
-    "reason": "Starch, seed oils, coconut oil, and 'natural flavors' \u2014 trying very hard to be something it's not.",
+    "reason": "Starch, seed oils, coconut oil, and 'natural flavors' — trying very hard to be something it's not.",
     "score": 10,
-    "calories": 250
+    "calories": 250,
+    "explanation": "Vegan cheese is a mess of refined plant ingredients, artificial flavor enhancers, and seed oils masquerading as a dairy alternative. You're better off with the real thing or a simple, homemade plant-based alternative. This \"cheese\" is essentially a chemical concoction designed to confuse your taste buds, not nourish your body.",
+    "swap": "Butter, ghee, or full-fat sheep's milk cheese"
   },
   {
     "name": "velveeta",
     "category": "ultra-processed",
     "aliases": [],
-    "reason": "A \"pasteurized prepared cheese product\" \u2014 legally can't call itself cheese.",
+    "reason": "A \"pasteurized prepared cheese product\" — legally can't call itself cheese.",
     "score": 5,
-    "calories": 303
+    "calories": 303,
+    "explanation": "Velveeta is a plastic, orange-colored abomination. You're not eating cheese, you're consuming a mixture of milk proteins, vegetable oils, and artificial preservatives. There's no reason to settle for this processed monstrosity when real cheese exists.",
+    "swap": "\"Grass-fed cheddar, sheep's milk feta, or raw goat cheese\""
   },
   {
     "name": "waffles",
@@ -1627,7 +1903,9 @@
     ],
     "reason": "The frozen kind: refined flour, sugar, seed oils, and enough preservatives to last months in your freezer.",
     "score": 15,
-    "calories": 310
+    "calories": 310,
+    "explanation": "Waffles are a hollow shell of a breakfast food, made from a mixture of refined flour, sugar, and seed oils, then baked into a crispy, cardboard-like box. You're not eating a real food, you're eating a factory-made imitation. Ditch the waffle mix and make real pancakes with eggs and butter.",
+    "swap": "Buckwheat pancakes or whole-grain waffles made with eggs and butter."
   },
   {
     "name": "wendys",
@@ -1637,9 +1915,11 @@
       "baconator",
       "frosty"
     ],
-    "reason": "Fresh, never frozen beef \u2014 cooked in seed oil and served on a refined flour bun.",
+    "reason": "Fresh, never frozen beef — cooked in seed oil and served on a refined flour bun.",
     "score": 10,
-    "calories": 500
+    "calories": 500,
+    "explanation": "Wendy's is a factory-produced meal on a bun, loaded with seed oils and preservatives. You're not eating a real burger, you're consuming a lab-created imitation. The 'beef' is often a mixture of low-quality meat and fillers.",
+    "swap": "Grass-fed beef burgers with lettuce, tomato, and avocado"
   },
   {
     "name": "wheat thins",
@@ -1647,7 +1927,9 @@
     "aliases": [],
     "reason": "Soybean oil, sugar, and malt syrup hiding behind the word \"wheat\".",
     "score": 10,
-    "calories": 453
+    "calories": 453,
+    "explanation": "Wheat thins are a hollow shell of a snack, stripped of real nutrients and loaded with refined flour and seed oils. You're not getting the benefits of whole wheat, just a processed imitation. Eat real bread, not this cardboard substitute.",
+    "swap": "Veggie sticks with guacamole or olive oil."
   },
   {
     "name": "whey protein isolate",
@@ -1661,7 +1943,9 @@
     ],
     "reason": "Industrially isolated dairy byproduct. Real food doesn't come in a tub with a scoop.",
     "score": 8,
-    "calories": 400
+    "calories": 400,
+    "explanation": "Whey protein isolate is a highly processed, isolated powder made from the leftovers of cheese production. You're not getting the nutrient-dense benefits of whole milk or cheese, just a concentrated dose of protein stripped from its natural context. This is not food, it's a lab product.",
+    "swap": "Eggs, Greek yogurt, or cottage cheese"
   },
   {
     "name": "white bread",
@@ -1674,7 +1958,9 @@
     ],
     "reason": "Refined flour stripped of all nutrients, then 'enriched' by adding synthetic vitamins back. A factory product.",
     "score": 10,
-    "calories": 265
+    "calories": 265,
+    "explanation": "White bread is a hollow imitation of real bread, stripped of nutrients and fiber, and made from refined flour and sugar. You're not getting anything of value from this bleached and processed product. It's a cheap, empty calorie that's more like cardboard than a food.",
+    "swap": "Sprouted grain bread, sourdough bread, or whole wheat bread"
   },
   {
     "name": "white sugar",
@@ -1685,9 +1971,11 @@
       "granulated sugar",
       "sucrose"
     ],
-    "reason": "Sugarcane stripped of every mineral and vitamin until pure sucrose remains \u2014 empty calories by design.",
+    "reason": "Sugarcane stripped of every mineral and vitamin until pure sucrose remains — empty calories by design.",
     "score": 10,
-    "calories": 387
+    "calories": 387,
+    "explanation": "You're consuming a highly processed product devoid of any nutritional value, made from concentrated fructose and glucose that's been stripped from its natural context. This empty calorie bomb is a far cry from the whole, nutrient-rich foods your body was designed to thrive on. Just eat real fruit.",
+    "swap": "Honey, maple syrup, or coconut sugar"
   },
   {
     "name": "wrap",
@@ -1697,9 +1985,11 @@
       "flour tortilla wrap",
       "spinach wrap"
     ],
-    "reason": "A refined flour tortilla with green food coloring doesn't make it healthy \u2014 it's just a flat piece of white bread.",
+    "reason": "A refined flour tortilla with green food coloring doesn't make it healthy — it's just a flat piece of white bread.",
     "score": 15,
-    "calories": 300
+    "calories": 300,
+    "explanation": "Store-bought wrap is a processed nightmare, made from refined flour, added preservatives, and a cocktail of seed oils. You're not getting a nutritious meal, just a vehicle for your fillings. Eat real bread or go without the fake stuff.",
+    "swap": "Collard greens, portobello mushrooms, or lettuce leaves."
   },
   {
     "name": "chicken roll",
@@ -1709,9 +1999,11 @@
       "hot chicken roll",
       "chicken fillet roll"
     ],
-    "reason": "White bread roll, processed chicken fillet, mayo, and butter \u2014 a deli-counter insulin bomb.",
+    "reason": "White bread roll, processed chicken fillet, mayo, and butter — a deli-counter insulin bomb.",
     "score": 15,
-    "calories": 480
+    "calories": 480,
+    "explanation": "A chicken roll is a processed abomination made from white meat that's been shredded, reformed, and deep-fried. You're consuming a product that's been engineered to be addictive, not a natural food. It's a far cry from the real thing – a whole, roasted chicken.",
+    "swap": "Grass-fed chicken breast or thighs, served with vegetables."
   },
   {
     "name": "breakfast roll",
@@ -1722,7 +2014,9 @@
     ],
     "reason": "Sausage, bacon, white pudding, and egg crammed into a white roll with butter. Every bite is a processed medley.",
     "score": 12,
-    "calories": 550
+    "calories": 550,
+    "explanation": "A breakfast roll is a factory-made pastry filled with sugar, preservatives, and refined flour. You're consuming a vessel for additives and artificial flavorings, not actual food. It's a processed convenience item, not a breakfast.",
+    "swap": "Scrambled eggs with spinach, or sausage with avocado."
   },
   {
     "name": "spice bag",
@@ -1733,7 +2027,9 @@
     ],
     "reason": "Deep-fried chicken, chips, peppers, and onions in spiced seed oil. The pride of every Irish chipper.",
     "score": 10,
-    "calories": 620
+    "calories": 620,
+    "explanation": "A spice bag is a vessel for industrial seed oils and preservatives, drenched in a sugary sauce and served with a side of regret. You're not getting nutrients, you're getting a chemical cocktail. Eat real food, not a factory-made abomination.",
+    "swap": "Grilled chicken with vegetables, mixed greens salad."
   },
   {
     "name": "battered sausage",
@@ -1743,7 +2039,9 @@
     ],
     "reason": "A processed sausage dipped in flour batter and deep fried in seed oil. Double trash.",
     "score": 8,
-    "calories": 340
+    "calories": 340,
+    "explanation": "Battered sausage is a processed monstrosity, drenched in a toxic cocktail of seed oils and refined starches. You're essentially eating a sponge coated in grease, not a piece of meat. Just grill or pan-fry the sausage itself, without the unnecessary wrapper.",
+    "swap": "Grass-fed beef sausage without fillers, pan-seared or grilled."
   },
   {
     "name": "onion rings",
@@ -1753,7 +2051,9 @@
     ],
     "reason": "Onions battered in refined flour and deep fried in seed oil.",
     "score": 15,
-    "calories": 332
+    "calories": 332,
+    "explanation": "Onion rings are a culinary abomination - thinly sliced onions coated in a mixture of refined flour, water, and a cocktail of seed oils, then deep-fried to a greasy, flavorless crisp. You're not eating onions, you're eating a processed, oil-soaked husk of what once was a real food. Just chop and sauté real onions.",
+    "swap": "Onion rings → Sliced onions, fried in tallow or coconut oil"
   },
   {
     "name": "mozzarella sticks",
@@ -1764,7 +2064,9 @@
     ],
     "reason": "Cheese breaded in refined flour and deep fried in seed oil.",
     "score": 15,
-    "calories": 310
+    "calories": 310,
+    "explanation": "Mozzarella sticks are a processed abomination, a stick of rubbery, factory-made mozzarella coated in a layer of refined breadcrumbs and deep-fried to a greasy crisp. You're not eating cheese, you're eating a vessel for oil and preservatives. Just eat real cheese.",
+    "swap": "Breaded and baked mozzarella, or grilled mozzarella with fresh basil."
   },
   {
     "name": "tater tots",
@@ -1775,7 +2077,9 @@
     ],
     "reason": "Processed potato reformed into shapes and deep fried in seed oil.",
     "score": 12,
-    "calories": 228
+    "calories": 228,
+    "explanation": "Tater tots are a processed abomination born from shredded, dehydrated potatoes, rehydrated with water, and then deep-fried in a vat of seed oil. You're essentially eating a cardboard box of starch and nothing that resembles a real potato. Just eat a real potato.",
+    "swap": "Hash browns made from shredded sweet potatoes, or pan-fried diced vegetables."
   },
   {
     "name": "spring rolls",
@@ -1786,7 +2090,9 @@
     ],
     "reason": "Refined flour wrapper filled with vegetables, deep fried in seed oil.",
     "score": 18,
-    "calories": 260
+    "calories": 260,
+    "explanation": "Spring rolls are a mess of refined flour, cheap fillings, and toxic seed oils, all deep-fried to a greasy crisp. You're not eating food, you're consuming a manufactured product designed to hook you on salt and sugar. Ditch the fake rolls and make your own with real ingredients.",
+    "swap": "\"Vegetable spring rolls with rice paper, lettuce wraps, or collard green rolls\""
   },
   {
     "name": "samosa",
@@ -1797,7 +2103,9 @@
     ],
     "reason": "Refined flour pastry filled with potatoes, deep fried in seed oil.",
     "score": 18,
-    "calories": 262
+    "calories": 262,
+    "explanation": "Samosas are a ticking time bomb of industrial processing and seed oils. You're essentially eating a greasy, addictive package of processed potatoes, onions, and spices wrapped in a layer of toxic vegetable oil. No amount of spices can redeem this deep-fried abomination.",
+    "swap": "Grass-fed beef or lamb pie with a whole-food crust."
   },
   {
     "name": "churros",
@@ -1807,7 +2115,9 @@
     ],
     "reason": "Refined flour dough deep fried in seed oil and rolled in sugar.",
     "score": 8,
-    "calories": 420
+    "calories": 420,
+    "explanation": "Churros are hollow, sugary sticks of deep-fried dough laced with seed oils and artificial flavorings. You're essentially eating a vessel for cinnamon sugar, not a real food. Your taste buds deserve better than this industrialized, gut-busting treat.",
+    "swap": "Cinnamon sugar-dusted fried dough → Fried dough made with coconut oil or ghee, cinnamon sugar."
   },
   {
     "name": "chicken kiev",
@@ -1818,7 +2128,9 @@
     ],
     "reason": "Processed chicken breast stuffed with garlic butter, breaded, and fried in seed oil.",
     "score": 18,
-    "calories": 280
+    "calories": 280,
+    "explanation": "Chicken kiev is a processed abomination, drenched in seed oil and studded with fake breadcrumbs. You're not eating chicken, you're eating a factory-made imitation. Call it what it is: trash.",
+    "swap": "Grilled chicken breast with garlic and herbs."
   },
   {
     "name": "fish fingers",
@@ -1829,7 +2141,9 @@
     ],
     "reason": "Processed fish reformed into shapes, breaded in refined flour, fried in seed oil.",
     "score": 15,
-    "calories": 220
+    "calories": 220,
+    "explanation": "Frozen fish fingers are a catastrophe of industrial processing. You're not eating fish, you're eating a cardboard box of reconstituted fish paste, artificial preservatives, and genetically modified additives. Don't pretend it's a meal, it's a synthetic abomination.",
+    "swap": "Wild-caught cod or salmon fillets, or shrimp."
   },
   {
     "name": "ready meal",
@@ -1842,7 +2156,9 @@
     ],
     "reason": "Industrial ingredients list longer than your arm. Seed oils, preservatives, emulsifiers.",
     "score": 8,
-    "calories": 350
+    "calories": 350,
+    "explanation": "Ready meals are a convenient, yet soulless, concoction of preservatives, artificial flavor enhancers, and seed oils. You're not eating food, you're consuming a science experiment designed to satisfy your hunger, not nourish your body. There's no place for this kind of 'food' on your plate.",
+    "swap": "Grass-fed beef or chicken with roasted vegetables."
   },
   {
     "name": "frozen lasagne",
@@ -1854,7 +2170,9 @@
     ],
     "reason": "Refined pasta, processed cheese sauce, seed oils, preservatives, and mystery meat.",
     "score": 10,
-    "calories": 360
+    "calories": 360,
+    "explanation": "Frozen lasagne is a graveyard of preservatives and artificial flavor enhancers. You're not eating pasta, meat, and cheese - you're consuming a chemical cocktail designed to mimic the real thing. Your taste buds deserve better than this factory-made abomination.",
+    "swap": "Grass-fed beef, ground pork, or mushrooms with zucchini noodles, tomato sauce, and ricotta cheese."
   },
   {
     "name": "frozen burrito",
@@ -1864,7 +2182,8 @@
     ],
     "reason": "Refined flour tortilla with processed fillings, seed oils, and preservatives.",
     "score": 12,
-    "calories": 310
+    "calories": 310,
+    "explanation": "You're eating a bundle of preservatives, sodium, and sugar wrapped in a piece of cardboard that's been dyed to look like a tortilla. The \"meat\" is a mixture of questionable by-products and the \"cheese\" is a plastic-like substance that's only there to melt and clog your arteries. This is not food, it's trash."
   },
   {
     "name": "chicken pie",
@@ -1875,7 +2194,9 @@
     ],
     "reason": "Refined flour pastry with processed chicken filling, seed oils, and thickeners.",
     "score": 15,
-    "calories": 280
+    "calories": 280,
+    "explanation": "Chicken pie is a Frankenstein's monster of a meal, cobbled together from factory-farmed chicken, preservative-laced gravy, and a crust made from refined flour and seed oils. You're not eating food, you're eating a science experiment. Just eat the real thing: roasted chicken and veggies.",
+    "swap": "Grass-fed beef or chicken pie made with whole pastry crust or pork pie."
   },
   {
     "name": "sausage",
@@ -1888,7 +2209,9 @@
     ],
     "reason": "Processed meat with fillers, preservatives, and often seed oils.",
     "score": 18,
-    "calories": 301
+    "calories": 301,
+    "explanation": "Sausage is a mixture of factory-made meat products, preservatives, and unhealthy fillers. You're not eating meat, you're eating a processed concoction designed to be cheap and shelf-stable. Real meat is better than this packaged imitation.",
+    "swap": "Grass-fed beef sausage without fillers"
   },
   {
     "name": "bacon",
@@ -1901,7 +2224,9 @@
     ],
     "reason": "Cured processed meat with nitrates, sugar, and preservatives.",
     "score": 20,
-    "calories": 541
+    "calories": 541,
+    "explanation": "Bacon is over-salted, sugar-laced, and nitrate-drenched pork belly that's been massaged with seed oils to make it 'shelf-stable.' You can't call that real food. Eat actual pork instead.",
+    "swap": "Grass-fed beef bacon or prosciutto"
   },
   {
     "name": "deli meat",
@@ -1916,7 +2241,9 @@
     ],
     "reason": "Processed meat with nitrates, sugar, phosphates, and seed oils.",
     "score": 15,
-    "calories": 145
+    "calories": 145,
+    "explanation": "Deli meat is a preservative-soaked shadow of its former self, made from factory-farmed animals and packed with sodium nitrite to keep it looking fresh. You're not eating meat, you're eating a chemical-laden imitation. Just buy a whole chicken and slice it yourself.",
+    "swap": "Grass-fed beef, pastured pork, or free-range chicken"
   },
   {
     "name": "pepperoni",
@@ -1926,7 +2253,9 @@
     ],
     "reason": "Processed cured meat with nitrates, sugar, and artificial flavoring.",
     "score": 15,
-    "calories": 494
+    "calories": 494,
+    "explanation": "Pepperoni is a highly processed meat product made from a mixture of meats, preservatives, and seed oils. You're not getting real meat, just a chemical cocktail designed to mimic flavor and texture. Eat a real sausage made from a single type of meat, without added preservatives.",
+    "swap": "Grass-fed beef, prosciutto, or salami"
   },
   {
     "name": "nuggets",
@@ -1939,7 +2268,9 @@
     ],
     "reason": "Mechanically processed chicken, breaded in refined flour, fried in seed oil.",
     "score": 10,
-    "calories": 296
+    "calories": 296,
+    "explanation": "Nuggets are factory-processed chicken scraps reassembled into uniform sticks, coated in a toxic mixture of seed oils and refined flour. They're a far cry from the real thing, and you're better off with a whole roasted chicken. Don't settle for this processed abomination.",
+    "swap": "Grass-fed beef or chicken tenders, hand-breaded with almond flour or coconut flour."
   },
   {
     "name": "fried rice",
@@ -1950,7 +2281,9 @@
     ],
     "reason": "White rice fried in seed oil with soy sauce, MSG, and processed additions.",
     "score": 20,
-    "calories": 238
+    "calories": 238,
+    "explanation": "Fried rice is a pathetic excuse for a meal, born from leftover scraps and industrial seasonings. You're not eating rice, you're eating a factory-made mixture of broken grains, added preservatives, and who-knows-what-else. It's a culinary abomination, not real food.",
+    "swap": "\"Grilled vegetables with rice, or Cauliflower fried rice\""
   },
   {
     "name": "garlic bread",
@@ -1961,7 +2294,9 @@
     ],
     "reason": "White bread with margarine or seed oil butter substitute and garlic flavoring.",
     "score": 15,
-    "calories": 350
+    "calories": 350,
+    "explanation": "Garlic bread is a factory-made abomination, masquerading as a culinary delight. You're not getting the real deal when you're eating preservative-laden, factory-produced bread slathered with artificial garlic flavor. Just make your own with actual bread and garlic.",
+    "swap": "\"Butter on roasted garlic with whole-grain bread\""
   },
   {
     "name": "coleslaw",
@@ -1972,7 +2307,9 @@
     ],
     "reason": "Cabbage drowned in seed oil mayonnaise and sugar.",
     "score": 15,
-    "calories": 170
+    "calories": 170,
+    "explanation": "Coleslaw is a mess of shredded cabbage drenched in industrial seed oils, often with added sugars and artificial preservatives. You're essentially eating a vehicle for vegetable oil, not a real food. Just make a simple slaw with real mayonnaise or sour cream and some vinegar.",
+    "swap": "Cabbage with mayonnaise made from egg yolks and oil."
   },
   {
     "name": "curry sauce",
@@ -1983,7 +2320,9 @@
     ],
     "reason": "Seed oil, modified starch, sugar, artificial flavoring, and food coloring.",
     "score": 10,
-    "calories": 85
+    "calories": 85,
+    "explanation": "Curry sauce is a chemical concoction of seed oils, preservatives, and artificial flavor enhancers. You're not getting the real taste of spices, you're getting a factory-made imitation. It's a far cry from the authentic flavors of India.",
+    "swap": "Coconut milk, ghee, or curry powder"
   },
   {
     "name": "sweet and sour",
@@ -1994,7 +2333,9 @@
     ],
     "reason": "Seed oil, corn syrup, modified starch, artificial flavoring.",
     "score": 12,
-    "calories": 230
+    "calories": 230,
+    "explanation": "Sweet and sour sauce is a toxic cocktail of high-fructose corn syrup, artificial flavor enhancers, and partially hydrogenated oils. You're essentially injecting a dose of sugar and chemicals into your meal. No amount of sugar-coating can redeem this chemical concoction.",
+    "swap": "Lemon juice, vinegar, or fresh berries"
   },
   {
     "name": "biscuits",
@@ -2009,7 +2350,9 @@
     ],
     "reason": "Refined flour, sugar, seed oils, and artificial flavoring.",
     "score": 10,
-    "calories": 480
+    "calories": 480,
+    "explanation": "Biscuits are a cardboard box of processed flour, sugar, and seed oils masquerading as a snack. You're essentially eating a factory-produced chemical cocktail, not real food. Just bake some real bread from scratch for a fraction of the cost.",
+    "swap": "Buttermilk biscuits made with butter or coconut oil"
   },
   {
     "name": "crisps",
@@ -2021,7 +2364,9 @@
     ],
     "reason": "Thin potato slices deep fried in seed oil with artificial flavoring.",
     "score": 10,
-    "calories": 536
+    "calories": 536,
+    "explanation": "Crisps are thinly sliced potatoes smothered in a toxic cocktail of seed oils and artificial seasonings. You're essentially eating a vessel for chemicals, not a real food. Just eat a whole potato instead.",
+    "swap": "Apples, carrots, or sweet potato fries"
   },
   {
     "name": "noodles",
@@ -2034,7 +2379,9 @@
     ],
     "reason": "Refined flour noodles fried in palm oil with MSG and artificial seasoning.",
     "score": 8,
-    "calories": 457
+    "calories": 457,
+    "explanation": "Noodles are a product of industrial wizardry, devoid of any real nutritional value. You're not eating carbs and water, you're consuming a highly processed mixture of refined starches and artificial additives. Your body doesn't need this stuff.",
+    "swap": "Zucchini noodles, shirataki noodles, or rice noodles"
   },
   {
     "name": "chicken burger",
@@ -2046,7 +2393,9 @@
     ],
     "reason": "Breaded processed chicken fried in seed oil, served in a refined flour bun.",
     "score": 12,
-    "calories": 430
+    "calories": 430,
+    "explanation": "This 'chicken burger' is a processed abomination, likely made from factory-farmed chicken, mystery meat, and preservatives. You're not eating a real burger, but a cardboard box of chemicals and regret. Just grill a real chicken breast and serve it on a whole food bun.",
+    "swap": "Grass-fed beef patty or Pasture-raised chicken breast or Portobello mushroom burger"
   },
   {
     "name": "kebab",
@@ -2058,7 +2407,9 @@
     ],
     "reason": "Processed reformed meat on a spit with seed oils, fillers, and preservatives.",
     "score": 15,
-    "calories": 480
+    "calories": 480,
+    "explanation": "A kebab from the fast food joint is a sad, processed mess. You're eating a patty of questionable meat, factory-made and frozen, wrapped in a flimsy tortilla with a drizzle of sodium-laden sauce. This is not a meal, it's a convenience product designed to line someone's pockets, not nourish your body.",
+    "swap": "Grass-fed beef skewers with vegetables."
   },
   {
     "name": "lasagne",
@@ -2069,7 +2420,9 @@
     ],
     "reason": "Refined flour pasta sheets with processed cheese sauce, seed oils, and often processed meat.",
     "score": 18,
-    "calories": 350
+    "calories": 350,
+    "explanation": "Lasagne is a factory-made abomination of noodles, sauce, and cheese, all glued together with preservatives and artificial flavor enhancers. You're not eating pasta, you're eating a cardboard box of chemicals. Real food doesn't come in a frozen package.",
+    "swap": "Grass-fed beef or pork ragù with zucchini noodles, ricotta cheese, and parmesan."
   },
   {
     "name": "pasta",
@@ -2085,7 +2438,9 @@
     ],
     "reason": "Refined wheat flour stripped of nutrients. The base of a thousand processed meals.",
     "score": 22,
-    "calories": 371
+    "calories": 371,
+    "explanation": "Pasta is a factory-made, highly processed carb that's stripped of nutrients and then reconstituted with additives. You're not eating a real food, you're consuming a manufactured product designed to be addictive. Replace it with whole grains or vegetables for a healthier choice.",
+    "swap": "Zucchini noodles, spaghetti squash, or rice noodles"
   },
   {
     "name": "white rice",
@@ -2095,9 +2450,11 @@
       "basmati rice",
       "sticky rice"
     ],
-    "reason": "Stripped of bran and germ \u2014 just starch. Spikes blood sugar like candy.",
+    "reason": "Stripped of bran and germ — just starch. Spikes blood sugar like candy.",
     "score": 25,
-    "calories": 360
+    "calories": 360,
+    "explanation": "White rice is a hollow shell of its former self, stripped of nutrients and fiber through industrial processing. You're not eating rice - you're eating a bland, starchy paste made from highly processed grains. Opt for whole, unprocessed brown rice instead.",
+    "swap": "Brown rice, cauliflower rice, or wild rice"
   },
   {
     "name": "bread",
@@ -2110,7 +2467,9 @@
     ],
     "reason": "Refined flour, seed oils, sugar, and preservatives. Modern bread is barely food.",
     "score": 15,
-    "calories": 265
+    "calories": 265,
+    "explanation": "Bread is a hollow shell of its former self, now a factory-made product stuffed with refined flour, added sugars, and preservatives. You're not getting whole grains, you're getting a cheap imitation. Real bread is made from whole grains, not a lab.",
+    "swap": "Cauliflower, portobello mushrooms, lettuce wraps, or collard green wraps."
   },
   {
     "name": "tortilla",
@@ -2122,7 +2481,9 @@
     ],
     "reason": "Refined flour, seed oil, and preservatives pressed into a disc.",
     "score": 15,
-    "calories": 312
+    "calories": 312,
+    "explanation": "Tortillas are industrialized, mass-produced disks made from refined flour, water, and chemicals. You're not eating a simple corn or wheat product, but a highly processed, shelf-stable imitation. Just use real corn tortillas made from whole corn, or better yet, make your own from scratch.",
+    "swap": "Collard greens wraps, lettuce wraps, or portobello mushroom caps."
   },
   {
     "name": "crackers",
@@ -2135,7 +2496,9 @@
     ],
     "reason": "Refined flour, seed oil, and salt baked into a crisp. Empty calories.",
     "score": 12,
-    "calories": 440
+    "calories": 440,
+    "explanation": "Crackers are bland, tasteless wafers made from refined flour, seed oils, and artificial preservatives. You're not eating a food, you're consuming a factory-made imitation. Real bread is made from whole grains, not this processed trash.",
+    "swap": "Almonds, walnuts, or fresh vegetable sticks"
   },
   {
     "name": "cereal",
@@ -2147,7 +2510,9 @@
     ],
     "reason": "Extruded refined grains with sugar, seed oils, and synthetic vitamins.",
     "score": 12,
-    "calories": 380
+    "calories": 380,
+    "explanation": "Cereal is a cardboard box full of refined carbohydrates, artificial flavors, and seed oils. You're not eating a real food, you're consuming a manufactured product designed to be addictive. There's no reason to settle for this when whole grains like oats and quinoa are so much better.",
+    "swap": "Fresh berries, sliced bananas, or chopped nuts"
   },
   {
     "name": "chocolate",
@@ -2160,7 +2525,9 @@
     ],
     "reason": "Mostly sugar, milk powder, and soy lecithin. The cocoa is an afterthought.",
     "score": 15,
-    "calories": 535
+    "calories": 535,
+    "explanation": "You're not eating chocolate, you're consuming a concoction of sugar, milk powder, and highly processed cocoa that's been stripped of its nutrients and natural flavor. Ultra-processed and engineered to be addictive, it's a far cry from the real thing. Just eat a piece of dark cocoa or make your own chocolate from scratch.",
+    "swap": "Dark chocolate made from cacao, or cacao nibs."
   },
   {
     "name": "sweets",
@@ -2175,6 +2542,8 @@
     ],
     "reason": "Pure sugar, corn syrup, artificial colors, and gelatin.",
     "score": 5,
-    "calories": 340
+    "calories": 340,
+    "explanation": "Sweets are industrial concoctions of refined sugar, artificial flavorings, and seed oils. You're not nourishing your body, you're just feeding your sweet tooth. They're a waste of calories and a ticking time bomb for your health.",
+    "swap": "Fresh berries, dried dates, or dark chocolate"
   }
 ]

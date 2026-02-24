@@ -49,6 +49,7 @@ function resizeImage(file: File): Promise<string> {
 }
 
 export function FoodChecker() {
+  const [mode, setMode] = useState<"judge" | "recipe">("judge");
   const [query, setQuery] = useState("");
   const [result, setResult] = useState<AnyResult | null>(null);
   const [currentQuery, setCurrentQuery] = useState("");
@@ -278,50 +279,140 @@ export function FoodChecker() {
     }
   };
 
+  const handleRecipeSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const trimmed = query.trim();
+    if (!trimmed) return;
+
+    setCurrentQuery(trimmed);
+    setResult(null);
+    setPreview(null);
+    setLoading(true);
+    setLoadingMessage("Scoring ingredients...");
+
+    try {
+      // Parse comma-separated ingredients
+      const ingredients = trimmed
+        .split(",")
+        .map((s) => s.trim().replace(/^and\s+/i, "").trim())
+        .filter((s) => s.length > 0);
+
+      if (ingredients.length === 0) return;
+
+      // Equal weights
+      const weight = 1 / ingredients.length;
+      const ingredientList = ingredients.map((name) => ({ name, weight }));
+
+      const { resolved, unresolved } = resolveComponentsLocally(ingredientList);
+
+      // Resolve unmatched ingredients via AI in parallel
+      const aiComponents: ComponentResult[] = await Promise.all(
+        unresolved.map(async (ing) => ({
+          name: ing.name,
+          lookupResult: await checkSingleItemAI(ing.name),
+          weight: ing.weight,
+        }))
+      );
+
+      // Merge and preserve original order
+      const allComponents = [...resolved, ...aiComponents].sort((a, b) => {
+        const aIdx = ingredientList.findIndex((i) => i.name === a.name);
+        const bIdx = ingredientList.findIndex((i) => i.name === b.name);
+        return aIdx - bIdx;
+      });
+
+      const compositeResult = computeCompositeResult(trimmed, allComponents);
+      setResult(compositeResult);
+      addToHistory(trimmed, compositeResult);
+      setQuery("");
+    } catch {
+      setResult({
+        found: false,
+        source: "ai",
+        verdict: "trash",
+        score: 25,
+        aiReason: "Couldn't score this recipe. Try again.",
+      });
+    } finally {
+      setLoading(false);
+      setQuery("");
+    }
+  };
+
   const clearHistory = () => {
     saveHistory([]);
   };
 
   return (
     <div className="w-full max-w-xl mx-auto px-4">
+      {/* Mode tabs */}
+      <div className="flex mb-4">
+        <button
+          onClick={() => setMode("judge")}
+          className={`flex-1 py-3 text-[10px] uppercase tracking-[0.25em] font-body border border-border transition-all ${
+            mode === "judge"
+              ? "bg-bone text-void font-bold"
+              : "text-muted/40 hover:text-muted"
+          }`}
+        >
+          Judge an item
+        </button>
+        <button
+          onClick={() => setMode("recipe")}
+          className={`flex-1 py-3 text-[10px] uppercase tracking-[0.25em] font-body border border-border border-l-0 transition-all ${
+            mode === "recipe"
+              ? "bg-bone text-void font-bold"
+              : "text-muted/40 hover:text-muted"
+          }`}
+        >
+          Score a recipe
+        </button>
+      </div>
+
       {/* Input form */}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={mode === "judge" ? handleSubmit : handleRecipeSubmit}>
         <div className="flex gap-3">
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="TYPE ANYTHING..."
+            placeholder={
+              mode === "judge"
+                ? "TYPE ANYTHING..."
+                : "CHICKEN, RICE, BROCCOLI, BUTTER..."
+            }
             className="flex-1 px-6 py-4 rounded-none bg-surface border border-border text-bone text-base sm:text-lg font-body uppercase tracking-[0.1em] placeholder:text-muted/30 placeholder:uppercase focus:outline-none focus:border-bone/30 transition-colors"
             disabled={loading}
             autoFocus
           />
 
-          {/* Camera/upload button */}
-          <motion.button
-            type="button"
-            onClick={() => fileInputRef.current?.click()}
-            disabled={loading}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="px-4 py-4 rounded-none bg-surface border border-border text-muted hover:text-bone hover:border-bone/30 disabled:opacity-20 disabled:cursor-not-allowed transition-all"
-            title="Upload a photo"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+          {/* Camera/upload button — judge mode only */}
+          {mode === "judge" && (
+            <motion.button
+              type="button"
+              onClick={() => fileInputRef.current?.click()}
+              disabled={loading}
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="px-4 py-4 rounded-none bg-surface border border-border text-muted hover:text-bone hover:border-bone/30 disabled:opacity-20 disabled:cursor-not-allowed transition-all"
+              title="Upload a photo"
             >
-              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-              <circle cx="12" cy="13" r="4" />
-            </svg>
-          </motion.button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                <circle cx="12" cy="13" r="4" />
+              </svg>
+            </motion.button>
+          )}
           <input
             ref={fileInputRef}
             type="file"
@@ -345,8 +436,10 @@ export function FoodChecker() {
               >
                 ...
               </motion.span>
-            ) : (
+            ) : mode === "judge" ? (
               "Judge"
+            ) : (
+              "Score"
             )}
           </motion.button>
         </div>

@@ -5,6 +5,7 @@ export interface FoodItem {
   fun_fact: string;
   score: number;
   calories: number;
+  explanation?: string;
 }
 
 export interface TrashItem {
@@ -14,6 +15,8 @@ export interface TrashItem {
   reason: string;
   score: number;
   calories: number;
+  explanation?: string;
+  swap?: string;
 }
 
 export interface LookupResult {
