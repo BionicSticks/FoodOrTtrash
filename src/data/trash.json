@@ -1211,7 +1211,8 @@
     "reason": "Refined pasta + processed cheese powder + seed oils. The orange color comes from annatto and chemicals, not real cheese.",
     "score": 10,
     "calories": 310,
-    "explanation": "Mac and cheese is a factory-made abomination of a dish, loaded with artificial preservatives and flavor enhancers. You're not eating pasta and cheese, you're consuming a gloopy paste of refined carbohydrates and seed oils. Just cook real pasta and grate some real cheese."
+    "explanation": "Mac and cheese is a factory-made abomination of a dish, loaded with artificial preservatives and flavor enhancers. You're not eating pasta and cheese, you're consuming a gloopy paste of refined carbohydrates and seed oils. Just cook real pasta and grate some real cheese.",
+    "swap": "Real pasta with grass-fed butter and aged cheddar"
   },
   {
     "name": "mars bar",
@@ -1399,7 +1400,8 @@
     "reason": "Commercial pizza dough is refined flour, the cheese is processed, and the sauce often contains added sugar and seed oils.",
     "score": 15,
     "calories": 266,
-    "explanation": "Pizza is a factory-made abomination of a meal. You're not eating a pie topped with fresh tomatoes and mozzarella, but rather a processed disk of refined flour, sugar, and seed oils, topped with a blend of artificial seasonings and preservatives. Your taste buds deserve better."
+    "explanation": "Pizza is a factory-made abomination of a meal. You're not eating a pie topped with fresh tomatoes and mozzarella, but rather a processed disk of refined flour, sugar, and seed oils, topped with a blend of artificial seasonings and preservatives. Your taste buds deserve better.",
+    "swap": "Homemade sourdough pizza with real mozzarella and olive oil"
   },
   {
     "name": "pizza rolls",
@@ -2183,7 +2185,8 @@
     "reason": "Refined flour tortilla with processed fillings, seed oils, and preservatives.",
     "score": 12,
     "calories": 310,
-    "explanation": "You're eating a bundle of preservatives, sodium, and sugar wrapped in a piece of cardboard that's been dyed to look like a tortilla. The \"meat\" is a mixture of questionable by-products and the \"cheese\" is a plastic-like substance that's only there to melt and clog your arteries. This is not food, it's trash."
+    "explanation": "You're eating a bundle of preservatives, sodium, and sugar wrapped in a piece of cardboard that's been dyed to look like a tortilla. The \"meat\" is a mixture of questionable by-products and the \"cheese\" is a plastic-like substance that's only there to melt and clog your arteries. This is not food, it's trash.",
+    "swap": "Grass-fed beef and rice in a corn tortilla with real cheese"
   },
   {
     "name": "chicken pie",
