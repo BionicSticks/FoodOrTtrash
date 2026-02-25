@@ -79,4 +79,11 @@ export const categories: Record<string, string> = {
   fungi: "Fungi",
   seaweed: "Seaweed",
   beverage: "Beverage",
+  "seed oil": "Seed Oil",
+  "seed oil product": "Seed Oil Product",
+  "seed oil derivative": "Seed Oil Derivative",
+  "ultra-processed": "Ultra-Processed",
+  "processed meat": "Processed Meat",
+  "deep fried": "Deep Fried",
+  "fast food": "Fast Food",
 };

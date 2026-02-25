@@ -79,6 +79,11 @@ export const CHAPTERS: Chapter[] = [
         url: "https://www.youtube.com/watch?v=yWNIjOaYfBo",
         type: "video",
       },
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
+      },
     ],
   },
   {
@@ -139,6 +144,11 @@ export const CHAPTERS: Chapter[] = [
         title: "What I've Learnt — How the Sugar Industry Tricked Us",
         url: "https://www.youtube.com/watch?v=oLtQLDfFQYM",
         type: "video",
+      },
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
       },
     ],
   },
@@ -205,6 +215,11 @@ export const CHAPTERS: Chapter[] = [
         url: "https://thebigfatsurprise.com",
         type: "book",
       },
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
+      },
     ],
   },
   {
@@ -262,6 +277,11 @@ export const CHAPTERS: Chapter[] = [
         title: "What I've Learnt — Canola Oil: Good or Bad?",
         url: "https://www.youtube.com/results?search_query=what+i%27ve+learnt+canola+oil",
         type: "video",
+      },
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
       },
     ],
   },
@@ -330,6 +350,11 @@ export const CHAPTERS: Chapter[] = [
         url: "https://www.youtube.com/results?search_query=huberman+omega+3+omega+6",
         type: "video",
       },
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
+      },
     ],
   },
   {
@@ -353,7 +378,7 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         heading: "Organisations and websites",
-        body: "The Weston A. Price Foundation — Named after the dentist who studied traditional diets around the world in the 1930s. Advocates for nutrient-dense whole foods and traditional fats. Zero Acre Farms — A company working to replace seed oils with healthier alternatives. Their blog has excellent summaries of seed oil research. Seed Oil Scout — A browser extension and community dedicated to identifying and avoiding seed oils in restaurants and food products.",
+        body: "RealFood.gov — The 2025-2030 U.S. Dietary Guidelines finally align with what real food advocates have been saying for decades. For the first time, official government guidance calls Americans to avoid highly processed food, industrial seed oils, and added sugars. A landmark shift. The Weston A. Price Foundation — Named after the dentist who studied traditional diets around the world in the 1930s. Advocates for nutrient-dense whole foods and traditional fats. Zero Acre Farms — A company working to replace seed oils with healthier alternatives. Their blog has excellent summaries of seed oil research. Seed Oil Scout — A browser extension and community dedicated to identifying and avoiding seed oils in restaurants and food products.",
       },
     ],
     sources: [
@@ -380,6 +405,11 @@ export const CHAPTERS: Chapter[] = [
       {
         title: "Zero Acre Farms — Blog",
         url: "https://www.zeroacre.com/blog",
+        type: "article",
+      },
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
         type: "article",
       },
     ],

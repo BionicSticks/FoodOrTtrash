@@ -11,24 +11,16 @@ export default function Home() {
       <Background />
       <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 overflow-hidden">
       {/* Top nav */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4">
-        <span className="text-sm font-heading font-bold uppercase tracking-[0.15em] text-bone/90">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-void/60 backdrop-blur-sm border-b border-border/20">
+        <span className="text-sm font-heading font-bold uppercase tracking-[0.15em] text-bone">
           Food or Trash
         </span>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-5">
           <a
             href="/learn"
-            className="text-xs text-bone/70 uppercase tracking-[0.2em] hover:text-bone transition-colors"
+            className="text-sm text-bone/90 font-body font-semibold uppercase tracking-[0.15em] hover:text-bone transition-colors"
           >
             How we got here
-          </a>
-          <a
-            href="https://ko-fi.com/foodortrash"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs text-bone/70 uppercase tracking-[0.2em] hover:text-bone transition-colors"
-          >
-            Support
           </a>
         </div>
       </nav>
@@ -103,7 +95,15 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="mt-auto pt-20 pb-8 text-center">
+      <footer className="mt-auto pt-20 pb-8 text-center space-y-4">
+        <a
+          href="https://ko-fi.com/foodortrash"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 text-xs font-body font-semibold uppercase tracking-[0.2em] text-bone/70 border border-border hover:border-bone/30 hover:text-bone transition-all"
+        >
+          Support this project
+        </a>
         <p className="text-xs text-muted/50 font-body uppercase tracking-[0.3em]">
           foodortrash.com &mdash; no seed oils &middot; no bias &middot; just
           truth

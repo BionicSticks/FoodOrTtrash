@@ -40,6 +40,25 @@ export function ArticleLayout({ chapter }: { chapter: Chapter }) {
         ))}
       </div>
 
+      {/* RealFood.gov callout */}
+      <div className="mt-16 p-6 border border-food-green/30 bg-food-green-dim">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-food-green mb-2">
+          The U.S. government finally agrees
+        </p>
+        <p className="text-sm text-bone/80 leading-relaxed font-body">
+          The 2025-2030 Dietary Guidelines now call Americans to avoid highly processed food,
+          industrial seed oils, and added sugars. A landmark shift.
+        </p>
+        <a
+          href="https://realfood.gov"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-3 text-xs font-bold uppercase tracking-[0.15em] text-food-green hover:text-bone transition-colors"
+        >
+          Read more at realfood.gov &rarr;
+        </a>
+      </div>
+
       {/* Sources */}
       {chapter.sources.length > 0 && (
         <div className="mt-16 pt-8 border-t border-border">

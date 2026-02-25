@@ -14,7 +14,11 @@
   {
     "name": "spam",
     "category": "processed meat",
-    "aliases": [],
+    "aliases": [
+      "spam meat",
+      "canned spam",
+      "spam luncheon meat"
+    ],
     "reason": "Pork shoulder, salt, sugar, and sodium nitrite. Wartime survival food.",
     "score": 15,
     "calories": 315,
@@ -170,7 +174,11 @@
   {
     "name": "crisco",
     "category": "seed oil product",
-    "aliases": [],
+    "aliases": [
+      "vegetable shortening",
+      "shortening",
+      "crisco oil"
+    ],
     "reason": "Hydrogenated soybean oil. The original seed oil trash.",
     "score": 2,
     "calories": 884,
@@ -342,7 +350,11 @@
   {
     "name": "bagel bites",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "bagel bite",
+      "pizza bagels",
+      "pizza bagel bites"
+    ],
     "reason": "Mini bagels with soybean oil and processed cheese.",
     "score": 8,
     "calories": 230,
@@ -486,7 +498,11 @@
   {
     "name": "capri sun",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "capri-sun",
+      "caprisun",
+      "capri sun juice"
+    ],
     "reason": "Sugar water in a pouch for kids. Brilliant marketing, terrible nutrition.",
     "score": 5,
     "calories": 44,
@@ -510,7 +526,11 @@
   {
     "name": "cheerios",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "cheerio",
+      "honey nut cheerios",
+      "cheerios cereal"
+    ],
     "reason": "Whole grain oats plus sugar, tripotassium phosphate, and added vitamins to seem healthy.",
     "score": 15,
     "calories": 375,
@@ -682,7 +702,11 @@
   {
     "name": "cool ranch doritos",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "cool ranch",
+      "doritos cool ranch",
+      "ranch doritos"
+    ],
     "reason": "Contains maltodextrin, seed oils, artificial flavors, and MSG.",
     "score": 5,
     "calories": 490,
@@ -802,7 +826,11 @@
   {
     "name": "fanta",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "fanta orange",
+      "fanta soda",
+      "fanta drink"
+    ],
     "reason": "Orange-flavored sugar water with zero actual orange.",
     "score": 3,
     "calories": 44,
@@ -984,7 +1012,10 @@
   {
     "name": "hawaiian punch",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "hawaiian punch juice",
+      "fruit punch drink"
+    ],
     "reason": "High fructose corn syrup, artificial flavors, and Red 40.",
     "score": 3,
     "calories": 46,
@@ -1478,7 +1509,11 @@
   {
     "name": "pringles",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "pringle",
+      "pringles chips",
+      "pringles crisps"
+    ],
     "reason": "Not even technically chips — pressed potato flakes with seed oils.",
     "score": 5,
     "calories": 536,
@@ -1538,7 +1573,11 @@
   {
     "name": "red bull",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "redbull",
+      "red bull energy",
+      "red bull drink"
+    ],
     "reason": "Synthetic caffeine, sugar, and taurine in a tiny overpriced can.",
     "score": 5,
     "calories": 45,
@@ -1592,7 +1631,11 @@
   {
     "name": "ruffles",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "ruffles chips",
+      "ruffles crisps",
+      "ruffles potato chips"
+    ],
     "reason": "Ridged for extra seed oil absorption.",
     "score": 8,
     "calories": 540,
@@ -1629,7 +1672,10 @@
   {
     "name": "skittles",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "skittle",
+      "skittles candy"
+    ],
     "reason": "Pure sugar with artificial dyes. Taste the rainbow of chemicals.",
     "score": 3,
     "calories": 405,
@@ -1654,7 +1700,11 @@
   {
     "name": "snickers",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "snickers bar",
+      "snicker",
+      "snickers candy bar"
+    ],
     "reason": "Sugar, soybean oil, corn syrup, and artificial flavors.",
     "score": 8,
     "calories": 488,
@@ -1692,7 +1742,10 @@
   {
     "name": "special k",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "special k cereal",
+      "kelloggs special k"
+    ],
     "reason": "Rice, wheat gluten, sugar, and a pile of synthetic vitamins.",
     "score": 10,
     "calories": 378,
@@ -1716,7 +1769,11 @@
   {
     "name": "sprite",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "sprite soda",
+      "sprite drink",
+      "sprite lemon lime"
+    ],
     "reason": "Sugar water with a marketing budget.",
     "score": 5,
     "calories": 40,
@@ -1726,7 +1783,10 @@
   {
     "name": "starburst",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "starburst candy",
+      "starbursts"
+    ],
     "reason": "Palm fat, corn syrup, and artificial flavors shaped like candy.",
     "score": 3,
     "calories": 408,
@@ -1762,7 +1822,10 @@
   {
     "name": "swedish fish",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "swedish fish candy",
+      "swedish gummies"
+    ],
     "reason": "Sugar, inverted sugar, and corn syrup. Three types of sugar.",
     "score": 3,
     "calories": 340,
@@ -1864,7 +1927,11 @@
   {
     "name": "twizzlers",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "twizzler",
+      "twizzlers candy",
+      "twizzlers licorice"
+    ],
     "reason": "Corn syrup, wheat flour, and artificial flavoring pretending to be licorice.",
     "score": 5,
     "calories": 339,
@@ -1888,7 +1955,10 @@
   {
     "name": "velveeta",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "velveeta cheese",
+      "velveeta shells"
+    ],
     "reason": "A \"pasteurized prepared cheese product\" — legally can't call itself cheese.",
     "score": 5,
     "calories": 303,
@@ -1926,7 +1996,10 @@
   {
     "name": "wheat thins",
     "category": "ultra-processed",
-    "aliases": [],
+    "aliases": [
+      "wheat thin",
+      "wheat thins crackers"
+    ],
     "reason": "Soybean oil, sugar, and malt syrup hiding behind the word \"wheat\".",
     "score": 10,
     "calories": 453,
