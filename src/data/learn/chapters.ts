@@ -75,7 +75,7 @@ export const CHAPTERS: Chapter[] = [
         type: "book",
       },
       {
-        title: "What I've Learnt — What the Food Pyramid Got Wrong",
+        title: "Dr. Paul Mason — The Corrupt History of the Food Pyramid",
         url: "https://www.youtube.com/watch?v=SOgH9LDwBzY",
         type: "video",
       },
