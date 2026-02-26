@@ -10,11 +10,16 @@ const inter = Inter({
   display: "swap",
 });
 
+const isMobile = !!process.env.NEXT_PUBLIC_API_BASE;
+
 export const metadata: Metadata = {
   title: "FOOD OR TRASH",
   description:
     "AIs and dieticians are trained on biased information. Get a real answer about whether something is food or trash.",
   metadataBase: new URL("https://foodortrash.com"),
+  other: {
+    viewport: "width=device-width, initial-scale=1, viewport-fit=cover",
+  },
   icons: {
     icon: "/branding/favicon.ico",
   },
@@ -51,12 +56,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9703427126849282"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        {!isMobile && (
+          <Script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9703427126849282"
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
+        )}
       </head>
       <body className={`${inter.variable} antialiased`}>
         {children}

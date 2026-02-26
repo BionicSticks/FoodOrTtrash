@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { lookupFood, lookupFoodExact, resolveComponentsLocally, computeCompositeResult } from "@/lib/food-lookup";
 import type { LookupResult, AnyResult, ComponentResult } from "@/lib/foods";
 import { isCompositeResult } from "@/lib/foods";
+import { apiUrl } from "@/lib/api";
 import { Verdict } from "./verdict";
 import { ShareButton } from "./share-button";
 import { StatsModal } from "./stats-modal";
@@ -85,7 +86,7 @@ export function FoodChecker() {
     name: string
   ): Promise<LookupResult> => {
     try {
-      const res = await fetch("/api/check", {
+      const res = await fetch(apiUrl("/api/check"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ item: name }),
@@ -144,7 +145,7 @@ export function FoodChecker() {
     setLoadingMessage("Classifying...");
 
     try {
-      const classifyRes = await fetch("/api/classify", {
+      const classifyRes = await fetch(apiUrl("/api/classify"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ item: trimmed }),
@@ -237,7 +238,7 @@ export function FoodChecker() {
     try {
       const base64 = await resizeImage(file);
 
-      const res = await fetch("/api/identify", {
+      const res = await fetch(apiUrl("/api/identify"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ image: base64, mimeType: file.type }),

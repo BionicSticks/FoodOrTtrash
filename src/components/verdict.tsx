@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import type { AnyResult, CompositeLookupResult, ComponentResult } from "@/lib/foods";
 import { isCompositeResult } from "@/lib/foods";
 import { getScoreColor } from "@/lib/food-lookup";
+import { apiUrl } from "@/lib/api";
 import { ScoreMeter } from "./score-meter";
 
 interface VerdictProps {
@@ -89,7 +90,7 @@ function RecipeSuggestion({
     setLoading(true);
     setRequested(true);
     try {
-      const res = await fetch("/api/suggest-recipe", {
+      const res = await fetch(apiUrl("/api/suggest-recipe"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ item: query, verdict, score }),

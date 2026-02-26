@@ -3,7 +3,7 @@ import { ChapterNav } from "./chapter-nav";
 
 export function ArticleLayout({ chapter }: { chapter: Chapter }) {
   return (
-    <article className="max-w-2xl mx-auto px-4 py-16">
+    <article className="max-w-2xl mx-auto px-4 py-16 pt-[max(4rem,calc(env(safe-area-inset-top)+2rem))]">
       {/* Header */}
       <header className="mb-16">
         <h1

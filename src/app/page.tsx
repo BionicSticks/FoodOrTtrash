@@ -25,7 +25,7 @@ export default function Home() {
       <Background />
       <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 overflow-hidden">
       {/* Top nav */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-void/60 backdrop-blur-sm border-b border-border/20">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 pt-[max(1rem,env(safe-area-inset-top))] bg-void/60 backdrop-blur-sm border-b border-border/20">
         <span className="text-sm font-heading font-bold uppercase tracking-[0.15em] text-bone">
           Food or Trash
         </span>
