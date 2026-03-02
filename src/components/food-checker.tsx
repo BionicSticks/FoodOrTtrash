@@ -287,57 +287,59 @@ export function FoodChecker() {
     <div className="w-full max-w-xl mx-auto px-4">
       {/* Input form */}
       <form onSubmit={handleSubmit}>
-        <div className="flex gap-2 sm:gap-3">
-          <input
-            type="text"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="TYPE ANYTHING..."
-            className="flex-1 min-w-0 px-3 sm:px-6 py-4 rounded-none bg-surface border border-border text-bone text-base sm:text-lg font-body uppercase tracking-[0.1em] placeholder:text-muted/30 placeholder:uppercase focus:outline-none focus:border-bone/30 transition-colors"
-            disabled={loading}
-            autoFocus
-          />
+        <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
+          <div className="flex gap-2 sm:gap-3 flex-1 min-w-0">
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="TYPE ANYTHING..."
+              className="flex-1 min-w-0 px-4 sm:px-6 py-4 rounded-none bg-surface border border-border text-bone text-base sm:text-lg font-body uppercase tracking-[0.1em] placeholder:text-muted/30 placeholder:uppercase focus:outline-none focus:border-bone/30 transition-colors"
+              disabled={loading}
+              autoFocus
+            />
 
-          {/* Camera/upload button */}
-          <motion.button
-            type="button"
-            onClick={() => fileInputRef.current?.click()}
-            disabled={loading}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="px-3 sm:px-4 py-4 rounded-none bg-surface border border-border text-muted hover:text-bone hover:border-bone/30 disabled:opacity-20 disabled:cursor-not-allowed transition-all flex-shrink-0"
-            title="Upload a photo"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+            {/* Camera/upload button */}
+            <motion.button
+              type="button"
+              onClick={() => fileInputRef.current?.click()}
+              disabled={loading}
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="px-4 py-4 rounded-none bg-surface border border-border text-muted hover:text-bone hover:border-bone/30 disabled:opacity-20 disabled:cursor-not-allowed transition-all flex-shrink-0"
+              title="Upload a photo"
             >
-              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-              <circle cx="12" cy="13" r="4" />
-            </svg>
-          </motion.button>
-          <input
-            ref={fileInputRef}
-            type="file"
-            accept="image/*"
-            capture="environment"
-            onChange={handleImageUpload}
-            className="hidden"
-          />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                <circle cx="12" cy="13" r="4" />
+              </svg>
+            </motion.button>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              capture="environment"
+              onChange={handleImageUpload}
+              className="hidden"
+            />
+          </div>
 
           <motion.button
             type="submit"
             disabled={loading || !query.trim()}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="px-4 sm:px-8 py-4 rounded-none bg-bone text-void font-heading font-bold text-base uppercase tracking-[0.15em] disabled:opacity-20 disabled:cursor-not-allowed transition-all hover:bg-bone/90 flex-shrink-0"
+            className="w-full sm:w-auto px-8 py-4 rounded-none bg-bone text-void font-heading font-bold text-base uppercase tracking-[0.15em] disabled:opacity-20 disabled:cursor-not-allowed transition-all hover:bg-bone/90 flex-shrink-0"
           >
             {loading ? (
               <motion.span
