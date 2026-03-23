@@ -59,19 +59,19 @@ export const CHAPTERS: Chapter[] = [
     ],
     sources: [
       {
-        title: "Luise Light — What the USDA Doesn't Want You to Know",
-        url: "https://web.archive.org/web/2023/https://www.whale.to/a/light.html",
+        title: "Luise Light — What the USDA Doesn't Want You to Know (archived)",
+        url: "https://web.archive.org/web/20140701000000*/whale.to/a/light.html",
         type: "article",
       },
       {
         title:
           "Marion Nestle — Food Politics: How the Food Industry Influences Nutrition and Health",
-        url: "https://www.ucpress.edu/book/9780520275966/food-politics",
+        url: "https://www.ucpress.edu/books/food-politics/paper",
         type: "book",
       },
       {
         title: "Nina Teicholz — The Big Fat Surprise",
-        url: "https://thebigfatsurprise.com",
+        url: "https://www.goodreads.com/book/show/18517776-the-big-fat-surprise",
         type: "book",
       },
       {
@@ -136,8 +136,8 @@ export const CHAPTERS: Chapter[] = [
         type: "book",
       },
       {
-        title: "Gary Taubes — The Case Against Sugar",
-        url: "https://www.penguinrandomhouse.com/books/533644/the-case-against-sugar-by-gary-taubes/",
+        title: "Gary Taubes — The Case Against Sugar (Penguin Random House)",
+        url: "https://www.goodreads.com/book/show/29874881-the-case-against-sugar",
         type: "book",
       },
       {
@@ -212,7 +212,7 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         title: "Nina Teicholz — The Big Fat Surprise",
-        url: "https://thebigfatsurprise.com",
+        url: "https://www.goodreads.com/book/show/18517776-the-big-fat-surprise",
         type: "book",
       },
       {
@@ -269,8 +269,8 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         title:
-          "O'Keefe & O'Keefe — Canola Oil: Is It Harmful or Helpful? (Review)",
-        url: "https://pubmed.ncbi.nlm.nih.gov/",
+          "Lin et al. — Rapeseed/Canola Oil and Health (Nutrition Reviews, 2013)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/24147921/",
         type: "study",
       },
       {
@@ -358,6 +358,338 @@ export const CHAPTERS: Chapter[] = [
     ],
   },
   {
+    slug: "ultra-processed",
+    title: "The Ultra-Processed Epidemic",
+    subtitle: "70% of an American child's diet is now ultra-processed food",
+    description:
+      "Ultra-processed foods now dominate the American diet. The U.S. government says 90% of healthcare spending goes to chronic diseases linked to what we eat. Here's what ultra-processed actually means and why it matters.",
+    sections: [
+      {
+        heading: "What ultra-processed actually means",
+        body: "The term \"ultra-processed food\" was coined by Brazilian epidemiologist Carlos Monteiro as part of the NOVA food classification system, published in 2009. NOVA divides all food into four groups: unprocessed or minimally processed foods (fruits, vegetables, meat, eggs), processed culinary ingredients (butter, oil, salt), processed foods (canned vegetables, cheese, bread), and ultra-processed food products. That last category — ultra-processed — is defined by the presence of industrial ingredients that you would never find in a home kitchen: high-fructose corn syrup, hydrogenated oils, protein isolates, emulsifiers, humectants, flavour enhancers, and artificial colours.",
+      },
+      {
+        body: "The key distinction is not how much processing occurs, but what kind. Churning cream into butter is processing. Extracting soy protein isolate, adding maltodextrin and artificial flavours, then extruding it into a shelf-stable bar is ultra-processing. The first transforms a whole food. The second manufactures a food-like product from industrial ingredients.",
+        pullQuote:
+          "Ultra-processed food is not food that has been processed. It is industrial product manufactured from extracted and modified substances, assembled with additives you would never find in a home kitchen.",
+      },
+      {
+        heading: "The American diet by the numbers",
+        body: "According to RealFood.gov, the U.S. government's 2025-2030 Dietary Guidelines platform, 70% of an American child's diet is now classified as ultra-processed. Internationally, that figure is below 20%. The same source reports that 50% of Americans have prediabetes or diabetes, 75% of adults report at least one chronic condition, and 90% of U.S. healthcare spending — trillions of dollars per year — goes to treating chronic diseases linked to diet and lifestyle.",
+      },
+      {
+        body: "A 2024 umbrella review published in The BMJ analysed 45 pooled meta-analyses covering nearly 10 million participants. It found that higher ultra-processed food intake was associated with a 50% greater risk of cardiovascular disease-related death, a 48-53% increased risk of anxiety and common mental disorders, a 12% greater risk of type 2 diabetes, and higher risks of obesity, depression, sleep problems, and all-cause mortality. The authors described the strength of the evidence for cardiovascular mortality and metabolic outcomes as \"convincing.\"",
+        pullQuote:
+          "A BMJ umbrella review of nearly 10 million participants found ultra-processed food linked to 50% higher cardiovascular death risk. The evidence was rated 'convincing.'",
+      },
+      {
+        heading: "Why these products exist",
+        body: "Ultra-processed foods are engineered for profit, not nutrition. They use the cheapest possible raw materials — refined flour, sugar, seed oils, and chemical additives — and transform them into products with long shelf lives, low production costs, and intense flavour profiles designed to override satiety signals. The food science term is \"hyper-palatable\": combinations of sugar, fat, and salt calibrated to drive overconsumption. A 2019 randomised controlled trial at the NIH by Kevin Hall found that participants eating ultra-processed diets consumed approximately 500 more calories per day than those eating unprocessed food, even when both diets were matched for available calories, macronutrients, sugar, fat, and fibre.",
+      },
+      {
+        heading: "The government finally agrees",
+        body: "For decades, official U.S. dietary guidance avoided naming ultra-processed food as a category to limit. The 2025-2030 Dietary Guidelines, published at RealFood.gov, changed that. For the first time, the U.S. government explicitly advises Americans to \"avoid highly processed food\" — including packaged foods with added sugars, artificial flavours, petroleum-based dyes, artificial preservatives, and non-nutritive sweeteners. The guidelines define real food as \"whole or minimally processed and recognizable as food,\" prepared \"without added sugars, industrial oils, artificial flavors, or preservatives.\"",
+      },
+    ],
+    sources: [
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
+      },
+      {
+        title: "RealFood.gov — Facts: Diet & Health in America",
+        url: "https://realfood.gov/facts",
+        type: "article",
+      },
+      {
+        title:
+          "Lane et al. — Ultra-processed food exposure and adverse health outcomes (BMJ, 2024)",
+        url: "https://doi.org/10.1136/bmj-2023-077310",
+        type: "study",
+      },
+      {
+        title:
+          "Hall et al. — Ultra-Processed Diets Cause Excess Calorie Intake (Cell Metabolism, 2019)",
+        url: "https://doi.org/10.1016/j.cmet.2019.05.008",
+        type: "study",
+      },
+      {
+        title:
+          "Monteiro et al. — NOVA classification of food processing (World Nutrition, 2016)",
+        url: "https://archive.wphna.org/wp-content/uploads/2016/01/WN-2016-7-1-3-28-38-Monteiro-Cannon-Levy-et-al-NOVA.pdf",
+        type: "study",
+      },
+    ],
+  },
+  {
+    slug: "added-sugar",
+    title: "Added Sugar Is Not Food",
+    subtitle: "The government now says added sugars are not recommended — period",
+    description:
+      "The 2025-2030 U.S. Dietary Guidelines state that added sugars 'are not part of eating real foods and are not recommended.' Here's what the science says and why official policy finally caught up.",
+    sections: [
+      {
+        heading: "A policy shift decades in the making",
+        body: "For years, official U.S. dietary guidance treated added sugar as something to \"limit\" — keep it under 10% of daily calories, the 2020-2025 guidelines said. The 2025-2030 Dietary Guidelines, published at RealFood.gov, went further than any previous edition: \"Added sugars are not part of eating real foods and are not recommended.\" For children, the guidance is even more explicit — added sugars should be avoided entirely. This is not a fringe position. It is now official U.S. government policy.",
+      },
+      {
+        heading: "What counts as added sugar",
+        body: "Added sugars are sugars and syrups that are added to foods during processing or preparation. They include sucrose (table sugar), high-fructose corn syrup, honey, agave, maple syrup, and dozens of other names that appear on ingredient labels. They do not include the sugars naturally present in whole fruits, vegetables, or plain dairy — those come packaged with fibre, water, vitamins, and minerals that slow absorption and provide nutritional value. The distinction matters because a whole apple and a glass of apple juice deliver sugar in fundamentally different ways to your body.",
+      },
+      {
+        body: "The average American consumes approximately 17 teaspoons (71 grams) of added sugar per day, according to the CDC. The American Heart Association recommends no more than 6 teaspoons for women and 9 for men. The new Dietary Guidelines say the ideal amount is zero.",
+        pullQuote:
+          "The 2025-2030 U.S. Dietary Guidelines: 'Added sugars are not part of eating real foods and are not recommended.'",
+      },
+      {
+        heading: "Where the sugar hides",
+        body: "Added sugar is not just in desserts and soft drinks. It is in bread, pasta sauce, salad dressing, yogurt, granola bars, ketchup, canned soup, crackers, and most packaged foods sold in American supermarkets. Sugar-sweetened beverages — sodas, fruit drinks, energy drinks, sweetened coffees and teas — remain the single largest source of added sugar in the American diet. RealFood.gov explicitly names these as products to avoid.",
+      },
+      {
+        heading: "The metabolic case against sugar",
+        body: "Robert Lustig, a paediatric endocrinologist at UCSF, has argued since 2009 that fructose — the sweet component of sucrose and high-fructose corn syrup — is metabolised by the liver in a pathway similar to ethanol (alcohol). His lecture \"Sugar: The Bitter Truth\" laid out the biochemistry: excessive fructose consumption drives de novo lipogenesis (the liver converting sugar to fat), insulin resistance, visceral fat accumulation, and elevated uric acid. A 2014 study in JAMA Internal Medicine found that participants who consumed 17-21% of their calories from added sugar had a 38% higher risk of cardiovascular death compared to those consuming 8% or less.",
+      },
+      {
+        body: "The 2024 BMJ umbrella review on ultra-processed food found that diets high in these products — which are typically the primary vehicle for added sugars — were associated with increased risks of cardiovascular disease, type 2 diabetes, depression, anxiety, and all-cause mortality. RealFood.gov states that diets dominated by processed foods are \"strongly linked to obesity, Type 2 diabetes, depression, heart disease, certain cancers, and shortened life expectancy.\"",
+        pullQuote:
+          "A JAMA Internal Medicine study found that consuming 17-21% of calories from added sugar increased cardiovascular death risk by 38%.",
+      },
+      {
+        heading: "Natural sugar is different",
+        body: "Eating a whole orange is not the same as drinking orange juice. The whole fruit contains fibre that slows sugar absorption, water that provides volume, and micronutrients that support metabolic health. The juice strips out the fibre and concentrates the sugar. This is why RealFood.gov recommends whole fruits (2 servings daily) while advising against sugar-sweetened beverages entirely. The sugar in a strawberry is not the problem. The 71 grams of added sugar per day is.",
+      },
+    ],
+    sources: [
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
+      },
+      {
+        title: "RealFood.gov — Guidelines: What to Eat",
+        url: "https://realfood.gov/guidelines",
+        type: "article",
+      },
+      {
+        title:
+          "Yang et al. — Added Sugar Intake and Cardiovascular Diseases Mortality (JAMA Internal Medicine, 2014)",
+        url: "https://doi.org/10.1001/jamainternmed.2013.13563",
+        type: "study",
+      },
+      {
+        title:
+          "Robert Lustig — Sugar: The Bitter Truth (UCSF, 2009)",
+        url: "https://www.youtube.com/watch?v=dBnniua6-oM",
+        type: "video",
+      },
+      {
+        title:
+          "CDC — Get the Facts: Added Sugars",
+        url: "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html",
+        type: "article",
+      },
+      {
+        title:
+          "Lane et al. — Ultra-processed food exposure and adverse health outcomes (BMJ, 2024)",
+        url: "https://doi.org/10.1136/bmj-2023-077310",
+        type: "study",
+      },
+    ],
+  },
+  {
+    slug: "real-food-guidelines",
+    title: "The Guidelines Finally Changed",
+    subtitle: "What the 2025-2030 U.S. Dietary Guidelines actually say — and why it matters",
+    description:
+      "For the first time, official U.S. dietary guidance tells Americans to avoid ultra-processed food, prioritise protein, and eat real food. Here's what changed and what RealFood.gov recommends.",
+    sections: [
+      {
+        heading: "A break from 50 years of bad advice",
+        body: "Every five years, the U.S. government publishes updated Dietary Guidelines for Americans. For decades, these guidelines promoted a grain-heavy, low-fat diet that favoured processed food industry interests over public health. The 2025-2030 edition, launched under the banner RealFood.gov, represents a fundamental shift. For the first time, the guidelines explicitly tell Americans to eat real food and avoid highly processed products. The central message: \"What we eat shapes how long and how well we live — and choosing real food is one of the most powerful health decisions a person, a family, and a nation can make.\"",
+        pullQuote:
+          "RealFood.gov: 'Choosing real food is one of the most powerful health decisions a person, a family, and a nation can make.'",
+      },
+      {
+        heading: "What the guidelines recommend",
+        body: "The 2025-2030 guidelines define real food as \"whole or minimally processed and recognizable as food,\" prepared \"with few ingredients and without added sugars, industrial oils, artificial flavors, or preservatives.\" The specific recommendations: prioritise high-quality protein from both animal and plant sources (1.2-1.6 grams per kilogram of body weight daily), eat 3 servings of vegetables and 2 servings of fruit daily, consume 2-4 servings of whole grains (oats, rice, true sourdough — not refined or packaged grain products), and pair meals with healthy fats from whole foods.",
+      },
+      {
+        heading: "Protein and fat are back",
+        body: "Perhaps the most striking shift is the rehabilitation of protein and fat. The guidelines state: \"Every meal must prioritize high-quality, nutrient-dense protein from both animal and plant sources, paired with healthy fats from whole foods such as eggs, seafood, meats, full-fat dairy, nuts, seeds, olives, and avocados.\" Full-fat dairy is explicitly recommended. Healthy fats are described as supporting \"brain health, hormone function, and nutrient absorption.\" This directly contradicts decades of low-fat guidance that told Americans to choose skim milk, margarine, and lean cuts while avoiding egg yolks and butter.",
+        pullQuote:
+          "The 2025-2030 guidelines: 'Every meal must prioritize high-quality, nutrient-dense protein paired with healthy fats from whole foods such as eggs, seafood, meats, full-fat dairy, nuts, seeds, olives, and avocados.'",
+      },
+      {
+        heading: "What to avoid",
+        body: "The guidelines explicitly name the categories to avoid: packaged, prepared, and ready-to-eat foods with added sugars and salt (chips, cookies, candy); foods containing artificial flavours, petroleum-based dyes, artificial preservatives, and non-nutritive sweeteners; sugar-sweetened beverages including sodas, fruit drinks, and energy drinks; and all added sugars, which are described as \"not part of eating real foods and not recommended.\" Water or unsweetened beverages are the recommended drinks.",
+      },
+      {
+        heading: "The numbers that forced the change",
+        body: "The guidelines cite stark statistics about the current state of American health: 50% of Americans have prediabetes or diabetes, 75% of adults report at least one chronic condition, 90% of U.S. healthcare spending goes to treating chronic diseases linked to diet and lifestyle, and 70% of an American child's diet is classified as ultra-processed (compared to below 20% internationally). These are not hypothetical risks. They are a public health emergency driven by the food supply.",
+        pullQuote:
+          "90% of U.S. healthcare spending goes to treating chronic diseases linked to diet and lifestyle. 70% of an American child's diet is ultra-processed. — RealFood.gov",
+      },
+      {
+        heading: "What this means for you",
+        body: "The gap between what nutrition researchers have known for years and what official guidelines recommended has finally closed — at least partially. The government now agrees: eat whole foods, prioritise protein and healthy fats, avoid ultra-processed products, and eliminate added sugars. These are the same principles Food or Trash has scored against from the beginning. The question now is whether the food industry will adapt or fight back, as it has for the past fifty years.",
+      },
+    ],
+    sources: [
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
+      },
+      {
+        title: "RealFood.gov — Facts: Diet & Health in America",
+        url: "https://realfood.gov/facts",
+        type: "article",
+      },
+      {
+        title: "RealFood.gov — Guidelines: What to Eat",
+        url: "https://realfood.gov/guidelines",
+        type: "article",
+      },
+    ],
+  },
+  {
+    slug: "traditional-fats",
+    title: "Traditional Fats vs Industrial Oils",
+    subtitle: "Butter, tallow, and olive oil sustained civilisations. Seed oils were invented in a factory.",
+    description:
+      "For thousands of years, humans cooked with animal fats and cold-pressed plant oils. Industrial seed oils replaced them in a single century. Here's what the science and the new U.S. guidelines say about which fats to eat.",
+    sections: [
+      {
+        heading: "The fats humans evolved on",
+        body: "Before the 20th century, the cooking fats available to humans were limited to what could be rendered, churned, or pressed with simple tools. Animal fats — tallow (beef), lard (pork), schmaltz (poultry), butter, and ghee — were staples in nearly every traditional cuisine. Plant-based fats came from fatty fruits and nuts: olive oil in the Mediterranean, coconut oil in the tropics, sesame oil in Asia. These fats share a common trait: they can be extracted mechanically, without chemical solvents, at low temperatures.",
+      },
+      {
+        heading: "What changed",
+        body: "The industrial revolution brought a new category of fat into the food supply: oils extracted from seeds using chemical solvents. Soybean oil, corn oil, cottonseed oil, canola oil, sunflower oil, and safflower oil all require multi-step industrial processes — solvent extraction with hexane, degumming, bleaching, and deodorising — to produce a shelf-stable product. These oils did not exist in the human diet before the early 1900s. By 2000, soybean oil alone accounted for more than 7% of total caloric intake in the United States, according to USDA Economic Research Service data.",
+        pullQuote:
+          "Soybean oil went from nonexistent in the human diet to more than 7% of total U.S. caloric intake in under a century.",
+      },
+      {
+        heading: "What the new guidelines say about fat",
+        body: "The 2025-2030 U.S. Dietary Guidelines, published at RealFood.gov, take a notably different stance on fat than previous editions. Rather than warning Americans to limit fat intake, the guidelines state: \"Healthy fats are a natural part of real foods such as meat, seafood, dairy, nuts, olives, and avocados. These fats support brain health, hormone function, and nutrient absorption.\" Full-fat dairy, eggs, nuts, seeds, olives, and avocados are all explicitly recommended. The guidelines define real food as being prepared \"without added sugars, industrial oils, artificial flavors, or preservatives\" — naming industrial oils as something to avoid.",
+        pullQuote:
+          "RealFood.gov: 'Healthy fats are a natural part of real foods. These fats support brain health, hormone function, and nutrient absorption.'",
+      },
+      {
+        heading: "Stability and oxidation",
+        body: "One of the key differences between traditional fats and seed oils is chemical stability. Saturated fats (butter, tallow, coconut oil) and monounsaturated fats (olive oil) are relatively stable when heated — their chemical bonds resist oxidation. Polyunsaturated fats, which dominate seed oils, are unstable. They oxidise readily when exposed to heat, light, and air, producing aldehydes and other reactive compounds. A 2012 study published in Food Chemistry by Grootveld et al. found that heating polyunsaturated-rich oils (sunflower, corn) produced significantly higher concentrations of toxic aldehyde compounds compared to olive oil, coconut oil, or butter.",
+      },
+      {
+        heading: "The displacement effect",
+        body: "The rise of seed oils did not add new fats to the diet — it displaced the fats humans had eaten for millennia. Butter consumption in the U.S. dropped from 18 pounds per person per year in 1910 to under 4 pounds by 2000. Lard virtually disappeared from home kitchens. Tallow was removed from restaurant fryers (McDonald's switched from beef tallow to vegetable oil in 1990). These traditional fats were replaced almost entirely by soybean oil, canola oil, and other industrial seed oils — a shift driven by cost, shelf life, and decades of flawed dietary guidance that demonised saturated fat.",
+      },
+      {
+        heading: "Choosing fats today",
+        body: "The principles are simple and now align with official U.S. guidance: cook with fats that humans have used for generations. Extra virgin olive oil for low-to-medium heat and dressings. Butter, ghee, tallow, or coconut oil for higher-heat cooking. Avoid oils that require chemical solvents to produce — if it needs hexane to extract, it is not a traditional food. Check ingredient labels for soybean oil, canola oil, sunflower oil, and \"vegetable oil\" (usually soybean). These are in virtually every packaged product, fast food item, and restaurant kitchen. Replacing them is the single most impactful change most people can make to their fat intake.",
+      },
+    ],
+    sources: [
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
+      },
+      {
+        title: "RealFood.gov — Guidelines: What to Eat",
+        url: "https://realfood.gov/guidelines",
+        type: "article",
+      },
+      {
+        title:
+          "Grootveld et al. — Adverse Health Effects of Dietary Lipid Oxidation Products from Fried Foods (Nutrients, 2020)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/32244669/",
+        type: "study",
+      },
+      {
+        title:
+          "USDA ERS — U.S. Per Capita Fat and Oil Consumption",
+        url: "https://www.ers.usda.gov/data-products/food-availability-per-capita-data-system/",
+        type: "article",
+      },
+      {
+        title: "Nina Teicholz — The Big Fat Surprise",
+        url: "https://www.goodreads.com/book/show/18517776-the-big-fat-surprise",
+        type: "book",
+      },
+    ],
+  },
+  {
+    slug: "reading-labels",
+    title: "How to Read a Food Label",
+    subtitle: "The ingredient list tells you more than the nutrition panel ever will",
+    description:
+      "Nutrition labels are designed to confuse. The ingredient list is where the truth hides. Here's how to read labels like a whole food advocate — and what the new U.S. guidelines say to watch for.",
+    sections: [
+      {
+        heading: "Ignore the front of the package",
+        body: "Food packaging is marketing. Claims like \"natural,\" \"heart-healthy,\" \"whole grain,\" \"lightly sweetened,\" and \"made with real fruit\" are designed to make you feel good about buying the product. Most of these terms have no strict legal definition or are defined so loosely that nearly anything qualifies. \"Natural\" can appear on products containing high-fructose corn syrup. \"Whole grain\" can appear on bread that is mostly refined flour with a token amount of whole wheat. The front of the package tells you what the manufacturer wants you to believe. The back tells you what is actually in the food.",
+      },
+      {
+        heading: "The ingredient list is everything",
+        body: "Ingredients are listed in descending order by weight. The first ingredient is what the product contains the most of. If sugar, enriched wheat flour, or a seed oil is in the first three ingredients, the product is built on cheap industrial inputs. Look for ingredients you recognise as actual food. A good rule: if your great-grandmother wouldn't recognise an ingredient, question why it's there. The 2025-2030 U.S. Dietary Guidelines define real food as \"whole or minimally processed and recognizable as food,\" prepared \"with few ingredients and without added sugars, industrial oils, artificial flavors, or preservatives.\"",
+        pullQuote:
+          "RealFood.gov defines real food as 'whole or minimally processed and recognizable as food, prepared with few ingredients and without added sugars, industrial oils, artificial flavors, or preservatives.'",
+      },
+      {
+        heading: "The many names for sugar",
+        body: "Added sugar appears under dozens of names on ingredient labels: sucrose, high-fructose corn syrup, dextrose, maltose, corn syrup solids, cane juice, agave nectar, rice syrup, barley malt, fruit juice concentrate, and more. Manufacturers sometimes use multiple types of sugar in a single product so that no single sugar appears as the first ingredient — even though, combined, sugar may be the dominant component. The 2025-2030 guidelines state that added sugars \"are not part of eating real foods and are not recommended.\" Any product with added sugar in any form is, by the government's own definition, not real food.",
+      },
+      {
+        heading: "Spotting seed oils",
+        body: "Seed oils appear on labels as: soybean oil, canola oil (rapeseed oil), sunflower oil, safflower oil, corn oil, cottonseed oil, grapeseed oil, rice bran oil, and the catch-all \"vegetable oil\" (which is almost always soybean oil). They are in bread, crackers, chips, cookies, mayonnaise, salad dressing, frozen meals, protein bars, and virtually every packaged food in a conventional supermarket. RealFood.gov lists \"industrial oils\" among the things that real food is prepared without. If the ingredient list contains any of these oils, the product does not meet the government's definition of real food.",
+      },
+      {
+        heading: "Additives the guidelines flag",
+        body: "The 2025-2030 Dietary Guidelines specifically name several categories of additives to avoid: artificial flavours, petroleum-based dyes (Red 40, Yellow 5, Yellow 6, Blue 1 — all derived from petroleum), artificial preservatives (BHA, BHT, TBHQ, sodium benzoate), and non-nutritive sweeteners (aspartame, sucralose, acesulfame potassium, saccharin). If any of these appear on the label, the product falls into the \"highly processed food\" category that the guidelines say to avoid.",
+      },
+      {
+        heading: "The nutrition panel is secondary",
+        body: "Most nutrition advice focuses on the Nutrition Facts panel — calories, macros, percentages. But the panel tells you how much of something is in a serving. The ingredient list tells you what that something actually is. A product can have a \"good\" macro profile — moderate calories, adequate protein, low sugar — and still be built on seed oils, refined flour, and chemical additives. The ingredient list is the truth the nutrition panel cannot convey. Read it first. If the ingredients are not real food, the macros do not matter.",
+        pullQuote:
+          "A product can have a 'good' macro profile and still be built on seed oils, refined flour, and chemical additives. The ingredient list is the truth the nutrition panel cannot convey.",
+      },
+      {
+        heading: "A simple test",
+        body: "Before buying any packaged food, apply this filter: Can I recognise every ingredient as something that occurs in nature or in a traditional kitchen? Is it free of added sugars, seed oils, artificial colours, and artificial preservatives? Could I, in theory, make this product at home with whole food ingredients? If the answer to any of these is no, the product is ultra-processed. The 2025-2030 guidelines, the BMJ's umbrella review of nearly 10 million participants, and decades of independent research all point the same direction: ultra-processed food is associated with worse health outcomes. The ingredient list is where you catch it.",
+      },
+    ],
+    sources: [
+      {
+        title: "RealFood.gov — 2025-2030 U.S. Dietary Guidelines",
+        url: "https://realfood.gov",
+        type: "article",
+      },
+      {
+        title: "RealFood.gov — Guidelines: What to Eat",
+        url: "https://realfood.gov/guidelines",
+        type: "article",
+      },
+      {
+        title: "RealFood.gov — Facts: Diet & Health in America",
+        url: "https://realfood.gov/facts",
+        type: "article",
+      },
+      {
+        title:
+          "Lane et al. — Ultra-processed food exposure and adverse health outcomes (BMJ, 2024)",
+        url: "https://doi.org/10.1136/bmj-2023-077310",
+        type: "study",
+      },
+      {
+        title:
+          "FDA — How to Understand and Use the Nutrition Facts Label",
+        url: "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        type: "article",
+      },
+    ],
+  },
+  {
     slug: "resources",
     title: "Resources",
     subtitle: "Where to learn more — the books, channels, and studies that matter",
@@ -384,7 +716,7 @@ export const CHAPTERS: Chapter[] = [
     sources: [
       {
         title: "Nina Teicholz — The Big Fat Surprise",
-        url: "https://thebigfatsurprise.com",
+        url: "https://www.goodreads.com/book/show/18517776-the-big-fat-surprise",
         type: "book",
       },
       {
@@ -394,7 +726,7 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         title: "Huberman Lab — YouTube Channel",
-        url: "https://www.youtube.com/@hubaboratoryab",
+        url: "https://www.youtube.com/@hubermanlab",
         type: "video",
       },
       {

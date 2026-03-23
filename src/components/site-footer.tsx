@@ -26,6 +26,18 @@ export function SiteFooter() {
           Contact
         </Link>
         <Link
+          href="/how-it-works"
+          className="text-[10px] text-bone/50 uppercase tracking-[0.2em] hover:text-bone transition-colors"
+        >
+          How it works
+        </Link>
+        <Link
+          href="/faq"
+          className="text-[10px] text-bone/50 uppercase tracking-[0.2em] hover:text-bone transition-colors"
+        >
+          FAQ
+        </Link>
+        <Link
           href="/privacy"
           className="text-[10px] text-bone/50 uppercase tracking-[0.2em] hover:text-bone transition-colors"
         >

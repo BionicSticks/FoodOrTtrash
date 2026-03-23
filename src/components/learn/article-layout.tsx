@@ -1,5 +1,6 @@
 import type { Chapter } from "@/data/learn/chapters";
 import { ChapterNav } from "./chapter-nav";
+import { ArticleAd } from "./article-ad";
 
 export function ArticleLayout({ chapter }: { chapter: Chapter }) {
   return (
@@ -84,6 +85,9 @@ export function ArticleLayout({ chapter }: { chapter: Chapter }) {
           </ul>
         </div>
       )}
+
+      {/* Ad slot — content-rich pages only */}
+      <ArticleAd />
 
       {/* Chapter navigation */}
       <ChapterNav currentSlug={chapter.slug} />

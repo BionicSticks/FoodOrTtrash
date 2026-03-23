@@ -1,27 +1,14 @@
 "use client";
 
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { FoodChecker } from "@/components/food-checker";
 import { Background } from "@/components/background";
 import { SiteFooter } from "@/components/site-footer";
-
-declare global {
-  interface Window {
-    adsbygoogle: unknown[];
-  }
-}
+import { ExpandingNav } from "@/components/nav-dropdown";
 
 export default function Home() {
-  useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch {
-      // AdSense not loaded
-    }
-  }, []);
   return (
     <>
       <Background />
@@ -32,12 +19,9 @@ export default function Home() {
           Food or Trash
         </span>
         <div className="flex items-center gap-5">
-          <a
-            href="/learn"
-            className="text-sm text-bone font-body font-semibold uppercase tracking-[0.15em] hover:text-bone transition-colors"
-          >
-            How we got here
-          </a>
+          <ExpandingNav short="Browse" full="Browse the food lists" href="/category" />
+          <ExpandingNav short="Learn" full="Learn how we got here" href="/learn" />
+          <ExpandingNav short="How to use" full="How to use FoodOrTrash" href="/how-it-works" />
         </div>
       </nav>
 
@@ -195,7 +179,7 @@ export default function Home() {
             </p>
           </div>
           <div className="p-4 border border-border">
-            <p className="text-lg font-heading font-bold text-bone">6</p>
+            <p className="text-lg font-heading font-bold text-bone">11</p>
             <p className="text-[10px] text-bone uppercase tracking-[0.15em] mt-1">
               <Link href="/learn" className="hover:text-bone transition-colors">Deep-dive articles</Link>
             </p>
@@ -222,24 +206,19 @@ export default function Home() {
         >
           How we got here
         </Link>
-      </motion.div>
-
-      {/* Ad slot — below content */}
-      <div className="w-full max-w-xl mx-auto mt-12 px-4">
-        <div
-          id="ad-container"
-          className="min-h-[90px] flex items-center justify-center border border-border/10"
+        <Link
+          href="/how-it-works"
+          className="px-5 py-3 text-[10px] font-body font-semibold uppercase tracking-[0.2em] text-bone border border-bone/20 hover:border-bone/40 hover:text-bone transition-all"
         >
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-9703427126849282"
-            data-ad-slot="4494584940"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          />
-        </div>
-      </div>
+          How it works
+        </Link>
+        <Link
+          href="/faq"
+          className="px-5 py-3 text-[10px] font-body font-semibold uppercase tracking-[0.2em] text-bone border border-bone/20 hover:border-bone/40 hover:text-bone transition-all"
+        >
+          FAQ
+        </Link>
+      </motion.div>
 
       <SiteFooter />
     </main>
