@@ -42,7 +42,7 @@ export function Background() {
           key={index}
           className="absolute inset-0"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.5 }}
+          animate={{ opacity: 0.72 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 2, ease: "easeInOut" }}
         >
@@ -57,8 +57,8 @@ export function Background() {
         </motion.div>
       </AnimatePresence>
 
-      {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-void/60 pointer-events-none" />
+      {/* Soft scrim for text legibility */}
+      <div className="absolute inset-0 bg-void/35 pointer-events-none" />
 
       {/* Grain texture */}
       <div
